@@ -1,0 +1,9 @@
+{
+  "version": "demo-2026-09-29",
+  "description": "Tiny starter lexicon, not a comprehensive historical gazetteer. Coordinates are approximate modern city points for demonstration. Verify additions independently of evaluation labels.",
+  "places": [
+    {"id": "zurich", "canonical_name": "Zürich", "latitude": 47.3769, "longitude": 8.5417, "aliases": ["Zürich", "Zurich", "Turicum"], "source": "Historical alias: https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2021/02/turicum-eine-roemische-hafenstadt-und-zollstation.html ; coordinates: approximate demo values"},
+    {"id": "basel", "canonical_name": "Basel", "latitude": 47.5596, "longitude": 7.5886, "aliases": ["Basel"], "source": "Demo entry; approximate modern city coordinates, verify before research use"},
+    {"id": "bern", "canonical_name": "Bern", "latitude": 46.9480, "longitude": 7.4474, "aliases": ["Bern"], "source": "Demo entry; approximate modern city coordinates, verify before research use"}
+  ]
+}

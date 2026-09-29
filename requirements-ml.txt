@@ -1,0 +1,5 @@
+# Direct dependencies inferred from imports; versions not yet pinned or validated.
+torch
+transformers
+Pillow
+jiwer

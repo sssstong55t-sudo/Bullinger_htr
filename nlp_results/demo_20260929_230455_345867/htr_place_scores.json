@@ -1,0 +1,33 @@
+{
+  "mode": "places",
+  "input_lines": 3,
+  "excluded_unresolved_gold_lines": 0,
+  "evaluated_lines": 3,
+  "definition": "End-to-end canonical place mention counts per line; NOT span NER F1 or resolution accuracy",
+  "scores": {
+    "overall": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "language:la": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "language:de": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    }
+  }
+}

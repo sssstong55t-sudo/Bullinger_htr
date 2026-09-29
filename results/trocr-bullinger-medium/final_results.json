@@ -1,0 +1,23 @@
+{
+  "config": {
+    "train_size": 4000,
+    "validation_size": 500,
+    "test_size": 500,
+    "epochs": 5,
+    "batch_size": 2,
+    "learning_rate": 1e-05,
+    "seed": 42
+  },
+  "best_validation_cer": 0.21829664381089858,
+  "original_test": {
+    "overall": 0.726655719759168,
+    "de": 0.8325111580925535,
+    "la": 0.7071885260065665
+  },
+  "finetuned_test": {
+    "overall": 0.22729428936325488,
+    "de": 0.2908151280244303,
+    "la": 0.2156125799205115
+  },
+  "absolute_cer_improvement": 0.4993614303959131
+}
