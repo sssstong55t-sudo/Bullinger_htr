@@ -41,7 +41,7 @@ Use a fresh output directory. The runner preserves the supplied results and refu
 - `training/`: preserved Colab training/adaptation/reranking workers, separate from current official NER evaluation.
 - `TRAINING.md`: Colab execution and checkpoint dependencies.
 - `RESULTS.md`: result definitions, controls, and limitations.
-- `manifest.json`: file hashes and source mapping.
+- `manifest.json`: file hashes.
 - `CLEANUP.md`: recorded removal of redundant generated artifacts.
 
 ## HTR results remain separate
@@ -55,3 +55,7 @@ Scheurer, Müller, Schroffenegger, Ströbel and Volk (2025), *Bullinger Digital 
 ## Fresh GitHub checkout
 
 Follow the repository root README to install dependencies and run scripts/download_model.py. The GitHub runner reads the pinned snapshot directory directly rather than relying on a mutable cache main ref. Recorded metrics are unchanged.
+
+## Manuscript image source
+
+The original Bullinger HTR image dataset is distributed by [pstroe/bullinger-htr](https://github.com/pstroe/bullinger-htr). This is distinct from the official TEI text/entity corpus. See the repository root README for the new-image inference commands and JSON configuration map.

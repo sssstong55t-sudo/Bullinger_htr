@@ -1,0 +1,7 @@
+{
+  "num_beams": 8,
+  "max_new_tokens": 128,
+  "do_sample": false,
+  "use_cache": false,
+  "notes": "Raw beam decoding, not the frozen language-model-reranked test pipeline. Supply a complete trained TrOCR model directory."
+}
