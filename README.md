@@ -1,44 +1,41 @@
-# Bullinger HTR: ML & NLP
+# Bullinger HTR and Official Place Recognition
 
-TrOCR fine-tuning and evaluation on German and Latin Bullinger manuscript lines, with an initial gazetteer-based NLP pipeline.
+Current delivery: 14 October 2026. [中文使用说明](README_ZH.md).
 
-## Project contents
+This repository delivers a fixed official-text place recognition evaluation using pretrained GLiNER plus official-source historical name variants, and preserved Colab HTR training/reranking workers. No GLiNER fine-tuning is claimed.
 
-- `train_small.py`, `train_medium.py`, `overfit_test.py`: training experiments.
-- `compare_small_model.py`, `run_test_set.py`: OCR evaluation.
-- `results/`: saved configurations/tokenizers, medium training history and final evaluation results. Model weights are excluded.
-- `medium_split.json`: existing experiment split for traceability. Check local paths before reuse.
-- `nlp_baseline.py`, `run_nlp_demo.py`, `test_nlp.py`: NLP baseline, synthetic demo and tests.
-- `export_transcriptions.py`, `export_annotation_csv.py`: preparation for data review.
-- `nlp_results/`: reference exports, predictions, annotation worksheet and synthetic demo results. These do not constitute a completed manually verified evaluation set.
+| Evaluation | CER | WER | Precision | Recall | F1 |
+|---|---:|---:|---:|---:|---:|
+| Historical frozen HTR test (500 lines) | 13.3917% | 38.6088% | — | — | — |
+| Official place annotation agreement (357 paragraphs) | — | — | 82.99% | 61.16% | 70.42% |
 
-## Progress and next steps
+These are separate experiments, not image-to-place end-to-end metrics. Official annotation completeness is not established; unmatched predictions are not automatically true false positives. Strict WER<37% and precision>=85% targets have not been met. The official sample is now exposed; further tuning on it is development work.
 
-TrOCR training is completed. Evaluation compares pretrained and fine-tuned recognition on unseen German/Latin samples using CER. Generalization remains inconsistent. Some ground-truth transcriptions may contain alignment or annotation errors, so high CER can reflect both OCR and reference quality.
+## Install and run
 
-Next: inspect representative/high-CER image–transcription pairs and build a manually verified evaluation subset; reviewing the entire dataset is unnecessary. NLP validation depends on transcription quality and should continue using the verified subset. The gazetteer baseline is not a trained historical NER model. Synthetic demo scores must not be presented as real model performance.
-
-## Run the NLP demo
-
-Python 3.10+; no third-party dependencies:
+Use Python 3.10 or a compatible environment. From this repository root:
 
 ```sh
-python3 run_nlp_demo.py
-python3 -m unittest -v test_nlp.py
+python3 -m venv .venv-nlp
+.venv-nlp/bin/python -m pip install -r requirements.txt
+.venv-nlp/bin/python scripts/download_model.py
+.venv-nlp/bin/python outputs/bullinger_htr_delivery_EN/scripts/run_official_ner.py --output-dir outputs/official_ner_run01
 ```
 
-See `README_NLP.md` for formats and evaluation limitations.
+The download requires network access and about 1 GB of cache space. Evaluation uses the pinned local snapshot on CPU; no GPU purchase is necessary. Always choose a fresh output directory. New environments may introduce numerical differences; recorded results were reproduced in the original environment. Dependencies are not a lockfile for every platform.
 
-## OCR setup
+## Delivery contents
 
-The experiment scripts are preserved unchanged. Several contain an absolute local `ROOT` path: adjust it to your dataset directory before running. Scripts expect the original extracted dataset layout and evaluation may require local checkpoints. Training scripts execute at top level; do not import them for configuration inspection.
+- [Package instructions](outputs/bullinger_htr_delivery_EN/README.md) and [Chinese package guide](outputs/bullinger_htr_delivery_EN/README_ZH.md).
+- [Result definitions and fixed comparisons](outputs/bullinger_htr_delivery_EN/RESULTS.md).
+- `outputs/bullinger_htr_delivery_EN/data/`: official reference paragraphs, unchanged XML, selection/audit and disjoint source-derived variant lexicons.
+- `outputs/bullinger_htr_delivery_EN/results/`: saved predictions, protocol, metrics and miss diagnosis.
+- [Colab training instructions](outputs/bullinger_htr_delivery_EN/TRAINING.md) and [clean notebook](outputs/bullinger_htr_delivery_EN/Bullinger_Clean_Colab.ipynb). Existing Drive data and checkpoints are required; TASK defaults to None.
+- `legacy/`: previous repository files retained as historical records. Old small/medium model directories contain metadata, not runnable weights. Legacy metrics must not replace current results.
+- `docs/DATASET_LICENSE` and `docs/DATASET_README.md`: existing dataset documentation retained.
 
-`requirements-ml.txt` lists inferred direct dependencies, not a tested or pinned environment. Full training and OCR evaluation have not been rerun for this repository preparation.
+No dataset image archives, model weights, virtual environments, personal review tables or local Git history are uploaded. The best Colab checkpoint remains in the existing Drive experiment; this repository does not contain it. The package is not a turnkey image-to-place service.
 
-## Data, weights and attribution
+## Provenance and licensing
 
-Original dataset: https://github.com/pstroe/bullinger-htr
-
-Follow upstream documentation to obtain and extract the data. The original dataset README and license are retained in `docs/` for attribution; the dataset license is not a newly assigned license for the team's code.
-
-Full datasets, archives, model weights, original Git/LFS history, caches and IDE settings are excluded. Checkpoints remain in the original local project; no shared checkpoint download location has been configured yet.
+Official TEI source: [stazh/bullinger-korpus-tei](https://github.com/stazh/bullinger-korpus-tei), commit dc9fb5290c210023a6a9182e8e3102c1f6dff734. Attribution: Scheurer, Müller, Schroffenegger, Ströbel and Volk (2025), Bullinger Digital Briefkorpus, University of Zurich. Source text license: CC BY-NC-ND 3.0 CH, as stated upstream. XML is unchanged; analysis is separate. See original dataset license for manuscript data terms. Do not infer a permissive license for all repository content.

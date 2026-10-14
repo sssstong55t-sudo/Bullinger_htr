@@ -1,0 +1,164 @@
+{
+  "removed": [
+    {
+      "path": "outputs/bullinger_htr_delivery_20261013",
+      "logical_bytes": 32209270,
+      "reason": "Superseded generated delivery copy or regenerable embedded-image review page; original source data and records preserved"
+    },
+    {
+      "path": "outputs/bullinger_htr_delivery_20261013.zip",
+      "logical_bytes": 16000874,
+      "reason": "Superseded generated delivery copy or regenerable embedded-image review page; original source data and records preserved"
+    },
+    {
+      "path": "outputs/colab-recovery/validation-review/review.html",
+      "logical_bytes": 32107354,
+      "reason": "Superseded generated delivery copy or regenerable embedded-image review page; original source data and records preserved"
+    },
+    {
+      "path": "outputs/place-baseline-246/human_review.html",
+      "logical_bytes": 8983674,
+      "reason": "Superseded generated delivery copy or regenerable embedded-image review page; original source data and records preserved"
+    },
+    {
+      "path": "outputs/.DS_Store",
+      "logical_bytes": 6148,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/place-baseline-246/.DS_Store",
+      "logical_bytes": 6148,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/place-baseline-246/revised_20261014/.DS_Store",
+      "logical_bytes": 6148,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/place-baseline-246/aligned_human_20261014/.DS_Store",
+      "logical_bytes": 6148,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/validation-image-diagnosis/__pycache__/metrics.cpython-310.pyc",
+      "logical_bytes": 1200,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/validation-image-diagnosis/__pycache__/analyze.cpython-310.pyc",
+      "logical_bytes": 4761,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/place-baseline-246/__pycache__/nlp_baseline.cpython-310.pyc",
+      "logical_bytes": 8420,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/place-baseline-246/__pycache__/evaluate_review.cpython-310.pyc",
+      "logical_bytes": 2548,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/place-full-reviewed-20261014/__pycache__/person_guard.cpython-310.pyc",
+      "logical_bytes": 2904,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/colab-recovery/__pycache__/adapt_de20_full_test.cpython-310.pyc",
+      "logical_bytes": 7436,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/colab-recovery/__pycache__/fixed_beam8_test20k.cpython-310.pyc",
+      "logical_bytes": 7370,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/colab-recovery/__pycache__/adapt20k_worker.cpython-310.pyc",
+      "logical_bytes": 11080,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/colab-recovery/__pycache__/next_validation.cpython-310.pyc",
+      "logical_bytes": 7551,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/place-selected-20261014/__pycache__/apply_selected.cpython-310.pyc",
+      "logical_bytes": 2951,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/place-scope-ablation-20261014/__pycache__/apply_improved.cpython-310.pyc",
+      "logical_bytes": 2902,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/wer-rescoring/__pycache__/worker.cpython-310.pyc",
+      "logical_bytes": 10072,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/wer-rescoring/__pycache__/context_worker.cpython-310.pyc",
+      "logical_bytes": 7425,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "outputs/wer-rescoring/__pycache__/colab_cell.cpython-310.pyc",
+      "logical_bytes": 8577,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "scripts/nlp/__pycache__/historical_aliases.cpython-310.pyc",
+      "logical_bytes": 5363,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "scripts/nlp/__pycache__/nlp_baseline.cpython-310.pyc",
+      "logical_bytes": 8405,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "scripts/nlp/__pycache__/context_ner.cpython-310.pyc",
+      "logical_bytes": 13439,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "scripts/nlp/__pycache__/evaluate_public_positive_reference.cpython-310.pyc",
+      "logical_bytes": 7203,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "scripts/nlp/__pycache__/candidate_priority.cpython-310.pyc",
+      "logical_bytes": 1803,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "quality_pipeline/__pycache__/audit_public_annotations.cpython-310.pyc",
+      "logical_bytes": 20471,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": "work/colab-recovery/__pycache__/run_resume.cpython-310.pyc",
+      "logical_bytes": 12355,
+      "reason": "Regenerable metadata/bytecode"
+    },
+    {
+      "path": ".DS_Store",
+      "logical_bytes": 16388,
+      "reason": "Finder metadata"
+    }
+  ],
+  "logical_bytes_removed": 89496388,
+  "preserved": [
+    "Git history/index/LFS",
+    "Original image and transcription datasets",
+    "Model weights and current GLiNER cache",
+    "Python environment",
+    "Original annotation CSVs and reserved samples",
+    "Source code and experimental predictions"
+  ],
+  "documentation_archive": "outputs/archive/original_documentation_20261014.zip"
+}

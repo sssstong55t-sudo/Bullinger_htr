@@ -1,0 +1,57 @@
+{
+  "single_04": {
+    "matched": 168,
+    "unmatched_predictions": 110,
+    "unretrieved_annotations": 159,
+    "official_annotations": 327,
+    "predictions": 278,
+    "documented_positive_coverage": 0.5137614678899083,
+    "annotation_agreement_precision": 0.60431654676259,
+    "annotation_agreement_recall": 0.5137614678899083,
+    "annotation_agreement_f1": 0.5553719008264463
+  },
+  "competition_04": {
+    "matched": 161,
+    "unmatched_predictions": 98,
+    "unretrieved_annotations": 166,
+    "official_annotations": 327,
+    "predictions": 259,
+    "documented_positive_coverage": 0.4923547400611621,
+    "annotation_agreement_precision": 0.6216216216216216,
+    "annotation_agreement_recall": 0.4923547400611621,
+    "annotation_agreement_f1": 0.5494880546075085
+  },
+  "competition_08": {
+    "matched": 109,
+    "unmatched_predictions": 26,
+    "unretrieved_annotations": 218,
+    "official_annotations": 327,
+    "predictions": 135,
+    "documented_positive_coverage": 0.3333333333333333,
+    "annotation_agreement_precision": 0.8074074074074075,
+    "annotation_agreement_recall": 0.3333333333333333,
+    "annotation_agreement_f1": 0.47186147186147187
+  },
+  "competition_04_official_aliases": {
+    "matched": 230,
+    "unmatched_predictions": 108,
+    "unretrieved_annotations": 97,
+    "official_annotations": 327,
+    "predictions": 338,
+    "documented_positive_coverage": 0.7033639143730887,
+    "annotation_agreement_precision": 0.6804733727810651,
+    "annotation_agreement_recall": 0.7033639143730887,
+    "annotation_agreement_f1": 0.6917293233082706
+  },
+  "competition_08_official_aliases": {
+    "matched": 200,
+    "unmatched_predictions": 41,
+    "unretrieved_annotations": 127,
+    "official_annotations": 327,
+    "predictions": 241,
+    "documented_positive_coverage": 0.6116207951070336,
+    "annotation_agreement_precision": 0.8298755186721992,
+    "annotation_agreement_recall": 0.6116207951070336,
+    "annotation_agreement_f1": 0.704225352112676
+  }
+}

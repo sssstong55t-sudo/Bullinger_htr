@@ -1,0 +1,14 @@
+[
+  {
+    "file": "localities.xml",
+    "path": "data/index/localities.xml",
+    "git_blob": "76ee023cf560e5c38794eb0fd9a07445137109b9",
+    "sha256": "604aa6f4e6619d1c61cbf7bcb1590503344da9125e3e564c17cd33f5d38e25b8"
+  },
+  {
+    "file": "transcription-sources.csv",
+    "path": "scripts/transcription_sources/2025-05-28 transcription-sources.csv",
+    "git_blob": "bb63b83081ab6c2dd71c4b115a66877e65ddd661",
+    "sha256": "276d1f6be79d6cbb0c768c8f093d288798f5ab3c277d329c60c3b3c3ec9bc795"
+  }
+]

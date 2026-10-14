@@ -1,0 +1,528 @@
+{
+  "commit": "dc9fb5290c210023a6a9182e8e3102c1f6dff734",
+  "seed": 20261014,
+  "selection": "Fixed40 edited/nonautomatic source documents, exclude recorded old NER/lexicon/downloaded letters; eligibility checked without model predictions; no replacement",
+  "excluded_documents": 866,
+  "selected": [
+    {
+      "document_id": "13101",
+      "path": "data/letters/13101.xml",
+      "blob_sha": "0feddf4f8f4c3977f1efa4aaac9947405c2b8a78",
+      "source_flags": {
+        "id": "13101",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "11712",
+      "path": "data/letters/11712.xml",
+      "blob_sha": "30cae7b941416046c8d441e34a6ace52e58349a0",
+      "source_flags": {
+        "id": "11712",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "11290",
+      "path": "data/letters/11290.xml",
+      "blob_sha": "1f6154eeec7787efb66b43073ff7ac06dcf18cac",
+      "source_flags": {
+        "id": "11290",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12476",
+      "path": "data/letters/12476.xml",
+      "blob_sha": "988b32962570ab562f0466686cdfdd5deaf5aceb",
+      "source_flags": {
+        "id": "12476",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10529",
+      "path": "data/letters/10529.xml",
+      "blob_sha": "2c9c581633e9c60909c25a102d547fe42acb8722",
+      "source_flags": {
+        "id": "10529",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "13138",
+      "path": "data/letters/13138.xml",
+      "blob_sha": "5a1a56aee18d6c244d0e593b099e7227ff8c5cc4",
+      "source_flags": {
+        "id": "13138",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10792",
+      "path": "data/letters/10792.xml",
+      "blob_sha": "8a192d4d628193061aa7d8f0477234bbeb83c6de",
+      "source_flags": {
+        "id": "10792",
+        "has_facsimile": "False",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "11030",
+      "path": "data/letters/11030.xml",
+      "blob_sha": "88fafcc089f6ed6b7851c4657fc9be702f319e86",
+      "source_flags": {
+        "id": "11030",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12543",
+      "path": "data/letters/12543.xml",
+      "blob_sha": "dfeb3c5fe38ed3653f379367414583b3e5a8655f",
+      "source_flags": {
+        "id": "12543",
+        "has_facsimile": "False",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12473",
+      "path": "data/letters/12473.xml",
+      "blob_sha": "ed51ee1f12d5a43b2738fe9f97c7832821265952",
+      "source_flags": {
+        "id": "12473",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12569",
+      "path": "data/letters/12569.xml",
+      "blob_sha": "58f9419306f2fb8031e4ec0948a18d04e245ca31",
+      "source_flags": {
+        "id": "12569",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12911",
+      "path": "data/letters/12911.xml",
+      "blob_sha": "b451e01c968e7afe22ab2712d097f948fdff404a",
+      "source_flags": {
+        "id": "12911",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12608",
+      "path": "data/letters/12608.xml",
+      "blob_sha": "dd231bc36c47b42703a9a1ab3dcd394e60d6e9be",
+      "source_flags": {
+        "id": "12608",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12402",
+      "path": "data/letters/12402.xml",
+      "blob_sha": "0925b1ecaa2b62ef29d48be35b8305b832a06787",
+      "source_flags": {
+        "id": "12402",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10393",
+      "path": "data/letters/10393.xml",
+      "blob_sha": "aa717d01be42eddfd7bdf64a39c6f364d4149ad9",
+      "source_flags": {
+        "id": "10393",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "11820",
+      "path": "data/letters/11820.xml",
+      "blob_sha": "24f4b0d1744a39a3b4935bd624bf94d43f395261",
+      "source_flags": {
+        "id": "11820",
+        "has_facsimile": "False",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "11910",
+      "path": "data/letters/11910.xml",
+      "blob_sha": "3ec1726b8c2f968c4c4fcc519f7d805f8d3ccc68",
+      "source_flags": {
+        "id": "11910",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12256",
+      "path": "data/letters/12256.xml",
+      "blob_sha": "885c4b8648c5c93dd9fae6305cf3bc58fbb66fb0",
+      "source_flags": {
+        "id": "12256",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "11618",
+      "path": "data/letters/11618.xml",
+      "blob_sha": "c703fec1b33fb8182b7e9f8ca2a2e4ec976e9fcd",
+      "source_flags": {
+        "id": "11618",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10319",
+      "path": "data/letters/10319.xml",
+      "blob_sha": "db752c105343787529141ac175dbaa06f06197fd",
+      "source_flags": {
+        "id": "10319",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12435",
+      "path": "data/letters/12435.xml",
+      "blob_sha": "17eed228bc4933b6bf730214ce1a6750390a22f4",
+      "source_flags": {
+        "id": "12435",
+        "has_facsimile": "False",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12945",
+      "path": "data/letters/12945.xml",
+      "blob_sha": "c714e726d78d99fe97d2d675075878507adb4276",
+      "source_flags": {
+        "id": "12945",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "13141",
+      "path": "data/letters/13141.xml",
+      "blob_sha": "0a02f5e651f06e7cf6352df0b46893a871968110",
+      "source_flags": {
+        "id": "13141",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10806",
+      "path": "data/letters/10806.xml",
+      "blob_sha": "6cfafddc3d2712438d237d7435434398183b9572",
+      "source_flags": {
+        "id": "10806",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "11849",
+      "path": "data/letters/11849.xml",
+      "blob_sha": "bcba3f0ac621a71d218734a40473cdcfb17fc537",
+      "source_flags": {
+        "id": "11849",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "11572",
+      "path": "data/letters/11572.xml",
+      "blob_sha": "069d5e261f613c140f2786ace64106326adb77a6",
+      "source_flags": {
+        "id": "11572",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "11511",
+      "path": "data/letters/11511.xml",
+      "blob_sha": "a609cb88d11dc35d376e0e6ea9e7887c1f6c83e6",
+      "source_flags": {
+        "id": "11511",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10597",
+      "path": "data/letters/10597.xml",
+      "blob_sha": "9a7a4fa567494b9bcebbceb7bb2d2799aaa45c45",
+      "source_flags": {
+        "id": "10597",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10183",
+      "path": "data/letters/10183.xml",
+      "blob_sha": "315b4ffe1a36987a5b6a9a41731969f31af0c1b2",
+      "source_flags": {
+        "id": "10183",
+        "has_facsimile": "False",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10446",
+      "path": "data/letters/10446.xml",
+      "blob_sha": "adbb3db64fb49b877aafb85e6b3eba951080ada0",
+      "source_flags": {
+        "id": "10446",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10592",
+      "path": "data/letters/10592.xml",
+      "blob_sha": "a93cd5100bc4fdc120b80459be18dea7b88bbac5",
+      "source_flags": {
+        "id": "10592",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12982",
+      "path": "data/letters/12982.xml",
+      "blob_sha": "670138bdb0ffa722812b87d09dd47ff9b54e5e63",
+      "source_flags": {
+        "id": "12982",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12693",
+      "path": "data/letters/12693.xml",
+      "blob_sha": "6d96dd7c925a425d4fbf98aea6aae87a164f679b",
+      "source_flags": {
+        "id": "12693",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12714",
+      "path": "data/letters/12714.xml",
+      "blob_sha": "44d170b996e8388f1af6a6e44148211d397ae9a8",
+      "source_flags": {
+        "id": "12714",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "11021",
+      "path": "data/letters/11021.xml",
+      "blob_sha": "0d1fdff62066c231685a1d838936731797482882",
+      "source_flags": {
+        "id": "11021",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10289",
+      "path": "data/letters/10289.xml",
+      "blob_sha": "7b9207ca9f033c06cbc61fa2ae66791ff3920542",
+      "source_flags": {
+        "id": "10289",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "12111",
+      "path": "data/letters/12111.xml",
+      "blob_sha": "1e9969596bf9ea069fabc630dc3a669d941a46ac",
+      "source_flags": {
+        "id": "12111",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "13036",
+      "path": "data/letters/13036.xml",
+      "blob_sha": "89d3c046ab5dd408b099224d6068ef90db20683c",
+      "source_flags": {
+        "id": "13036",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10301",
+      "path": "data/letters/10301.xml",
+      "blob_sha": "c3572ff03ddbe0b6877d12c9e48a70f0fe06d061",
+      "source_flags": {
+        "id": "10301",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    },
+    {
+      "document_id": "10354",
+      "path": "data/letters/10354.xml",
+      "blob_sha": "a89898404fddd22495814bf1cfcbb71bb3fabdd0",
+      "source_flags": {
+        "id": "10354",
+        "has_facsimile": "True",
+        "edited": "True",
+        "provisional_transcription": "False",
+        "automatic_transcription": "False",
+        "type": "Brief"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+torch>=2.2,<3
+gliner==0.2.22
+transformers==4.51.0
+huggingface-hub==0.36.2

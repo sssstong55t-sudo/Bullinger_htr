@@ -1,0 +1,29 @@
+{
+  "reference_source": "official TEI body placeName only",
+  "source_commit": "dc9fb5290c210023a6a9182e8e3102c1f6dff734",
+  "reference_sha256": "ec9e427cf4e51dedcea7ffe3d765ae80827cf4b10e8865f40b0c8f6b62b3bd6f",
+  "model_revision": "443d26d654e0324125a96bebd8e796c14ff2efe6",
+  "labels_single": [
+    "location"
+  ],
+  "labels_competing": [
+    "location",
+    "person",
+    "organization"
+  ],
+  "thresholds": [
+    0.4,
+    0.8
+  ],
+  "selection": "Report all predefined comparisons; do not tune on official sample",
+  "lexicons_sha256": {
+    "nlp_results/historical_variants_confirmatory_20261009/development_lexicon.json": "9cd0c5000433689d9f2c7aefb2c794006169fe5bd85800403348347f5344656e",
+    "nlp_results/training_source_aliases_20261010/additional_lexicon.json": "c8682965d9881a1846e9740cdf54bd204836d438b3ba4c8834dbc90a85bb8096"
+  },
+  "local_human_annotations_read": false,
+  "legacy_priority_profile_read": false,
+  "manual_audit_derived_boundary_or_person_rules": false,
+  "annotation_completeness": "not established; report positive coverage and annotation-agreement metrics separately",
+  "primary_report_branch": "competition_08_official_aliases",
+  "other_branches": "Predefined threshold/label controls, no best-score selection on this sample"
+}

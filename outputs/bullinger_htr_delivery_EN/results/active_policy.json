@@ -1,0 +1,23 @@
+{
+  "active_evaluation": "official_TEI_annotation_only",
+  "primary_branch": "competition_08_official_aliases",
+  "official_reference_sha256": "ec9e427cf4e51dedcea7ffe3d765ae80827cf4b10e8865f40b0c8f6b62b3bd6f",
+  "manual_review_tables": "excluded from current scoring; preserved as historical artifacts",
+  "historical_manual_metric_use": false,
+  "manual_derived_rules": false,
+  "protocol_file": "protocol.json",
+  "summary_file": "summary.json",
+  "official_agreement": {
+    "matched": 200,
+    "unmatched_predictions": 41,
+    "unretrieved_annotations": 127,
+    "official_annotations": 327,
+    "predictions": 241,
+    "documented_positive_coverage": 0.6116207951070336,
+    "annotation_agreement_precision": 0.8298755186721992,
+    "annotation_agreement_recall": 0.6116207951070336,
+    "annotation_agreement_f1": 0.704225352112676
+  },
+  "true_precision_recall_f1_not_established": true,
+  "htR_test_metrics_changed": false
+}

@@ -1,0 +1,6901 @@
+{
+  "version": "edited-training-source-additive-aliases-v1",
+  "learning_documents": [
+    "10",
+    "101",
+    "14",
+    "15",
+    "16",
+    "18",
+    "23",
+    "26",
+    "306",
+    "32",
+    "33",
+    "38",
+    "42",
+    "43",
+    "46",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "57",
+    "58",
+    "6",
+    "61",
+    "63",
+    "67",
+    "69",
+    "7",
+    "70",
+    "71",
+    "72",
+    "74",
+    "75",
+    "77",
+    "78",
+    "82",
+    "86",
+    "87",
+    "88",
+    "94",
+    "95",
+    "99"
+  ],
+  "automatic_geolocation": false,
+  "excluded": [
+    {
+      "text": "Rom",
+      "reason": "short_or_missing_official_identity"
+    },
+    {
+      "text": "Uri",
+      "reason": "short_or_missing_official_identity"
+    },
+    {
+      "text": "Ury",
+      "reason": "short_or_missing_official_identity"
+    }
+  ],
+  "aliases": [
+    {
+      "key": "aarovię",
+      "variants": [
+        "Aarovię"
+      ],
+      "places": [
+        {
+          "place_id": "l2",
+          "name": "Aarau",
+          "coordinates_lat_lon": [
+            47.39254,
+            8.04422
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "6",
+          "paragraph_number": 8,
+          "start": 277,
+          "end": 284,
+          "source_sha256": "8c48f500b6b033f4677d56e73dcaef81782af52e7dfe4d983eab58d60d6d4642",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "anglia",
+      "variants": [
+        "Anglia"
+      ],
+      "places": [
+        {
+          "place_id": "l830",
+          "name": "",
+          "coordinates_lat_lon": [
+            52.16045,
+            -0.70312
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "50",
+          "paragraph_number": 5,
+          "start": 25,
+          "end": 31,
+          "source_sha256": "edd37823097bdfc978ff2dfa9f28dfd37cadb9d55da47cb4ff313263d1e14637",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "75",
+          "paragraph_number": 4,
+          "start": 3,
+          "end": 9,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "angliam",
+      "variants": [
+        "Angliam"
+      ],
+      "places": [
+        {
+          "place_id": "l830",
+          "name": "",
+          "coordinates_lat_lon": [
+            52.16045,
+            -0.70312
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "75",
+          "paragraph_number": 2,
+          "start": 191,
+          "end": 198,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "95",
+          "paragraph_number": 7,
+          "start": 189,
+          "end": 196,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "anglicas",
+      "variants": [
+        "Anglicas"
+      ],
+      "places": [
+        {
+          "place_id": "l830",
+          "name": "",
+          "coordinates_lat_lon": [
+            52.16045,
+            -0.70312
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "94",
+          "paragraph_number": 3,
+          "start": 94,
+          "end": 102,
+          "source_sha256": "868ea95a58a5a2dc9fe12a9db4994b86e2c01a213ebbc0cf3e2d1a4cf1ec3942",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "anglo",
+      "variants": [
+        "Anglo"
+      ],
+      "places": [
+        {
+          "place_id": "l830",
+          "name": "",
+          "coordinates_lat_lon": [
+            52.16045,
+            -0.70312
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "69",
+          "paragraph_number": 4,
+          "start": 325,
+          "end": 330,
+          "source_sha256": "9069fe95fb2a94af589e393a1b135a08ec97b6c9d7536e1c5e5e8e8dca127725",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "71",
+          "paragraph_number": 1,
+          "start": 177,
+          "end": 182,
+          "source_sha256": "50cc92514853e92e3a630727a58923150d9e3ffb229aa0719034f476326979e8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "arba",
+      "variants": [
+        "Arba"
+      ],
+      "places": [
+        {
+          "place_id": "l977",
+          "name": "Arbon",
+          "coordinates_lat_lon": [
+            47.51667,
+            9.43333
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 16,
+          "start": 173,
+          "end": 177,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "argentina",
+      "variants": [
+        "Argentina"
+      ],
+      "places": [
+        {
+          "place_id": "l491",
+          "name": "Straßburg",
+          "coordinates_lat_lon": [
+            48.58392,
+            7.74553
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "42",
+          "paragraph_number": 3,
+          "start": 24,
+          "end": 33,
+          "source_sha256": "b9f6f180c2deb635f45f50e86e50a84c35b952b29ae8df06f84c58b3c9518207",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "argentinae",
+      "variants": [
+        "Argentinae"
+      ],
+      "places": [
+        {
+          "place_id": "l491",
+          "name": "Straßburg",
+          "coordinates_lat_lon": [
+            48.58392,
+            7.74553
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "74",
+          "paragraph_number": 4,
+          "start": 86,
+          "end": 96,
+          "source_sha256": "f2308e8f8e9abf573cccc5727d8902bda4a2effcf5c78337bc10c6bb5c6e7b69",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "argentinam",
+      "variants": [
+        "Argentinam"
+      ],
+      "places": [
+        {
+          "place_id": "l491",
+          "name": "Straßburg",
+          "coordinates_lat_lon": [
+            48.58392,
+            7.74553
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "75",
+          "paragraph_number": 2,
+          "start": 154,
+          "end": 164,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "75",
+          "paragraph_number": 3,
+          "start": 140,
+          "end": 150,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "argentinenses",
+      "variants": [
+        "Argentinenses"
+      ],
+      "places": [
+        {
+          "place_id": "l491",
+          "name": "Straßburg",
+          "coordinates_lat_lon": [
+            48.58392,
+            7.74553
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 9,
+          "start": 99,
+          "end": 112,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "argentinensi",
+      "variants": [
+        "Argentinensi"
+      ],
+      "places": [
+        {
+          "place_id": "l491",
+          "name": "Straßburg",
+          "coordinates_lat_lon": [
+            48.58392,
+            7.74553
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "75",
+          "paragraph_number": 4,
+          "start": 192,
+          "end": 204,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "argentinę",
+      "variants": [
+        "Argentinę"
+      ],
+      "places": [
+        {
+          "place_id": "l491",
+          "name": "Straßburg",
+          "coordinates_lat_lon": [
+            48.58392,
+            7.74553
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "70",
+          "paragraph_number": 5,
+          "start": 24,
+          "end": 33,
+          "source_sha256": "336dea338b4810d70d5a1b0ff35364ab606ed18c071535edaaab49a17b95379c",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "86",
+          "paragraph_number": 6,
+          "start": 74,
+          "end": 83,
+          "source_sha256": "7e48899d633601ad3718a762ebeed6a43eb866c01f5a5857c593e53dad224afe",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "argentoratum",
+      "variants": [
+        "Argentoratum"
+      ],
+      "places": [
+        {
+          "place_id": "l491",
+          "name": "Straßburg",
+          "coordinates_lat_lon": [
+            48.58392,
+            7.74553
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "71",
+          "paragraph_number": 1,
+          "start": 139,
+          "end": 151,
+          "source_sha256": "50cc92514853e92e3a630727a58923150d9e3ffb229aa0719034f476326979e8",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "95",
+          "paragraph_number": 7,
+          "start": 114,
+          "end": 126,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "augspurg",
+      "variants": [
+        "Augspurg"
+      ],
+      "places": [
+        {
+          "place_id": "l18",
+          "name": "Augsburg",
+          "coordinates_lat_lon": [
+            48.37154,
+            10.89851
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 3,
+          "start": 21,
+          "end": 29,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "53",
+          "paragraph_number": 3,
+          "start": 90,
+          "end": 98,
+          "source_sha256": "9344e2184efaeebe55d64baf06ce3818e437c11b884c21e488be69698a617680",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "53",
+          "paragraph_number": 5,
+          "start": 65,
+          "end": 73,
+          "source_sha256": "9344e2184efaeebe55d64baf06ce3818e437c11b884c21e488be69698a617680",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "99",
+          "paragraph_number": 3,
+          "start": 76,
+          "end": 84,
+          "source_sha256": "857ef34b3a5576548a1542426c20820bb5ae4beda6fb33fe965baf87d9babe0c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "augusta",
+      "variants": [
+        "Augusta"
+      ],
+      "places": [
+        {
+          "place_id": "l18",
+          "name": "Augsburg",
+          "coordinates_lat_lon": [
+            48.37154,
+            10.89851
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 4,
+          "start": 25,
+          "end": 32,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "69",
+          "paragraph_number": 2,
+          "start": 3,
+          "end": 10,
+          "source_sha256": "9069fe95fb2a94af589e393a1b135a08ec97b6c9d7536e1c5e5e8e8dca127725",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "augustae",
+      "variants": [
+        "Augustae"
+      ],
+      "places": [
+        {
+          "place_id": "l18",
+          "name": "Augsburg",
+          "coordinates_lat_lon": [
+            48.37154,
+            10.89851
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "95",
+          "paragraph_number": 2,
+          "start": 289,
+          "end": 297,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "augustani",
+      "variants": [
+        "Augustani"
+      ],
+      "places": [
+        {
+          "place_id": "l18",
+          "name": "Augsburg",
+          "coordinates_lat_lon": [
+            48.37154,
+            10.89851
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "42",
+          "paragraph_number": 2,
+          "start": 95,
+          "end": 104,
+          "source_sha256": "b9f6f180c2deb635f45f50e86e50a84c35b952b29ae8df06f84c58b3c9518207",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "augustanis",
+      "variants": [
+        "Augustanis"
+      ],
+      "places": [
+        {
+          "place_id": "l18",
+          "name": "Augsburg",
+          "coordinates_lat_lon": [
+            48.37154,
+            10.89851
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "57",
+          "paragraph_number": 3,
+          "start": 776,
+          "end": 786,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "auguste",
+      "variants": [
+        "Auguste"
+      ],
+      "places": [
+        {
+          "place_id": "l18",
+          "name": "Augsburg",
+          "coordinates_lat_lon": [
+            48.37154,
+            10.89851
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 2,
+          "start": 560,
+          "end": 567,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "augustę",
+      "variants": [
+        "Augustę"
+      ],
+      "places": [
+        {
+          "place_id": "l18",
+          "name": "Augsburg",
+          "coordinates_lat_lon": [
+            48.37154,
+            10.89851
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "50",
+          "paragraph_number": 1,
+          "start": 609,
+          "end": 616,
+          "source_sha256": "edd37823097bdfc978ff2dfa9f28dfd37cadb9d55da47cb4ff313263d1e14637",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "austriaca",
+      "variants": [
+        "Austriaca"
+      ],
+      "places": [
+        {
+          "place_id": "l850",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.33333,
+            13.33333
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "95",
+          "paragraph_number": 3,
+          "start": 159,
+          "end": 168,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "aydtgnossen",
+      "variants": [
+        "Aydtgnoßen"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "82",
+          "paragraph_number": 3,
+          "start": 402,
+          "end": 412,
+          "source_sha256": "1f40839a2d492578eff7e4d3a3fc36f3b0393ddecb2420b9d55c496abdc1feba",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "badensia",
+      "variants": [
+        "Badensia"
+      ],
+      "places": [
+        {
+          "place_id": "l21",
+          "name": "Baden",
+          "coordinates_lat_lon": [
+            47.47333,
+            8.30592
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 4,
+          "start": 45,
+          "end": 53,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "badis",
+      "variants": [
+        "Badis"
+      ],
+      "places": [
+        {
+          "place_id": "l21",
+          "name": "Baden",
+          "coordinates_lat_lon": [
+            47.47333,
+            8.30592
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "51",
+          "paragraph_number": 4,
+          "start": 8,
+          "end": 13,
+          "source_sha256": "544ab1bc0fc0ee2e7b47c61a14907b0c4345638b829013d421b4203ccc49fb6d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "basel",
+      "variants": [
+        "Basel"
+      ],
+      "places": [
+        {
+          "place_id": "l28",
+          "name": "Basel",
+          "coordinates_lat_lon": [
+            47.55839,
+            7.57327
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 10,
+          "start": 43,
+          "end": 48,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "71",
+          "paragraph_number": 8,
+          "start": 50,
+          "end": 55,
+          "source_sha256": "50cc92514853e92e3a630727a58923150d9e3ffb229aa0719034f476326979e8",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "77",
+          "paragraph_number": 4,
+          "start": 157,
+          "end": 162,
+          "source_sha256": "8acf79928a98fcbcaf7f88debcbcabb6bd52c5f6a7713fd07816f034a0386fbc",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "94",
+          "paragraph_number": 7,
+          "start": 24,
+          "end": 29,
+          "source_sha256": "868ea95a58a5a2dc9fe12a9db4994b86e2c01a213ebbc0cf3e2d1a4cf1ec3942",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "basell",
+      "variants": [
+        "Basell"
+      ],
+      "places": [
+        {
+          "place_id": "l28",
+          "name": "Basel",
+          "coordinates_lat_lon": [
+            47.55839,
+            7.57327
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "7",
+          "paragraph_number": 5,
+          "start": 129,
+          "end": 135,
+          "source_sha256": "7d951ef9babbfdc223075c42f9d0b9d52b803789b2fa6239b0724d18fa446cc3",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "88",
+          "paragraph_number": 4,
+          "start": 257,
+          "end": 263,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "basileae",
+      "variants": [
+        "Basileae"
+      ],
+      "places": [
+        {
+          "place_id": "l28",
+          "name": "Basel",
+          "coordinates_lat_lon": [
+            47.55839,
+            7.57327
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "26",
+          "paragraph_number": 6,
+          "start": 112,
+          "end": 120,
+          "source_sha256": "20b4b7ba2c13fab0347f48be03bcba6ecd4a3147eddbc0043afe7a0ed76064a8",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "32",
+          "paragraph_number": 4,
+          "start": 136,
+          "end": 144,
+          "source_sha256": "9981e234f0ca1f83898edc5bf72127a5321c16f6e9b6f6a1b3d04897d2eb124a",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "50",
+          "paragraph_number": 6,
+          "start": 51,
+          "end": 59,
+          "source_sha256": "edd37823097bdfc978ff2dfa9f28dfd37cadb9d55da47cb4ff313263d1e14637",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "63",
+          "paragraph_number": 7,
+          "start": 43,
+          "end": 51,
+          "source_sha256": "d60e5b11502fa45de3f1d347199f508517652d392f918e4694d00e894aab8965",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "75",
+          "paragraph_number": 7,
+          "start": 38,
+          "end": 46,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "95",
+          "paragraph_number": 7,
+          "start": 86,
+          "end": 94,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "99",
+          "paragraph_number": 8,
+          "start": 19,
+          "end": 27,
+          "source_sha256": "857ef34b3a5576548a1542426c20820bb5ae4beda6fb33fe965baf87d9babe0c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "basileam",
+      "variants": [
+        "Basileam"
+      ],
+      "places": [
+        {
+          "place_id": "l28",
+          "name": "Basel",
+          "coordinates_lat_lon": [
+            47.55839,
+            7.57327
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "10",
+          "paragraph_number": 1,
+          "start": 284,
+          "end": 292,
+          "source_sha256": "9f560c22dee972cd929aa4450cecda54fae35d46f567eee6b701a902e811297a",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "38",
+          "paragraph_number": 3,
+          "start": 254,
+          "end": 262,
+          "source_sha256": "07f779256f49567ef8f9e91de5a8da222fe995a27827795f8a9cd2c3aa8bf9eb",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "basileę",
+      "variants": [
+        "Basileę"
+      ],
+      "places": [
+        {
+          "place_id": "l28",
+          "name": "Basel",
+          "coordinates_lat_lon": [
+            47.55839,
+            7.57327
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 5,
+          "start": 53,
+          "end": 60,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "33",
+          "paragraph_number": 9,
+          "start": 34,
+          "end": 41,
+          "source_sha256": "9a2f5505420aef42d9f6aa788af995a11775287b6b3a19a1e784367595b21f5e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "42",
+          "paragraph_number": 5,
+          "start": 35,
+          "end": 42,
+          "source_sha256": "b9f6f180c2deb635f45f50e86e50a84c35b952b29ae8df06f84c58b3c9518207",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "57",
+          "paragraph_number": 7,
+          "start": 74,
+          "end": 81,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "70",
+          "paragraph_number": 8,
+          "start": 23,
+          "end": 30,
+          "source_sha256": "336dea338b4810d70d5a1b0ff35364ab606ed18c071535edaaab49a17b95379c",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "77",
+          "paragraph_number": 8,
+          "start": 122,
+          "end": 129,
+          "source_sha256": "8acf79928a98fcbcaf7f88debcbcabb6bd52c5f6a7713fd07816f034a0386fbc",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "86",
+          "paragraph_number": 8,
+          "start": 39,
+          "end": 46,
+          "source_sha256": "7e48899d633601ad3718a762ebeed6a43eb866c01f5a5857c593e53dad224afe",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "basilienses",
+      "variants": [
+        "Basilienses"
+      ],
+      "places": [
+        {
+          "place_id": "l28",
+          "name": "Basel",
+          "coordinates_lat_lon": [
+            47.55839,
+            7.57327
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "42",
+          "paragraph_number": 3,
+          "start": 135,
+          "end": 146,
+          "source_sha256": "b9f6f180c2deb635f45f50e86e50a84c35b952b29ae8df06f84c58b3c9518207",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "bern",
+      "variants": [
+        "Bern"
+      ],
+      "places": [
+        {
+          "place_id": "l2826",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.87251,
+            7.59563
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "67",
+          "paragraph_number": 9,
+          "start": 133,
+          "end": 137,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "bernam",
+      "variants": [
+        "Bernam"
+      ],
+      "places": [
+        {
+          "place_id": "l41",
+          "name": "Bern",
+          "coordinates_lat_lon": [
+            46.94809,
+            7.44744
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "51",
+          "paragraph_number": 2,
+          "start": 153,
+          "end": 159,
+          "source_sha256": "544ab1bc0fc0ee2e7b47c61a14907b0c4345638b829013d421b4203ccc49fb6d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "bernatum",
+      "variants": [
+        "Bernatum"
+      ],
+      "places": [
+        {
+          "place_id": "l2826",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.87251,
+            7.59563
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "67",
+          "paragraph_number": 3,
+          "start": 512,
+          "end": 520,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "bernenses",
+      "variants": [
+        "Bernenses"
+      ],
+      "places": [
+        {
+          "place_id": "l41",
+          "name": "Bern",
+          "coordinates_lat_lon": [
+            46.94809,
+            7.44744
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "42",
+          "paragraph_number": 3,
+          "start": 124,
+          "end": 133,
+          "source_sha256": "b9f6f180c2deb635f45f50e86e50a84c35b952b29ae8df06f84c58b3c9518207",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "bernensis",
+      "variants": [
+        "Bernensis"
+      ],
+      "places": [
+        {
+          "place_id": "l41",
+          "name": "Bern",
+          "coordinates_lat_lon": [
+            46.94809,
+            7.44744
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 3,
+          "start": 195,
+          "end": 204,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "bisontium",
+      "variants": [
+        "Bisontium"
+      ],
+      "places": [
+        {
+          "place_id": "l1143",
+          "name": "Besançon",
+          "coordinates_lat_lon": [
+            47.24878,
+            6.01815
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 3,
+          "start": 108,
+          "end": 117,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "bononiae",
+      "variants": [
+        "Bononiae"
+      ],
+      "places": [
+        {
+          "place_id": "l55",
+          "name": "Bologna",
+          "coordinates_lat_lon": [
+            44.49381,
+            11.33875
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "26",
+          "paragraph_number": 4,
+          "start": 164,
+          "end": 172,
+          "source_sha256": "20b4b7ba2c13fab0347f48be03bcba6ecd4a3147eddbc0043afe7a0ed76064a8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "bononiense",
+      "variants": [
+        "Bononiense"
+      ],
+      "places": [
+        {
+          "place_id": "l55",
+          "name": "Bologna",
+          "coordinates_lat_lon": [
+            44.49381,
+            11.33875
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "33",
+          "paragraph_number": 4,
+          "start": 53,
+          "end": 63,
+          "source_sha256": "9a2f5505420aef42d9f6aa788af995a11775287b6b3a19a1e784367595b21f5e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "brabantiam",
+      "variants": [
+        "Brabantiam"
+      ],
+      "places": [
+        {
+          "place_id": "l2529",
+          "name": "",
+          "coordinates_lat_lon": null
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "75",
+          "paragraph_number": 3,
+          "start": 366,
+          "end": 376,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "brandenburg",
+      "variants": [
+        "Brandenburg"
+      ],
+      "places": [
+        {
+          "place_id": "l1048",
+          "name": "",
+          "coordinates_lat_lon": [
+            52.45905,
+            13.01582
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "88",
+          "paragraph_number": 2,
+          "start": 310,
+          "end": 321,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "88",
+          "paragraph_number": 2,
+          "start": 639,
+          "end": 650,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "brandenburgischer",
+      "variants": [
+        "brandenburgischer"
+      ],
+      "places": [
+        {
+          "place_id": "l1048",
+          "name": "",
+          "coordinates_lat_lon": [
+            52.45905,
+            13.01582
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "88",
+          "paragraph_number": 3,
+          "start": 179,
+          "end": 196,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "braunschwigam",
+      "variants": [
+        "Braunschwigam"
+      ],
+      "places": [
+        {
+          "place_id": "l1041",
+          "name": "Braunschweig",
+          "coordinates_lat_lon": [
+            52.26594,
+            10.52673
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "75",
+          "paragraph_number": 3,
+          "start": 327,
+          "end": 340,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "brema",
+      "variants": [
+        "Brema"
+      ],
+      "places": [
+        {
+          "place_id": "l61",
+          "name": "Bremen",
+          "coordinates_lat_lon": [
+            53.07582,
+            8.80717
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "54",
+          "paragraph_number": 5,
+          "start": 263,
+          "end": 268,
+          "source_sha256": "01f652329d43f06cdad6da2c8f0fda0dc030044d63f924675bed0eb2e4bdab75",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "bremam",
+      "variants": [
+        "Bremam"
+      ],
+      "places": [
+        {
+          "place_id": "l61",
+          "name": "Bremen",
+          "coordinates_lat_lon": [
+            53.07582,
+            8.80717
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "75",
+          "paragraph_number": 3,
+          "start": 303,
+          "end": 309,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "brunsvicensis",
+      "variants": [
+        "Brunsvicensis"
+      ],
+      "places": [
+        {
+          "place_id": "l1041",
+          "name": "Braunschweig",
+          "coordinates_lat_lon": [
+            52.26594,
+            10.52673
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 6,
+          "start": 262,
+          "end": 275,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "brunsvigum",
+      "variants": [
+        "Brunsvigum"
+      ],
+      "places": [
+        {
+          "place_id": "l1041",
+          "name": "Braunschweig",
+          "coordinates_lat_lon": [
+            52.26594,
+            10.52673
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "14",
+          "paragraph_number": 3,
+          "start": 39,
+          "end": 49,
+          "source_sha256": "362533b4b95bad52cdb8ba5cb330b60ca705a8bf77f42a66e5116e347f7c1ec9",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "cassellis",
+      "variants": [
+        "Cassellis"
+      ],
+      "places": [
+        {
+          "place_id": "l244",
+          "name": "Kassel",
+          "coordinates_lat_lon": [
+            51.31667,
+            9.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "58",
+          "paragraph_number": 3,
+          "start": 532,
+          "end": 541,
+          "source_sha256": "361709d1eee93d50b2aeeb526e2b35862ed9a7552036da0889cef0dea034139a",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "colossensem",
+      "variants": [
+        "Colossensem"
+      ],
+      "places": [
+        {
+          "place_id": "l3255",
+          "name": "Thorenburg",
+          "coordinates_lat_lon": [
+            46.56667,
+            23.78333
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 1078,
+          "end": 1089,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "constantia",
+      "variants": [
+        "Constantia"
+      ],
+      "places": [
+        {
+          "place_id": "l257",
+          "name": "Konstanz",
+          "coordinates_lat_lon": [
+            47.66033,
+            9.17582
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "42",
+          "paragraph_number": 4,
+          "start": 3,
+          "end": 13,
+          "source_sha256": "b9f6f180c2deb635f45f50e86e50a84c35b952b29ae8df06f84c58b3c9518207",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "52",
+          "paragraph_number": 4,
+          "start": 0,
+          "end": 10,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "54",
+          "paragraph_number": 5,
+          "start": 330,
+          "end": 340,
+          "source_sha256": "01f652329d43f06cdad6da2c8f0fda0dc030044d63f924675bed0eb2e4bdab75",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "57",
+          "paragraph_number": 4,
+          "start": 0,
+          "end": 10,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "constantiensi",
+      "variants": [
+        "Constantiensi"
+      ],
+      "places": [
+        {
+          "place_id": "l257",
+          "name": "Konstanz",
+          "coordinates_lat_lon": [
+            47.66033,
+            9.17582
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 11,
+          "start": 282,
+          "end": 295,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "69",
+          "paragraph_number": 4,
+          "start": 337,
+          "end": 350,
+          "source_sha256": "9069fe95fb2a94af589e393a1b135a08ec97b6c9d7536e1c5e5e8e8dca127725",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "constantiensibus",
+      "variants": [
+        "Constantiensibus"
+      ],
+      "places": [
+        {
+          "place_id": "l257",
+          "name": "Konstanz",
+          "coordinates_lat_lon": [
+            47.66033,
+            9.17582
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "86",
+          "paragraph_number": 5,
+          "start": 57,
+          "end": 73,
+          "source_sha256": "7e48899d633601ad3718a762ebeed6a43eb866c01f5a5857c593e53dad224afe",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "constantiensis",
+      "variants": [
+        "Constantiensis"
+      ],
+      "places": [
+        {
+          "place_id": "l257",
+          "name": "Konstanz",
+          "coordinates_lat_lon": [
+            47.66033,
+            9.17582
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "95",
+          "paragraph_number": 3,
+          "start": 138,
+          "end": 152,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "constantinopolim",
+      "variants": [
+        "Constantinopolim"
+      ],
+      "places": [
+        {
+          "place_id": "l1148",
+          "name": "Istanbul (Byzanz, Konstantinopel)",
+          "coordinates_lat_lon": [
+            41.00982748741331,
+            28.977642059326175
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "50",
+          "paragraph_number": 6,
+          "start": 84,
+          "end": 100,
+          "source_sha256": "edd37823097bdfc978ff2dfa9f28dfd37cadb9d55da47cb4ff313263d1e14637",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "75",
+          "paragraph_number": 2,
+          "start": 85,
+          "end": 101,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "constantinopolitano",
+      "variants": [
+        "Constantinopolitano"
+      ],
+      "places": [
+        {
+          "place_id": "l2626",
+          "name": "Kontantinopel",
+          "coordinates_lat_lon": null
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "74",
+          "paragraph_number": 1,
+          "start": 45,
+          "end": 64,
+          "source_sha256": "f2308e8f8e9abf573cccc5727d8902bda4a2effcf5c78337bc10c6bb5c6e7b69",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "coronę",
+      "variants": [
+        "Coronę"
+      ],
+      "places": [
+        {
+          "place_id": "l261",
+          "name": "Kronstadt",
+          "coordinates_lat_lon": [
+            45.64861,
+            25.60613
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 390,
+          "end": 396,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "costentz",
+      "variants": [
+        "Costentz"
+      ],
+      "places": [
+        {
+          "place_id": "l257",
+          "name": "Konstanz",
+          "coordinates_lat_lon": [
+            47.66033,
+            9.17582
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "88",
+          "paragraph_number": 5,
+          "start": 53,
+          "end": 61,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "crakouw",
+      "variants": [
+        "Crakouw"
+      ],
+      "places": [
+        {
+          "place_id": "l260",
+          "name": "Krakau",
+          "coordinates_lat_lon": [
+            50.06143,
+            19.93658
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "95",
+          "paragraph_number": 9,
+          "start": 621,
+          "end": 628,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "curie",
+      "variants": [
+        "Curie"
+      ],
+      "places": [
+        {
+          "place_id": "l98",
+          "name": "Chur",
+          "coordinates_lat_lon": [
+            46.84986,
+            9.53287
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 5,
+          "start": 35,
+          "end": 40,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "dietlikon",
+      "variants": [
+        "Dietlikon"
+      ],
+      "places": [
+        {
+          "place_id": "l1989",
+          "name": "Dietlikon",
+          "coordinates_lat_lon": [
+            47.41827,
+            8.6188
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "67",
+          "paragraph_number": 4,
+          "start": 250,
+          "end": 259,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "durgavię",
+      "variants": [
+        "Durgavię"
+      ],
+      "places": [
+        {
+          "place_id": "l774",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.5562,
+            9.07686
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "61",
+          "paragraph_number": 1,
+          "start": 253,
+          "end": 261,
+          "source_sha256": "5890de3236dc87259cd5159f1bb08c13f2a0d470ac63f926d663b10776d41bcc",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "dussis",
+      "variants": [
+        "Dussis"
+      ],
+      "places": [
+        {
+          "place_id": "l2600",
+          "name": "Thusis",
+          "coordinates_lat_lon": [
+            46.69724,
+            9.43938
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "67",
+          "paragraph_number": 1,
+          "start": 171,
+          "end": 177,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "eidgnosen",
+      "variants": [
+        "eidgnosen"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 6,
+          "start": 214,
+          "end": 223,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "elvetiis",
+      "variants": [
+        "Elvetiis"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "42",
+          "paragraph_number": 2,
+          "start": 530,
+          "end": 538,
+          "source_sha256": "b9f6f180c2deb635f45f50e86e50a84c35b952b29ae8df06f84c58b3c9518207",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "embdae",
+      "variants": [
+        "Embdae"
+      ],
+      "places": [
+        {
+          "place_id": "l138",
+          "name": "Emden",
+          "coordinates_lat_lon": [
+            53.36745,
+            7.20778
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "54",
+          "paragraph_number": 12,
+          "start": 107,
+          "end": 113,
+          "source_sha256": "01f652329d43f06cdad6da2c8f0fda0dc030044d63f924675bed0eb2e4bdab75",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "ensesheim",
+      "variants": [
+        "Ensesheim"
+      ],
+      "places": [
+        {
+          "place_id": "l1273",
+          "name": "Ensisheim",
+          "coordinates_lat_lon": [
+            47.86584,
+            7.35052
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "99",
+          "paragraph_number": 3,
+          "start": 62,
+          "end": 71,
+          "source_sha256": "857ef34b3a5576548a1542426c20820bb5ae4beda6fb33fe965baf87d9babe0c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "ensisheymenses",
+      "variants": [
+        "Ensisheymenses"
+      ],
+      "places": [
+        {
+          "place_id": "l1273",
+          "name": "Ensisheim",
+          "coordinates_lat_lon": [
+            47.86584,
+            7.35052
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "70",
+          "paragraph_number": 6,
+          "start": 0,
+          "end": 14,
+          "source_sha256": "336dea338b4810d70d5a1b0ff35364ab606ed18c071535edaaab49a17b95379c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "ermatingen",
+      "variants": [
+        "Ermatingen"
+      ],
+      "places": [
+        {
+          "place_id": "l2424",
+          "name": "Ermatingen",
+          "coordinates_lat_lon": [
+            47.67057,
+            9.08573
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 13,
+          "start": 18,
+          "end": 28,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "ertfordia",
+      "variants": [
+        "Ertfordia"
+      ],
+      "places": [
+        {
+          "place_id": "l142",
+          "name": "Erfurt",
+          "coordinates_lat_lon": [
+            50.9787,
+            11.03283
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 7,
+          "start": 91,
+          "end": 100,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "europae",
+      "variants": [
+        "Europae"
+      ],
+      "places": [
+        {
+          "place_id": "l2536",
+          "name": "",
+          "coordinates_lat_lon": null
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "74",
+          "paragraph_number": 1,
+          "start": 108,
+          "end": 115,
+          "source_sha256": "f2308e8f8e9abf573cccc5727d8902bda4a2effcf5c78337bc10c6bb5c6e7b69",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "florentię",
+      "variants": [
+        "Florentię"
+      ],
+      "places": [
+        {
+          "place_id": "l1098",
+          "name": "Florenz",
+          "coordinates_lat_lon": [
+            43.77925,
+            11.24626
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "33",
+          "paragraph_number": 7,
+          "start": 56,
+          "end": 65,
+          "source_sha256": "9a2f5505420aef42d9f6aa788af995a11775287b6b3a19a1e784367595b21f5e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "francfordia",
+      "variants": [
+        "Francfordia"
+      ],
+      "places": [
+        {
+          "place_id": "l157",
+          "name": "Frankfurt am Main",
+          "coordinates_lat_lon": [
+            50.11552,
+            8.68417
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 7,
+          "start": 16,
+          "end": 27,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "frankreych",
+      "variants": [
+        "Frankreych"
+      ],
+      "places": [
+        {
+          "place_id": "l832",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.0,
+            2.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "95",
+          "paragraph_number": 9,
+          "start": 512,
+          "end": 522,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "frantzosen",
+      "variants": [
+        "Frantzosen"
+      ],
+      "places": [
+        {
+          "place_id": "l832",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.0,
+            2.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "70",
+          "paragraph_number": 6,
+          "start": 129,
+          "end": 139,
+          "source_sha256": "336dea338b4810d70d5a1b0ff35364ab606ed18c071535edaaab49a17b95379c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "galli",
+      "variants": [
+        "Galli"
+      ],
+      "places": [
+        {
+          "place_id": "l832",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.0,
+            2.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "71",
+          "paragraph_number": 5,
+          "start": 253,
+          "end": 258,
+          "source_sha256": "50cc92514853e92e3a630727a58923150d9e3ffb229aa0719034f476326979e8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "gallia",
+      "variants": [
+        "Gallia"
+      ],
+      "places": [
+        {
+          "place_id": "l832",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.0,
+            2.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "71",
+          "paragraph_number": 3,
+          "start": 25,
+          "end": 31,
+          "source_sha256": "50cc92514853e92e3a630727a58923150d9e3ffb229aa0719034f476326979e8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "gallias",
+      "variants": [
+        "Gallias"
+      ],
+      "places": [
+        {
+          "place_id": "l832",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.0,
+            2.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "87",
+          "paragraph_number": 11,
+          "start": 41,
+          "end": 48,
+          "source_sha256": "921bd5a14c333a137a45a90bb448be47f1b5e8689417d7f8aee2227c290f086c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "gallico",
+      "variants": [
+        "Gallico"
+      ],
+      "places": [
+        {
+          "place_id": "l832",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.0,
+            2.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "87",
+          "paragraph_number": 11,
+          "start": 373,
+          "end": 380,
+          "source_sha256": "921bd5a14c333a137a45a90bb448be47f1b5e8689417d7f8aee2227c290f086c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "gallis",
+      "variants": [
+        "Gallis"
+      ],
+      "places": [
+        {
+          "place_id": "l832",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.0,
+            2.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "67",
+          "paragraph_number": 7,
+          "start": 149,
+          "end": 155,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "gallo",
+      "variants": [
+        "Gallo"
+      ],
+      "places": [
+        {
+          "place_id": "l832",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.0,
+            2.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 2,
+          "start": 16,
+          "end": 21,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "52",
+          "paragraph_number": 2,
+          "start": 147,
+          "end": 152,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "78",
+          "paragraph_number": 4,
+          "start": 208,
+          "end": 213,
+          "source_sha256": "5bc203cba4b61d5f5f6019a68a96340a1e1714b3c5b887f1d7567317259b8a5e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "94",
+          "paragraph_number": 4,
+          "start": 107,
+          "end": 112,
+          "source_sha256": "868ea95a58a5a2dc9fe12a9db4994b86e2c01a213ebbc0cf3e2d1a4cf1ec3942",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "95",
+          "paragraph_number": 4,
+          "start": 196,
+          "end": 201,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "gallum",
+      "variants": [
+        "Gallum"
+      ],
+      "places": [
+        {
+          "place_id": "l832",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.0,
+            2.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "33",
+          "paragraph_number": 6,
+          "start": 0,
+          "end": 6,
+          "source_sha256": "9a2f5505420aef42d9f6aa788af995a11775287b6b3a19a1e784367595b21f5e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "38",
+          "paragraph_number": 4,
+          "start": 183,
+          "end": 189,
+          "source_sha256": "07f779256f49567ef8f9e91de5a8da222fe995a27827795f8a9cd2c3aa8bf9eb",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "57",
+          "paragraph_number": 3,
+          "start": 286,
+          "end": 292,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "95",
+          "paragraph_number": 4,
+          "start": 3,
+          "end": 9,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "gallus",
+      "variants": [
+        "Gallus"
+      ],
+      "places": [
+        {
+          "place_id": "l832",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.0,
+            2.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "38",
+          "paragraph_number": 4,
+          "start": 288,
+          "end": 294,
+          "source_sha256": "07f779256f49567ef8f9e91de5a8da222fe995a27827795f8a9cd2c3aa8bf9eb",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "52",
+          "paragraph_number": 3,
+          "start": 85,
+          "end": 91,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "53",
+          "paragraph_number": 7,
+          "start": 28,
+          "end": 34,
+          "source_sha256": "9344e2184efaeebe55d64baf06ce3818e437c11b884c21e488be69698a617680",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "95",
+          "paragraph_number": 4,
+          "start": 324,
+          "end": 330,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "gebenensis",
+      "variants": [
+        "Gebenensis"
+      ],
+      "places": [
+        {
+          "place_id": "l167",
+          "name": "Genf",
+          "coordinates_lat_lon": [
+            46.20222,
+            6.14569
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "51",
+          "paragraph_number": 3,
+          "start": 65,
+          "end": 75,
+          "source_sha256": "544ab1bc0fc0ee2e7b47c61a14907b0c4345638b829013d421b4203ccc49fb6d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "genuam",
+      "variants": [
+        "Genuam"
+      ],
+      "places": [
+        {
+          "place_id": "l1121",
+          "name": "Genua",
+          "coordinates_lat_lon": [
+            44.40478,
+            8.94439
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 5,
+          "start": 40,
+          "end": 46,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "57",
+          "paragraph_number": 1,
+          "start": 33,
+          "end": 39,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "genuę",
+      "variants": [
+        "Genuę"
+      ],
+      "places": [
+        {
+          "place_id": "l1121",
+          "name": "Genua",
+          "coordinates_lat_lon": [
+            44.40478,
+            8.94439
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 2,
+          "start": 292,
+          "end": 297,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "germani",
+      "variants": [
+        "Germani"
+      ],
+      "places": [
+        {
+          "place_id": "l822",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.5,
+            10.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 5,
+          "start": 170,
+          "end": 177,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "germania",
+      "variants": [
+        "Germania"
+      ],
+      "places": [
+        {
+          "place_id": "l822",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.5,
+            10.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 2,
+          "start": 334,
+          "end": 342,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "75",
+          "paragraph_number": 2,
+          "start": 111,
+          "end": 119,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "germaniae",
+      "variants": [
+        "Germaniae"
+      ],
+      "places": [
+        {
+          "place_id": "l822",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.5,
+            10.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "26",
+          "paragraph_number": 4,
+          "start": 353,
+          "end": 362,
+          "source_sha256": "20b4b7ba2c13fab0347f48be03bcba6ecd4a3147eddbc0043afe7a0ed76064a8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "germaniam",
+      "variants": [
+        "Germaniam"
+      ],
+      "places": [
+        {
+          "place_id": "l822",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.5,
+            10.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 7,
+          "start": 72,
+          "end": 81,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "86",
+          "paragraph_number": 3,
+          "start": 707,
+          "end": 716,
+          "source_sha256": "7e48899d633601ad3718a762ebeed6a43eb866c01f5a5857c593e53dad224afe",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "germanicarum",
+      "variants": [
+        "Germanicarum"
+      ],
+      "places": [
+        {
+          "place_id": "l822",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.5,
+            10.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 2,
+          "start": 499,
+          "end": 511,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "germanico",
+      "variants": [
+        "Germanico"
+      ],
+      "places": [
+        {
+          "place_id": "l822",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.5,
+            10.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "16",
+          "paragraph_number": 6,
+          "start": 91,
+          "end": 100,
+          "source_sha256": "074cbfd3c774927de4193a0c6fa7105347040f2eb7eafade9d15829dac5964f4",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "germanis",
+      "variants": [
+        "Germanis"
+      ],
+      "places": [
+        {
+          "place_id": "l822",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.5,
+            10.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "50",
+          "paragraph_number": 7,
+          "start": 14,
+          "end": 22,
+          "source_sha256": "edd37823097bdfc978ff2dfa9f28dfd37cadb9d55da47cb4ff313263d1e14637",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "germanię",
+      "variants": [
+        "Germanię"
+      ],
+      "places": [
+        {
+          "place_id": "l822",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.5,
+            10.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "57",
+          "paragraph_number": 3,
+          "start": 211,
+          "end": 219,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "75",
+          "paragraph_number": 3,
+          "start": 237,
+          "end": 245,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "87",
+          "paragraph_number": 2,
+          "start": 3,
+          "end": 11,
+          "source_sha256": "921bd5a14c333a137a45a90bb448be47f1b5e8689417d7f8aee2227c290f086c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "hegöw",
+      "variants": [
+        "Hegöw"
+      ],
+      "places": [
+        {
+          "place_id": "l2779",
+          "name": "Hegau",
+          "coordinates_lat_lon": [
+            47.75,
+            8.83333
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 18,
+          "start": 90,
+          "end": 95,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "helvetia",
+      "variants": [
+        "Helvetia"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "306",
+          "paragraph_number": 2,
+          "start": 92,
+          "end": 100,
+          "source_sha256": "2b98d8985a3a3a1006b9f66aabde170429e358958da058aad31046b5f9e32ee4",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "helvetiae",
+      "variants": [
+        "Helvetiae"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "71",
+          "paragraph_number": 3,
+          "start": 670,
+          "end": 679,
+          "source_sha256": "50cc92514853e92e3a630727a58923150d9e3ffb229aa0719034f476326979e8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "helvetiam",
+      "variants": [
+        "Helvetiam"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 3,
+          "start": 71,
+          "end": 80,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "helvetici",
+      "variants": [
+        "Helvetici"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 12,
+          "start": 76,
+          "end": 85,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "helveticis",
+      "variants": [
+        "Helveticis"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "67",
+          "paragraph_number": 3,
+          "start": 700,
+          "end": 710,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "helvetico",
+      "variants": [
+        "Helvetico"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "38",
+          "paragraph_number": 4,
+          "start": 336,
+          "end": 345,
+          "source_sha256": "07f779256f49567ef8f9e91de5a8da222fe995a27827795f8a9cd2c3aa8bf9eb",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "helvetii",
+      "variants": [
+        "Helvetii"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "38",
+          "paragraph_number": 4,
+          "start": 370,
+          "end": 378,
+          "source_sha256": "07f779256f49567ef8f9e91de5a8da222fe995a27827795f8a9cd2c3aa8bf9eb",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "helvetiis",
+      "variants": [
+        "Helvetiis"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "71",
+          "paragraph_number": 3,
+          "start": 578,
+          "end": 587,
+          "source_sha256": "50cc92514853e92e3a630727a58923150d9e3ffb229aa0719034f476326979e8",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "95",
+          "paragraph_number": 4,
+          "start": 372,
+          "end": 381,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "helvetiorum",
+      "variants": [
+        "Helvetiorum"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "51",
+          "paragraph_number": 4,
+          "start": 14,
+          "end": 25,
+          "source_sha256": "544ab1bc0fc0ee2e7b47c61a14907b0c4345638b829013d421b4203ccc49fb6d",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "86",
+          "paragraph_number": 3,
+          "start": 496,
+          "end": 507,
+          "source_sha256": "7e48899d633601ad3718a762ebeed6a43eb866c01f5a5857c593e53dad224afe",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "helvetios",
+      "variants": [
+        "Helvetios"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 3,
+          "start": 200,
+          "end": 209,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "38",
+          "paragraph_number": 4,
+          "start": 193,
+          "end": 202,
+          "source_sha256": "07f779256f49567ef8f9e91de5a8da222fe995a27827795f8a9cd2c3aa8bf9eb",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "57",
+          "paragraph_number": 3,
+          "start": 267,
+          "end": 276,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "71",
+          "paragraph_number": 4,
+          "start": 470,
+          "end": 479,
+          "source_sha256": "50cc92514853e92e3a630727a58923150d9e3ffb229aa0719034f476326979e8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "hispanias",
+      "variants": [
+        "Hispanias"
+      ],
+      "places": [
+        {
+          "place_id": "l875",
+          "name": "",
+          "coordinates_lat_lon": [
+            40.0,
+            -4.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "38",
+          "paragraph_number": 2,
+          "start": 20,
+          "end": 29,
+          "source_sha256": "07f779256f49567ef8f9e91de5a8da222fe995a27827795f8a9cd2c3aa8bf9eb",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "hispanicum",
+      "variants": [
+        "Hispanicum"
+      ],
+      "places": [
+        {
+          "place_id": "l875",
+          "name": "",
+          "coordinates_lat_lon": [
+            40.0,
+            -4.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 4,
+          "start": 629,
+          "end": 639,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "hispanorum",
+      "variants": [
+        "Hispanorum"
+      ],
+      "places": [
+        {
+          "place_id": "l875",
+          "name": "",
+          "coordinates_lat_lon": [
+            40.0,
+            -4.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "86",
+          "paragraph_number": 3,
+          "start": 638,
+          "end": 648,
+          "source_sha256": "7e48899d633601ad3718a762ebeed6a43eb866c01f5a5857c593e53dad224afe",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "hispanos",
+      "variants": [
+        "Hispanos"
+      ],
+      "places": [
+        {
+          "place_id": "l875",
+          "name": "",
+          "coordinates_lat_lon": [
+            40.0,
+            -4.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 2,
+          "start": 152,
+          "end": 160,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "18",
+          "paragraph_number": 2,
+          "start": 187,
+          "end": 195,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "hispanum",
+      "variants": [
+        "Hispanum"
+      ],
+      "places": [
+        {
+          "place_id": "l875",
+          "name": "",
+          "coordinates_lat_lon": [
+            40.0,
+            -4.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "74",
+          "paragraph_number": 3,
+          "start": 16,
+          "end": 24,
+          "source_sha256": "f2308e8f8e9abf573cccc5727d8902bda4a2effcf5c78337bc10c6bb5c6e7b69",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "hispanus",
+      "variants": [
+        "Hispanus"
+      ],
+      "places": [
+        {
+          "place_id": "l875",
+          "name": "",
+          "coordinates_lat_lon": [
+            40.0,
+            -4.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "75",
+          "paragraph_number": 1,
+          "start": 11,
+          "end": 19,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "insubrium",
+      "variants": [
+        "Insubrium"
+      ],
+      "places": [
+        {
+          "place_id": "l736",
+          "name": "",
+          "coordinates_lat_lon": [
+            45.0,
+            8.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 2,
+          "start": 326,
+          "end": 335,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "italia",
+      "variants": [
+        "Italia"
+      ],
+      "places": [
+        {
+          "place_id": "l834",
+          "name": "",
+          "coordinates_lat_lon": [
+            42.83333,
+            12.83333
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 2,
+          "start": 246,
+          "end": 252,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "18",
+          "paragraph_number": 2,
+          "start": 13,
+          "end": 19,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "57",
+          "paragraph_number": 1,
+          "start": 86,
+          "end": 92,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "57",
+          "paragraph_number": 3,
+          "start": 180,
+          "end": 186,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "italiam",
+      "variants": [
+        "Italiam"
+      ],
+      "places": [
+        {
+          "place_id": "l834",
+          "name": "",
+          "coordinates_lat_lon": [
+            42.83333,
+            12.83333
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 6,
+          "start": 119,
+          "end": 126,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "33",
+          "paragraph_number": 7,
+          "start": 21,
+          "end": 28,
+          "source_sha256": "9a2f5505420aef42d9f6aa788af995a11775287b6b3a19a1e784367595b21f5e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "italien",
+      "variants": [
+        "Italien"
+      ],
+      "places": [
+        {
+          "place_id": "l834",
+          "name": "",
+          "coordinates_lat_lon": [
+            42.83333,
+            12.83333
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "10",
+          "paragraph_number": 2,
+          "start": 219,
+          "end": 226,
+          "source_sha256": "9f560c22dee972cd929aa4450cecda54fae35d46f567eee6b701a902e811297a",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "lausanensis",
+      "variants": [
+        "Lausanensis"
+      ],
+      "places": [
+        {
+          "place_id": "l280",
+          "name": "Lausanne",
+          "coordinates_lat_lon": [
+            46.516,
+            6.63282
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "51",
+          "paragraph_number": 2,
+          "start": 38,
+          "end": 49,
+          "source_sha256": "544ab1bc0fc0ee2e7b47c61a14907b0c4345638b829013d421b4203ccc49fb6d",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "51",
+          "paragraph_number": 2,
+          "start": 130,
+          "end": 141,
+          "source_sha256": "544ab1bc0fc0ee2e7b47c61a14907b0c4345638b829013d421b4203ccc49fb6d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "leon",
+      "variants": [
+        "Leon"
+      ],
+      "places": [
+        {
+          "place_id": "l301",
+          "name": "Lyon",
+          "coordinates_lat_lon": [
+            45.74846,
+            4.84671
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "99",
+          "paragraph_number": 6,
+          "start": 28,
+          "end": 32,
+          "source_sha256": "857ef34b3a5576548a1542426c20820bb5ae4beda6fb33fe965baf87d9babe0c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "lucernani",
+      "variants": [
+        "Lucernani"
+      ],
+      "places": [
+        {
+          "place_id": "l300",
+          "name": "Luzern",
+          "coordinates_lat_lon": [
+            47.05048,
+            8.30635
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "82",
+          "paragraph_number": 1,
+          "start": 478,
+          "end": 487,
+          "source_sha256": "1f40839a2d492578eff7e4d3a3fc36f3b0393ddecb2420b9d55c496abdc1feba",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "lucę",
+      "variants": [
+        "Lucę"
+      ],
+      "places": [
+        {
+          "place_id": "l1862",
+          "name": "Lucca",
+          "coordinates_lat_lon": [
+            43.84369,
+            10.50447
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "51",
+          "paragraph_number": 2,
+          "start": 300,
+          "end": 304,
+          "source_sha256": "544ab1bc0fc0ee2e7b47c61a14907b0c4345638b829013d421b4203ccc49fb6d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "lugduni",
+      "variants": [
+        "Lugduni"
+      ],
+      "places": [
+        {
+          "place_id": "l301",
+          "name": "Lyon",
+          "coordinates_lat_lon": [
+            45.74846,
+            4.84671
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 3,
+          "start": 93,
+          "end": 100,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "lutetia",
+      "variants": [
+        "Lutetia"
+      ],
+      "places": [
+        {
+          "place_id": "l378",
+          "name": "Paris",
+          "coordinates_lat_lon": [
+            48.85341,
+            2.3488
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "71",
+          "paragraph_number": 5,
+          "start": 48,
+          "end": 55,
+          "source_sha256": "50cc92514853e92e3a630727a58923150d9e3ffb229aa0719034f476326979e8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "lyndauw",
+      "variants": [
+        "Lyndauw"
+      ],
+      "places": [
+        {
+          "place_id": "l291",
+          "name": "Lindau",
+          "coordinates_lat_lon": [
+            47.54612,
+            9.68431
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 16,
+          "start": 51,
+          "end": 58,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "46",
+          "paragraph_number": 22,
+          "start": 21,
+          "end": 28,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "46",
+          "paragraph_number": 22,
+          "start": 147,
+          "end": 154,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "madenburgenses",
+      "variants": [
+        "Madenburgenses"
+      ],
+      "places": [
+        {
+          "place_id": "l303",
+          "name": "Magdeburg",
+          "coordinates_lat_lon": [
+            52.12773,
+            11.62916
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 6,
+          "start": 230,
+          "end": 244,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "magdenburgum",
+      "variants": [
+        "Magdenburgum"
+      ],
+      "places": [
+        {
+          "place_id": "l303",
+          "name": "Magdeburg",
+          "coordinates_lat_lon": [
+            52.12773,
+            11.62916
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 6,
+          "start": 0,
+          "end": 12,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "75",
+          "paragraph_number": 3,
+          "start": 311,
+          "end": 323,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "memminge",
+      "variants": [
+        "Memminge"
+      ],
+      "places": [
+        {
+          "place_id": "l320",
+          "name": "Memmingen",
+          "coordinates_lat_lon": [
+            47.98372,
+            10.18527
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "50",
+          "paragraph_number": 1,
+          "start": 495,
+          "end": 503,
+          "source_sha256": "edd37823097bdfc978ff2dfa9f28dfd37cadb9d55da47cb4ff313263d1e14637",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "50",
+          "paragraph_number": 8,
+          "start": 120,
+          "end": 128,
+          "source_sha256": "edd37823097bdfc978ff2dfa9f28dfd37cadb9d55da47cb4ff313263d1e14637",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "mentz",
+      "variants": [
+        "Mentz"
+      ],
+      "places": [
+        {
+          "place_id": "l307",
+          "name": "Mainz",
+          "coordinates_lat_lon": [
+            49.98419,
+            8.2791
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "95",
+          "paragraph_number": 9,
+          "start": 282,
+          "end": 287,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "moravia",
+      "variants": [
+        "Moravia"
+      ],
+      "places": [
+        {
+          "place_id": "l921",
+          "name": "Mähren-Moravia",
+          "coordinates_lat_lon": [
+            49.5,
+            17.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "99",
+          "paragraph_number": 4,
+          "start": 3,
+          "end": 10,
+          "source_sha256": "857ef34b3a5576548a1542426c20820bb5ae4beda6fb33fe965baf87d9babe0c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "mumppelgart",
+      "variants": [
+        "Mumppelgart"
+      ],
+      "places": [
+        {
+          "place_id": "l327",
+          "name": "Montbéliard (Mömpelgard)",
+          "coordinates_lat_lon": [
+            47.50957,
+            6.79823
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "7",
+          "paragraph_number": 1,
+          "start": 35,
+          "end": 46,
+          "source_sha256": "7d951ef9babbfdc223075c42f9d0b9d52b803789b2fa6239b0724d18fa446cc3",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "nozerethi",
+      "variants": [
+        "Nozerethi"
+      ],
+      "places": [
+        {
+          "place_id": "l356",
+          "name": "Nozeroy",
+          "coordinates_lat_lon": [
+            46.77457,
+            6.03636
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "72",
+          "paragraph_number": 5,
+          "start": 147,
+          "end": 156,
+          "source_sha256": "71aa4924e7eefd2c471ead616ebecbb84ed095b45a44ebeba1dbe671f4624ef6",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "nurnbergischer",
+      "variants": [
+        "nurnbergischer"
+      ],
+      "places": [
+        {
+          "place_id": "l361",
+          "name": "Nürnberg",
+          "coordinates_lat_lon": [
+            49.45421,
+            11.07752
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "88",
+          "paragraph_number": 3,
+          "start": 201,
+          "end": 215,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "pannonię",
+      "variants": [
+        "Pannonię"
+      ],
+      "places": [
+        {
+          "place_id": "l2721",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.23341,
+            16.62309
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 340,
+          "end": 348,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "parisiis",
+      "variants": [
+        "Parisiis"
+      ],
+      "places": [
+        {
+          "place_id": "l378",
+          "name": "Paris",
+          "coordinates_lat_lon": [
+            48.85341,
+            2.3488
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 3,
+          "start": 49,
+          "end": 57,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "pfaltz",
+      "variants": [
+        "Pfaltz"
+      ],
+      "places": [
+        {
+          "place_id": "l2477",
+          "name": "",
+          "coordinates_lat_lon": null
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "88",
+          "paragraph_number": 2,
+          "start": 302,
+          "end": 308,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "88",
+          "paragraph_number": 2,
+          "start": 628,
+          "end": 634,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "pikarder",
+      "variants": [
+        "Pikarder"
+      ],
+      "places": [
+        {
+          "place_id": "l2589",
+          "name": "Picardie",
+          "coordinates_lat_lon": [
+            49.63333,
+            2.8
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "99",
+          "paragraph_number": 4,
+          "start": 136,
+          "end": 144,
+          "source_sha256": "857ef34b3a5576548a1542426c20820bb5ae4beda6fb33fe965baf87d9babe0c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "placentiam",
+      "variants": [
+        "Placentiam"
+      ],
+      "places": [
+        {
+          "place_id": "l1161",
+          "name": "Piacenza",
+          "coordinates_lat_lon": [
+            45.05242,
+            9.69342
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "14",
+          "paragraph_number": 5,
+          "start": 161,
+          "end": 171,
+          "source_sha256": "362533b4b95bad52cdb8ba5cb330b60ca705a8bf77f42a66e5116e347f7c1ec9",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "18",
+          "paragraph_number": 2,
+          "start": 97,
+          "end": 107,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "pomeranici",
+      "variants": [
+        "Pomeranici"
+      ],
+      "places": [
+        {
+          "place_id": "l743",
+          "name": "",
+          "coordinates_lat_lon": [
+            54.25,
+            18.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 79,
+          "end": 89,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "preussen",
+      "variants": [
+        "Preussen"
+      ],
+      "places": [
+        {
+          "place_id": "l2562",
+          "name": "",
+          "coordinates_lat_lon": null
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "95",
+          "paragraph_number": 9,
+          "start": 53,
+          "end": 61,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "95",
+          "paragraph_number": 9,
+          "start": 342,
+          "end": 350,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "quinquecclesiensem",
+      "variants": [
+        "Quinquecclesiensem"
+      ],
+      "places": [
+        {
+          "place_id": "l2001",
+          "name": "Pécs (Fünfkirchen)",
+          "coordinates_lat_lon": [
+            46.0725,
+            18.23083
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 1046,
+          "end": 1064,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "ratisbonę",
+      "variants": [
+        "Ratisbonę"
+      ],
+      "places": [
+        {
+          "place_id": "l410",
+          "name": "Regensburg",
+          "coordinates_lat_lon": [
+            49.01513,
+            12.10161
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "87",
+          "paragraph_number": 4,
+          "start": 262,
+          "end": 271,
+          "source_sha256": "921bd5a14c333a137a45a90bb448be47f1b5e8689417d7f8aee2227c290f086c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "ratisponensi",
+      "variants": [
+        "Ratisponensi"
+      ],
+      "places": [
+        {
+          "place_id": "l410",
+          "name": "Regensburg",
+          "coordinates_lat_lon": [
+            49.01513,
+            12.10161
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "70",
+          "paragraph_number": 2,
+          "start": 38,
+          "end": 50,
+          "source_sha256": "336dea338b4810d70d5a1b0ff35364ab606ed18c071535edaaab49a17b95379c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "reichenweyer",
+      "variants": [
+        "Reichenweyer"
+      ],
+      "places": [
+        {
+          "place_id": "l411",
+          "name": "Riquewihr (Reichenweier)",
+          "coordinates_lat_lon": [
+            48.16672,
+            7.29707
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "7",
+          "paragraph_number": 2,
+          "start": 47,
+          "end": 59,
+          "source_sha256": "7d951ef9babbfdc223075c42f9d0b9d52b803789b2fa6239b0724d18fa446cc3",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "rhenum",
+      "variants": [
+        "Rhenum"
+      ],
+      "places": [
+        {
+          "place_id": "l2459",
+          "name": "Rhein [Fluss]",
+          "coordinates_lat_lon": [
+            51.97198,
+            5.91545
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 7,
+          "start": 32,
+          "end": 38,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "rhetos",
+      "variants": [
+        "Rhetos"
+      ],
+      "places": [
+        {
+          "place_id": "l648",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.6587,
+            9.62296
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "67",
+          "paragraph_number": 1,
+          "start": 156,
+          "end": 162,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "roma",
+      "variants": [
+        "Roma"
+      ],
+      "places": [
+        {
+          "place_id": "l425",
+          "name": "Rom",
+          "coordinates_lat_lon": [
+            41.89193,
+            12.51133
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 4,
+          "start": 326,
+          "end": 330,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "romano",
+      "variants": [
+        "Romano"
+      ],
+      "places": [
+        {
+          "place_id": "l425",
+          "name": "Rom",
+          "coordinates_lat_lon": [
+            41.89193,
+            12.51133
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "67",
+          "paragraph_number": 7,
+          "start": 257,
+          "end": 263,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "romanum",
+      "variants": [
+        "Romanum"
+      ],
+      "places": [
+        {
+          "place_id": "l425",
+          "name": "Rom",
+          "coordinates_lat_lon": [
+            41.89193,
+            12.51133
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 2,
+          "start": 31,
+          "end": 38,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "18",
+          "paragraph_number": 4,
+          "start": 279,
+          "end": 286,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "38",
+          "paragraph_number": 1,
+          "start": 226,
+          "end": 233,
+          "source_sha256": "07f779256f49567ef8f9e91de5a8da222fe995a27827795f8a9cd2c3aa8bf9eb",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "67",
+          "paragraph_number": 1,
+          "start": 117,
+          "end": 124,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "romishorn",
+      "variants": [
+        "Romishorn"
+      ],
+      "places": [
+        {
+          "place_id": "l2593",
+          "name": "Romanshorn",
+          "coordinates_lat_lon": [
+            47.56586,
+            9.37869
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "82",
+          "paragraph_number": 2,
+          "start": 30,
+          "end": 39,
+          "source_sha256": "1f40839a2d492578eff7e4d3a3fc36f3b0393ddecb2420b9d55c496abdc1feba",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "romisshorn",
+      "variants": [
+        "Romisshorn"
+      ],
+      "places": [
+        {
+          "place_id": "l2593",
+          "name": "Romanshorn",
+          "coordinates_lat_lon": [
+            47.56586,
+            9.37869
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "61",
+          "paragraph_number": 1,
+          "start": 61,
+          "end": 71,
+          "source_sha256": "5890de3236dc87259cd5159f1bb08c13f2a0d470ac63f926d663b10776d41bcc",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "romę",
+      "variants": [
+        "Romę"
+      ],
+      "places": [
+        {
+          "place_id": "l425",
+          "name": "Rom",
+          "coordinates_lat_lon": [
+            41.89193,
+            12.51133
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "33",
+          "paragraph_number": 7,
+          "start": 48,
+          "end": 52,
+          "source_sha256": "9a2f5505420aef42d9f6aa788af995a11775287b6b3a19a1e784367595b21f5e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "röttelen",
+      "variants": [
+        "Röttelen"
+      ],
+      "places": [
+        {
+          "place_id": "l434",
+          "name": "Rötteln",
+          "coordinates_lat_lon": [
+            47.63817,
+            7.6681
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "77",
+          "paragraph_number": 4,
+          "start": 1296,
+          "end": 1304,
+          "source_sha256": "8acf79928a98fcbcaf7f88debcbcabb6bd52c5f6a7713fd07816f034a0386fbc",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "s. gallen",
+      "variants": [
+        "S. Gallen"
+      ],
+      "places": [
+        {
+          "place_id": "l473",
+          "name": "St. Gallen",
+          "coordinates_lat_lon": [
+            47.42391,
+            9.37477
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "10",
+          "paragraph_number": 3,
+          "start": 479,
+          "end": 488,
+          "source_sha256": "9f560c22dee972cd929aa4450cecda54fae35d46f567eee6b701a902e811297a",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sabaudię",
+      "variants": [
+        "Sabaudię"
+      ],
+      "places": [
+        {
+          "place_id": "l2478",
+          "name": "Savoyen",
+          "coordinates_lat_lon": [
+            45.4,
+            6.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "53",
+          "paragraph_number": 7,
+          "start": 242,
+          "end": 250,
+          "source_sha256": "9344e2184efaeebe55d64baf06ce3818e437c11b884c21e488be69698a617680",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sabaudum",
+      "variants": [
+        "Sabaudum"
+      ],
+      "places": [
+        {
+          "place_id": "l2478",
+          "name": "Savoyen",
+          "coordinates_lat_lon": [
+            45.4,
+            6.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "57",
+          "paragraph_number": 3,
+          "start": 145,
+          "end": 153,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sachssen",
+      "variants": [
+        "Sachssen"
+      ],
+      "places": [
+        {
+          "place_id": "l749",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.0,
+            13.25
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "88",
+          "paragraph_number": 2,
+          "start": 326,
+          "end": 334,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "88",
+          "paragraph_number": 2,
+          "start": 672,
+          "end": 680,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sachssischer",
+      "variants": [
+        "sachssischer"
+      ],
+      "places": [
+        {
+          "place_id": "l749",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.0,
+            13.25
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "88",
+          "paragraph_number": 3,
+          "start": 165,
+          "end": 177,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sangallenses",
+      "variants": [
+        "Sangallenses"
+      ],
+      "places": [
+        {
+          "place_id": "l473",
+          "name": "St. Gallen",
+          "coordinates_lat_lon": [
+            47.42391,
+            9.37477
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 3,
+          "start": 117,
+          "end": 129,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sangallensi",
+      "variants": [
+        "Sangallensi"
+      ],
+      "places": [
+        {
+          "place_id": "l473",
+          "name": "St. Gallen",
+          "coordinates_lat_lon": [
+            47.42391,
+            9.37477
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 11,
+          "start": 344,
+          "end": 355,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sangallensis",
+      "variants": [
+        "Sangallensis"
+      ],
+      "places": [
+        {
+          "place_id": "l473",
+          "name": "St. Gallen",
+          "coordinates_lat_lon": [
+            47.42391,
+            9.37477
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 3,
+          "start": 208,
+          "end": 220,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sangalli",
+      "variants": [
+        "Sangalli"
+      ],
+      "places": [
+        {
+          "place_id": "l473",
+          "name": "St. Gallen",
+          "coordinates_lat_lon": [
+            47.42391,
+            9.37477
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "38",
+          "paragraph_number": 5,
+          "start": 6,
+          "end": 14,
+          "source_sha256": "07f779256f49567ef8f9e91de5a8da222fe995a27827795f8a9cd2c3aa8bf9eb",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "53",
+          "paragraph_number": 10,
+          "start": 49,
+          "end": 57,
+          "source_sha256": "9344e2184efaeebe55d64baf06ce3818e437c11b884c21e488be69698a617680",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "61",
+          "paragraph_number": 1,
+          "start": 317,
+          "end": 325,
+          "source_sha256": "5890de3236dc87259cd5159f1bb08c13f2a0d470ac63f926d663b10776d41bcc",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "61",
+          "paragraph_number": 4,
+          "start": 6,
+          "end": 14,
+          "source_sha256": "5890de3236dc87259cd5159f1bb08c13f2a0d470ac63f926d663b10776d41bcc",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "69",
+          "paragraph_number": 6,
+          "start": 42,
+          "end": 50,
+          "source_sha256": "9069fe95fb2a94af589e393a1b135a08ec97b6c9d7536e1c5e5e8e8dca127725",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "78",
+          "paragraph_number": 5,
+          "start": 18,
+          "end": 26,
+          "source_sha256": "5bc203cba4b61d5f5f6019a68a96340a1e1714b3c5b887f1d7567317259b8a5e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "82",
+          "paragraph_number": 4,
+          "start": 6,
+          "end": 14,
+          "source_sha256": "1f40839a2d492578eff7e4d3a3fc36f3b0393ddecb2420b9d55c496abdc1feba",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "95",
+          "paragraph_number": 5,
+          "start": 6,
+          "end": 14,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "101",
+          "paragraph_number": 5,
+          "start": 244,
+          "end": 252,
+          "source_sha256": "bfd511b8a297b3ec72a150adb25a02a290a023281015e295ef2caa61df58d4fa",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sardinia",
+      "variants": [
+        "Sardinia"
+      ],
+      "places": [
+        {
+          "place_id": "l2800",
+          "name": "Sardinien",
+          "coordinates_lat_lon": [
+            40.0,
+            9.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "33",
+          "paragraph_number": 7,
+          "start": 8,
+          "end": 16,
+          "source_sha256": "9a2f5505420aef42d9f6aa788af995a11775287b6b3a19a1e784367595b21f5e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "saxen",
+      "variants": [
+        "Saxen"
+      ],
+      "places": [
+        {
+          "place_id": "l749",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.0,
+            13.25
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "53",
+          "paragraph_number": 3,
+          "start": 176,
+          "end": 181,
+          "source_sha256": "9344e2184efaeebe55d64baf06ce3818e437c11b884c21e488be69698a617680",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "saxo",
+      "variants": [
+        "Saxo"
+      ],
+      "places": [
+        {
+          "place_id": "l749",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.0,
+            13.25
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "38",
+          "paragraph_number": 2,
+          "start": 82,
+          "end": 86,
+          "source_sha256": "07f779256f49567ef8f9e91de5a8da222fe995a27827795f8a9cd2c3aa8bf9eb",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "saxoniae",
+      "variants": [
+        "Saxoniae"
+      ],
+      "places": [
+        {
+          "place_id": "l749",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.0,
+            13.25
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "54",
+          "paragraph_number": 5,
+          "start": 181,
+          "end": 189,
+          "source_sha256": "01f652329d43f06cdad6da2c8f0fda0dc030044d63f924675bed0eb2e4bdab75",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "saxoniam",
+      "variants": [
+        "Saxoniam"
+      ],
+      "places": [
+        {
+          "place_id": "l749",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.0,
+            13.25
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 7,
+          "start": 102,
+          "end": 110,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "saxonicae",
+      "variants": [
+        "Saxonicae"
+      ],
+      "places": [
+        {
+          "place_id": "l749",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.0,
+            13.25
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "53",
+          "paragraph_number": 2,
+          "start": 43,
+          "end": 52,
+          "source_sha256": "9344e2184efaeebe55d64baf06ce3818e437c11b884c21e488be69698a617680",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "saxonico",
+      "variants": [
+        "Saxonico"
+      ],
+      "places": [
+        {
+          "place_id": "l749",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.0,
+            13.25
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 14,
+          "end": 22,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "saxonicę",
+      "variants": [
+        "Saxonicę"
+      ],
+      "places": [
+        {
+          "place_id": "l749",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.0,
+            13.25
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 67,
+          "end": 75,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "saxonię",
+      "variants": [
+        "Saxonię"
+      ],
+      "places": [
+        {
+          "place_id": "l749",
+          "name": "",
+          "coordinates_lat_lon": [
+            51.0,
+            13.25
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 7,
+          "start": 6,
+          "end": 13,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "scafhusiano",
+      "variants": [
+        "Scafhusiano"
+      ],
+      "places": [
+        {
+          "place_id": "l441",
+          "name": "Schaffhausen",
+          "coordinates_lat_lon": [
+            47.69732,
+            8.63493
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "42",
+          "paragraph_number": 3,
+          "start": 64,
+          "end": 75,
+          "source_sha256": "b9f6f180c2deb635f45f50e86e50a84c35b952b29ae8df06f84c58b3c9518207",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "scafhusianos",
+      "variants": [
+        "Scafhusianos"
+      ],
+      "places": [
+        {
+          "place_id": "l441",
+          "name": "Schaffhausen",
+          "coordinates_lat_lon": [
+            47.69732,
+            8.63493
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "42",
+          "paragraph_number": 3,
+          "start": 150,
+          "end": 162,
+          "source_sha256": "b9f6f180c2deb635f45f50e86e50a84c35b952b29ae8df06f84c58b3c9518207",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "schintznach",
+      "variants": [
+        "Schintznach"
+      ],
+      "places": [
+        {
+          "place_id": "l1450",
+          "name": "Schinznach",
+          "coordinates_lat_lon": [
+            47.4467994,
+            8.1422836
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "43",
+          "paragraph_number": 6,
+          "start": 125,
+          "end": 136,
+          "source_sha256": "0e7c8569f5fa7c9c03851590bc7fa609debfdf6829a1572fb4c8e27aaaafd4e7",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "schwabenland",
+      "variants": [
+        "Schwabenland"
+      ],
+      "places": [
+        {
+          "place_id": "l2481",
+          "name": "",
+          "coordinates_lat_lon": [
+            48.0,
+            9.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 2,
+          "start": 447,
+          "end": 459,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "schweytzer",
+      "variants": [
+        "Schweytzer"
+      ],
+      "places": [
+        {
+          "place_id": "l862",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.00016,
+            8.01427
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "53",
+          "paragraph_number": 9,
+          "start": 542,
+          "end": 552,
+          "source_sha256": "9344e2184efaeebe55d64baf06ce3818e437c11b884c21e488be69698a617680",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "scoticas",
+      "variants": [
+        "Scoticas"
+      ],
+      "places": [
+        {
+          "place_id": "l2524",
+          "name": "",
+          "coordinates_lat_lon": [
+            56.0,
+            -4.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "94",
+          "paragraph_number": 3,
+          "start": 106,
+          "end": 114,
+          "source_sha256": "868ea95a58a5a2dc9fe12a9db4994b86e2c01a213ebbc0cf3e2d1a4cf1ec3942",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sophoyen",
+      "variants": [
+        "Sophoyen"
+      ],
+      "places": [
+        {
+          "place_id": "l2478",
+          "name": "Savoyen",
+          "coordinates_lat_lon": [
+            45.4,
+            6.5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "7",
+          "paragraph_number": 3,
+          "start": 201,
+          "end": 209,
+          "source_sha256": "7d951ef9babbfdc223075c42f9d0b9d52b803789b2fa6239b0724d18fa446cc3",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sorbonam",
+      "variants": [
+        "Sorbonam"
+      ],
+      "places": [
+        {
+          "place_id": "l2686",
+          "name": "Sorbonne",
+          "coordinates_lat_lon": [
+            48.84869,
+            2.34363
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "87",
+          "paragraph_number": 3,
+          "start": 133,
+          "end": 141,
+          "source_sha256": "921bd5a14c333a137a45a90bb448be47f1b5e8689417d7f8aee2227c290f086c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sorbonicos",
+      "variants": [
+        "Sorbonicos"
+      ],
+      "places": [
+        {
+          "place_id": "l2686",
+          "name": "Sorbonne",
+          "coordinates_lat_lon": [
+            48.84869,
+            2.34363
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "71",
+          "paragraph_number": 5,
+          "start": 77,
+          "end": 87,
+          "source_sha256": "50cc92514853e92e3a630727a58923150d9e3ffb229aa0719034f476326979e8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "steckboren",
+      "variants": [
+        "Steckboren"
+      ],
+      "places": [
+        {
+          "place_id": "l487",
+          "name": "Steckborn",
+          "coordinates_lat_lon": [
+            47.66667,
+            8.98333
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 12,
+          "start": 22,
+          "end": 32,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "steckborensibus",
+      "variants": [
+        "Steckborensibus"
+      ],
+      "places": [
+        {
+          "place_id": "l487",
+          "name": "Steckborn",
+          "coordinates_lat_lon": [
+            47.66667,
+            8.98333
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "33",
+          "paragraph_number": 8,
+          "start": 76,
+          "end": 91,
+          "source_sha256": "9a2f5505420aef42d9f6aa788af995a11775287b6b3a19a1e784367595b21f5e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "strigoniensem",
+      "variants": [
+        "Strigoniensem"
+      ],
+      "places": [
+        {
+          "place_id": "l1931",
+          "name": "Gran",
+          "coordinates_lat_lon": [
+            47.7928,
+            18.74148
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 1031,
+          "end": 1044,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "sylvanorum",
+      "variants": [
+        "Sylvanorum"
+      ],
+      "places": [
+        {
+          "place_id": "l869",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.5,
+            25.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 299,
+          "end": 309,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "thermarum",
+      "variants": [
+        "Thermarum"
+      ],
+      "places": [
+        {
+          "place_id": "l21",
+          "name": "Baden",
+          "coordinates_lat_lon": [
+            47.47333,
+            8.30592
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "82",
+          "paragraph_number": 1,
+          "start": 696,
+          "end": 705,
+          "source_sha256": "1f40839a2d492578eff7e4d3a3fc36f3b0393ddecb2420b9d55c496abdc1feba",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "thermas",
+      "variants": [
+        "Thermas"
+      ],
+      "places": [
+        {
+          "place_id": "l21",
+          "name": "Baden",
+          "coordinates_lat_lon": [
+            47.47333,
+            8.30592
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "61",
+          "paragraph_number": 1,
+          "start": 857,
+          "end": 864,
+          "source_sha256": "5890de3236dc87259cd5159f1bb08c13f2a0d470ac63f926d663b10776d41bcc",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "78",
+          "paragraph_number": 4,
+          "start": 12,
+          "end": 19,
+          "source_sha256": "5bc203cba4b61d5f5f6019a68a96340a1e1714b3c5b887f1d7567317259b8a5e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tiguri",
+      "variants": [
+        "Tiguri"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "6",
+          "paragraph_number": 11,
+          "start": 59,
+          "end": 65,
+          "source_sha256": "8c48f500b6b033f4677d56e73dcaef81782af52e7dfe4d983eab58d60d6d4642",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "26",
+          "paragraph_number": 8,
+          "start": 141,
+          "end": 147,
+          "source_sha256": "20b4b7ba2c13fab0347f48be03bcba6ecd4a3147eddbc0043afe7a0ed76064a8",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "42",
+          "paragraph_number": 2,
+          "start": 286,
+          "end": 292,
+          "source_sha256": "b9f6f180c2deb635f45f50e86e50a84c35b952b29ae8df06f84c58b3c9518207",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "46",
+          "paragraph_number": 24,
+          "start": 74,
+          "end": 80,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "52",
+          "paragraph_number": 8,
+          "start": 39,
+          "end": 45,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "57",
+          "paragraph_number": 9,
+          "start": 119,
+          "end": 125,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "67",
+          "paragraph_number": 11,
+          "start": 60,
+          "end": 66,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "71",
+          "paragraph_number": 6,
+          "start": 23,
+          "end": 29,
+          "source_sha256": "50cc92514853e92e3a630727a58923150d9e3ffb229aa0719034f476326979e8",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "72",
+          "paragraph_number": 7,
+          "start": 89,
+          "end": 95,
+          "source_sha256": "71aa4924e7eefd2c471ead616ebecbb84ed095b45a44ebeba1dbe671f4624ef6",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "94",
+          "paragraph_number": 4,
+          "start": 232,
+          "end": 238,
+          "source_sha256": "868ea95a58a5a2dc9fe12a9db4994b86e2c01a213ebbc0cf3e2d1a4cf1ec3942",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tigurinae",
+      "variants": [
+        "Tigurinae"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "6",
+          "paragraph_number": 7,
+          "start": 180,
+          "end": 189,
+          "source_sha256": "8c48f500b6b033f4677d56e73dcaef81782af52e7dfe4d983eab58d60d6d4642",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "26",
+          "paragraph_number": 8,
+          "start": 45,
+          "end": 54,
+          "source_sha256": "20b4b7ba2c13fab0347f48be03bcba6ecd4a3147eddbc0043afe7a0ed76064a8",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "32",
+          "paragraph_number": 6,
+          "start": 86,
+          "end": 95,
+          "source_sha256": "9981e234f0ca1f83898edc5bf72127a5321c16f6e9b6f6a1b3d04897d2eb124a",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "54",
+          "paragraph_number": 17,
+          "start": 67,
+          "end": 76,
+          "source_sha256": "01f652329d43f06cdad6da2c8f0fda0dc030044d63f924675bed0eb2e4bdab75",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "61",
+          "paragraph_number": 6,
+          "start": 63,
+          "end": 72,
+          "source_sha256": "5890de3236dc87259cd5159f1bb08c13f2a0d470ac63f926d663b10776d41bcc",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "69",
+          "paragraph_number": 8,
+          "start": 46,
+          "end": 55,
+          "source_sha256": "9069fe95fb2a94af589e393a1b135a08ec97b6c9d7536e1c5e5e8e8dca127725",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "74",
+          "paragraph_number": 6,
+          "start": 53,
+          "end": 62,
+          "source_sha256": "f2308e8f8e9abf573cccc5727d8902bda4a2effcf5c78337bc10c6bb5c6e7b69",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "82",
+          "paragraph_number": 6,
+          "start": 40,
+          "end": 49,
+          "source_sha256": "1f40839a2d492578eff7e4d3a3fc36f3b0393ddecb2420b9d55c496abdc1feba",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "99",
+          "paragraph_number": 11,
+          "start": 42,
+          "end": 51,
+          "source_sha256": "857ef34b3a5576548a1542426c20820bb5ae4beda6fb33fe965baf87d9babe0c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tigurinam",
+      "variants": [
+        "Tigurinam"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "67",
+          "paragraph_number": 3,
+          "start": 646,
+          "end": 655,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tigurine",
+      "variants": [
+        "Tigurine"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "43",
+          "paragraph_number": 9,
+          "start": 69,
+          "end": 77,
+          "source_sha256": "0e7c8569f5fa7c9c03851590bc7fa609debfdf6829a1572fb4c8e27aaaafd4e7",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tigurinis",
+      "variants": [
+        "Tigurinis"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "82",
+          "paragraph_number": 1,
+          "start": 327,
+          "end": 336,
+          "source_sha256": "1f40839a2d492578eff7e4d3a3fc36f3b0393ddecb2420b9d55c496abdc1feba",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tigurino",
+      "variants": [
+        "Tigurino"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "16",
+          "paragraph_number": 9,
+          "start": 34,
+          "end": 42,
+          "source_sha256": "074cbfd3c774927de4193a0c6fa7105347040f2eb7eafade9d15829dac5964f4",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "87",
+          "paragraph_number": 18,
+          "start": 55,
+          "end": 63,
+          "source_sha256": "921bd5a14c333a137a45a90bb448be47f1b5e8689417d7f8aee2227c290f086c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tigurinorum",
+      "variants": [
+        "Tigurinorum"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 7,
+          "start": 61,
+          "end": 72,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "38",
+          "paragraph_number": 7,
+          "start": 28,
+          "end": 39,
+          "source_sha256": "07f779256f49567ef8f9e91de5a8da222fe995a27827795f8a9cd2c3aa8bf9eb",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tigurinos",
+      "variants": [
+        "Tigurinos"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "42",
+          "paragraph_number": 3,
+          "start": 113,
+          "end": 122,
+          "source_sha256": "b9f6f180c2deb635f45f50e86e50a84c35b952b29ae8df06f84c58b3c9518207",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tigurinus",
+      "variants": [
+        "Tigurinus"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "52",
+          "paragraph_number": 3,
+          "start": 184,
+          "end": 193,
+          "source_sha256": "b3028e4f357711163ec6edac5cb31cf18b0b97f69f6abb2b388c1ca6f98c3b48",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tigurinę",
+      "variants": [
+        "Tigurinę"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "10",
+          "paragraph_number": 5,
+          "start": 71,
+          "end": 79,
+          "source_sha256": "9f560c22dee972cd929aa4450cecda54fae35d46f567eee6b701a902e811297a",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "15",
+          "paragraph_number": 9,
+          "start": 111,
+          "end": 119,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "51",
+          "paragraph_number": 1,
+          "start": 10,
+          "end": 18,
+          "source_sha256": "544ab1bc0fc0ee2e7b47c61a14907b0c4345638b829013d421b4203ccc49fb6d",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "70",
+          "paragraph_number": 10,
+          "start": 32,
+          "end": 40,
+          "source_sha256": "336dea338b4810d70d5a1b0ff35364ab606ed18c071535edaaab49a17b95379c",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "75",
+          "paragraph_number": 9,
+          "start": 36,
+          "end": 44,
+          "source_sha256": "6d9f4bbfbf39405d9ec766b94a67396d4e31e92834ba87ace2648ea41bd0b913",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "78",
+          "paragraph_number": 7,
+          "start": 66,
+          "end": 74,
+          "source_sha256": "5bc203cba4b61d5f5f6019a68a96340a1e1714b3c5b887f1d7567317259b8a5e",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "95",
+          "paragraph_number": 10,
+          "start": 62,
+          "end": 70,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "306",
+          "paragraph_number": 4,
+          "start": 39,
+          "end": 47,
+          "source_sha256": "2b98d8985a3a3a1006b9f66aabde170429e358958da058aad31046b5f9e32ee4",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tigurum",
+      "variants": [
+        "Tigurum"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "67",
+          "paragraph_number": 3,
+          "start": 337,
+          "end": 344,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "transylvaniam",
+      "variants": [
+        "Transylvaniam"
+      ],
+      "places": [
+        {
+          "place_id": "l869",
+          "name": "",
+          "coordinates_lat_lon": [
+            46.5,
+            25.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 361,
+          "end": 374,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tridenti",
+      "variants": [
+        "Tridenti"
+      ],
+      "places": [
+        {
+          "place_id": "l1107",
+          "name": "Trient",
+          "coordinates_lat_lon": [
+            46.06787,
+            11.12108
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "14",
+          "paragraph_number": 5,
+          "start": 44,
+          "end": 52,
+          "source_sha256": "362533b4b95bad52cdb8ba5cb330b60ca705a8bf77f42a66e5116e347f7c1ec9",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "26",
+          "paragraph_number": 4,
+          "start": 409,
+          "end": 417,
+          "source_sha256": "20b4b7ba2c13fab0347f48be03bcba6ecd4a3147eddbc0043afe7a0ed76064a8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tridentino",
+      "variants": [
+        "Tridentino"
+      ],
+      "places": [
+        {
+          "place_id": "l1107",
+          "name": "Trient",
+          "coordinates_lat_lon": [
+            46.06787,
+            11.12108
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 2,
+          "start": 535,
+          "end": 545,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "26",
+          "paragraph_number": 3,
+          "start": 52,
+          "end": 62,
+          "source_sha256": "20b4b7ba2c13fab0347f48be03bcba6ecd4a3147eddbc0043afe7a0ed76064a8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tridentinum",
+      "variants": [
+        "Tridentinum"
+      ],
+      "places": [
+        {
+          "place_id": "l1107",
+          "name": "Trient",
+          "coordinates_lat_lon": [
+            46.06787,
+            11.12108
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "16",
+          "paragraph_number": 2,
+          "start": 22,
+          "end": 33,
+          "source_sha256": "074cbfd3c774927de4193a0c6fa7105347040f2eb7eafade9d15829dac5964f4",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "23",
+          "paragraph_number": 8,
+          "start": 10,
+          "end": 21,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "26",
+          "paragraph_number": 4,
+          "start": 31,
+          "end": 42,
+          "source_sha256": "20b4b7ba2c13fab0347f48be03bcba6ecd4a3147eddbc0043afe7a0ed76064a8",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "33",
+          "paragraph_number": 4,
+          "start": 70,
+          "end": 81,
+          "source_sha256": "9a2f5505420aef42d9f6aa788af995a11775287b6b3a19a1e784367595b21f5e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tridentinus",
+      "variants": [
+        "Tridentinus"
+      ],
+      "places": [
+        {
+          "place_id": "l1107",
+          "name": "Trient",
+          "coordinates_lat_lon": [
+            46.06787,
+            11.12108
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "26",
+          "paragraph_number": 4,
+          "start": 74,
+          "end": 85,
+          "source_sha256": "20b4b7ba2c13fab0347f48be03bcba6ecd4a3147eddbc0043afe7a0ed76064a8",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "trient",
+      "variants": [
+        "Trient"
+      ],
+      "places": [
+        {
+          "place_id": "l1107",
+          "name": "Trient",
+          "coordinates_lat_lon": [
+            46.06787,
+            11.12108
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "10",
+          "paragraph_number": 2,
+          "start": 61,
+          "end": 67,
+          "source_sha256": "9f560c22dee972cd929aa4450cecda54fae35d46f567eee6b701a902e811297a",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "95",
+          "paragraph_number": 8,
+          "start": 25,
+          "end": 31,
+          "source_sha256": "bc021f2be69ece91c16a8b8a4a92821b56d4f044898ac8d23ba44cc9b85adb35",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "trium fęderum",
+      "variants": [
+        "Trium Fęderum"
+      ],
+      "places": [
+        {
+          "place_id": "l893",
+          "name": "Drei Bünde",
+          "coordinates_lat_lon": [
+            46.6587,
+            9.62296
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 4,
+          "start": 20,
+          "end": 33,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "turcam",
+      "variants": [
+        "Turcam"
+      ],
+      "places": [
+        {
+          "place_id": "l2510",
+          "name": "",
+          "coordinates_lat_lon": null
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "57",
+          "paragraph_number": 3,
+          "start": 302,
+          "end": 308,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "turcarum",
+      "variants": [
+        "Turcarum"
+      ],
+      "places": [
+        {
+          "place_id": "l2510",
+          "name": "",
+          "coordinates_lat_lon": null
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 1338,
+          "end": 1346,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "turcico",
+      "variants": [
+        "Turcico"
+      ],
+      "places": [
+        {
+          "place_id": "l2510",
+          "name": "",
+          "coordinates_lat_lon": null
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "18",
+          "paragraph_number": 3,
+          "start": 567,
+          "end": 574,
+          "source_sha256": "8d1c1a616eaaa80f941382f5e6146b6ecae3c91a2f13c56077c7d6e22a77193e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tygurinae",
+      "variants": [
+        "Tygurinae"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "58",
+          "paragraph_number": 8,
+          "start": 45,
+          "end": 54,
+          "source_sha256": "361709d1eee93d50b2aeeb526e2b35862ed9a7552036da0889cef0dea034139a",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "tygurum",
+      "variants": [
+        "Tygurum"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "58",
+          "paragraph_number": 1,
+          "start": 163,
+          "end": 170,
+          "source_sha256": "361709d1eee93d50b2aeeb526e2b35862ed9a7552036da0889cef0dea034139a",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "türcken",
+      "variants": [
+        "Türcken"
+      ],
+      "places": [
+        {
+          "place_id": "l2510",
+          "name": "",
+          "coordinates_lat_lon": null
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "99",
+          "paragraph_number": 4,
+          "start": 252,
+          "end": 259,
+          "source_sha256": "857ef34b3a5576548a1542426c20820bb5ae4beda6fb33fe965baf87d9babe0c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "uberlingen",
+      "variants": [
+        "Uberlingen"
+      ],
+      "places": [
+        {
+          "place_id": "l1115",
+          "name": "Überlingen",
+          "coordinates_lat_lon": [
+            47.76977,
+            9.17136
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 2,
+          "start": 166,
+          "end": 176,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "ulma",
+      "variants": [
+        "Ulma"
+      ],
+      "places": [
+        {
+          "place_id": "l513",
+          "name": "Ulm",
+          "coordinates_lat_lon": [
+            48.39841,
+            9.99155
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "58",
+          "paragraph_number": 1,
+          "start": 158,
+          "end": 162,
+          "source_sha256": "361709d1eee93d50b2aeeb526e2b35862ed9a7552036da0889cef0dea034139a",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "ulmam",
+      "variants": [
+        "Ulmam"
+      ],
+      "places": [
+        {
+          "place_id": "l513",
+          "name": "Ulm",
+          "coordinates_lat_lon": [
+            48.39841,
+            9.99155
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "78",
+          "paragraph_number": 2,
+          "start": 101,
+          "end": 106,
+          "source_sha256": "5bc203cba4b61d5f5f6019a68a96340a1e1714b3c5b887f1d7567317259b8a5e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "ulmensis",
+      "variants": [
+        "Ulmensis"
+      ],
+      "places": [
+        {
+          "place_id": "l513",
+          "name": "Ulm",
+          "coordinates_lat_lon": [
+            48.39841,
+            9.99155
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "57",
+          "paragraph_number": 3,
+          "start": 578,
+          "end": 586,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "58",
+          "paragraph_number": 1,
+          "start": 109,
+          "end": 117,
+          "source_sha256": "361709d1eee93d50b2aeeb526e2b35862ed9a7552036da0889cef0dea034139a",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "urach",
+      "variants": [
+        "Urach"
+      ],
+      "places": [
+        {
+          "place_id": "l514",
+          "name": "Urach",
+          "coordinates_lat_lon": [
+            48.49107,
+            9.40009
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 2,
+          "start": 22,
+          "end": 27,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "veltlin",
+      "variants": [
+        "Veltlin"
+      ],
+      "places": [
+        {
+          "place_id": "l520",
+          "name": "Veltlin (Valtellina)",
+          "coordinates_lat_lon": [
+            46.18333,
+            9.91667
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 6,
+          "start": 165,
+          "end": 172,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "venedig",
+      "variants": [
+        "Venedig"
+      ],
+      "places": [
+        {
+          "place_id": "l522",
+          "name": "Venedig",
+          "coordinates_lat_lon": [
+            45.43713,
+            12.33265
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "99",
+          "paragraph_number": 5,
+          "start": 66,
+          "end": 73,
+          "source_sha256": "857ef34b3a5576548a1542426c20820bb5ae4beda6fb33fe965baf87d9babe0c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "venediger",
+      "variants": [
+        "Venediger"
+      ],
+      "places": [
+        {
+          "place_id": "l522",
+          "name": "Venedig",
+          "coordinates_lat_lon": [
+            45.43713,
+            12.33265
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "15",
+          "paragraph_number": 6,
+          "start": 87,
+          "end": 96,
+          "source_sha256": "94b4e8b790caaca41fc93f17e4d4f69a79d9cd63128fddafee44ec560dac5076",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "venetorum",
+      "variants": [
+        "Venetorum"
+      ],
+      "places": [
+        {
+          "place_id": "l522",
+          "name": "Venedig",
+          "coordinates_lat_lon": [
+            45.43713,
+            12.33265
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "33",
+          "paragraph_number": 7,
+          "start": 84,
+          "end": 93,
+          "source_sha256": "9a2f5505420aef42d9f6aa788af995a11775287b6b3a19a1e784367595b21f5e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "wiel",
+      "variants": [
+        "Wiel"
+      ],
+      "places": [
+        {
+          "place_id": "l217",
+          "name": "Hohentwiel",
+          "coordinates_lat_lon": [
+            47.76471,
+            8.81902
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "46",
+          "paragraph_number": 18,
+          "start": 82,
+          "end": 86,
+          "source_sha256": "a021658928f4a04ad2cabbd2b38e566837dc488f01c37dd0801ba9bd880e0929",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "winmarckt",
+      "variants": [
+        "Winmarckt"
+      ],
+      "places": [
+        {
+          "place_id": "l537",
+          "name": "Weimar",
+          "coordinates_lat_lon": [
+            50.9803,
+            11.32903
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 7,
+          "start": 37,
+          "end": 46,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "wirtembergam",
+      "variants": [
+        "Wirtembergam"
+      ],
+      "places": [
+        {
+          "place_id": "l572",
+          "name": "",
+          "coordinates_lat_lon": [
+            48.5,
+            9.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "57",
+          "paragraph_number": 3,
+          "start": 221,
+          "end": 233,
+          "source_sha256": "6d39fc13e964bd7efe84c9529058ba3deb47159623908019fa0ff8f19ee20848",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "wirtenbergensi",
+      "variants": [
+        "Wirtenbergensi"
+      ],
+      "places": [
+        {
+          "place_id": "l572",
+          "name": "",
+          "coordinates_lat_lon": [
+            48.5,
+            9.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "50",
+          "paragraph_number": 1,
+          "start": 1023,
+          "end": 1037,
+          "source_sha256": "edd37823097bdfc978ff2dfa9f28dfd37cadb9d55da47cb4ff313263d1e14637",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "wirtenbergensis",
+      "variants": [
+        "Wirtenbergensis"
+      ],
+      "places": [
+        {
+          "place_id": "l572",
+          "name": "",
+          "coordinates_lat_lon": [
+            48.5,
+            9.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "69",
+          "paragraph_number": 3,
+          "start": 105,
+          "end": 120,
+          "source_sha256": "9069fe95fb2a94af589e393a1b135a08ec97b6c9d7536e1c5e5e8e8dca127725",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "wirttenbergensi",
+      "variants": [
+        "Wirttenbergensi"
+      ],
+      "places": [
+        {
+          "place_id": "l572",
+          "name": "",
+          "coordinates_lat_lon": [
+            48.5,
+            9.0
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "69",
+          "paragraph_number": 3,
+          "start": 21,
+          "end": 36,
+          "source_sha256": "9069fe95fb2a94af589e393a1b135a08ec97b6c9d7536e1c5e5e8e8dca127725",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "wirtzburg",
+      "variants": [
+        "Wirtzburg"
+      ],
+      "places": [
+        {
+          "place_id": "l1030",
+          "name": "Würzburg",
+          "coordinates_lat_lon": [
+            49.79391,
+            9.95121
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "99",
+          "paragraph_number": 5,
+          "start": 106,
+          "end": 115,
+          "source_sha256": "857ef34b3a5576548a1542426c20820bb5ae4beda6fb33fe965baf87d9babe0c",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "witebergę",
+      "variants": [
+        "Witebergę"
+      ],
+      "places": [
+        {
+          "place_id": "l558",
+          "name": "Wittenberg",
+          "coordinates_lat_lon": [
+            51.8661,
+            12.64973
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 5,
+          "start": 12,
+          "end": 21,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "wittodurus",
+      "variants": [
+        "Wittodurus"
+      ],
+      "places": [
+        {
+          "place_id": "l555",
+          "name": "Winterthur",
+          "coordinates_lat_lon": [
+            47.50564,
+            8.72413
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "67",
+          "paragraph_number": 5,
+          "start": 34,
+          "end": 44,
+          "source_sha256": "39f0be8d0b194d3d818ec460eb0058fd6d58067e8864183ef75790af6f93093f",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "zofingen",
+      "variants": [
+        "Zofingen"
+      ],
+      "places": [
+        {
+          "place_id": "l582",
+          "name": "Zofingen",
+          "coordinates_lat_lon": [
+            47.28779,
+            7.94586
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "43",
+          "paragraph_number": 8,
+          "start": 37,
+          "end": 45,
+          "source_sha256": "0e7c8569f5fa7c9c03851590bc7fa609debfdf6829a1572fb4c8e27aaaafd4e7",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "zu[ric]h",
+      "variants": [
+        "Zu[ric]h"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "33",
+          "paragraph_number": 11,
+          "start": 57,
+          "end": 65,
+          "source_sha256": "9a2f5505420aef42d9f6aa788af995a11775287b6b3a19a1e784367595b21f5e",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "zurich",
+      "variants": [
+        "Zurich"
+      ],
+      "places": [
+        {
+          "place_id": "l803",
+          "name": "",
+          "coordinates_lat_lon": [
+            47.41667,
+            8.66667
+          ]
+        },
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "7",
+          "paragraph_number": 7,
+          "start": 78,
+          "end": 84,
+          "source_sha256": "7d951ef9babbfdc223075c42f9d0b9d52b803789b2fa6239b0724d18fa446cc3",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "23",
+          "paragraph_number": 13,
+          "start": 62,
+          "end": 68,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "58",
+          "paragraph_number": 8,
+          "start": 133,
+          "end": 139,
+          "source_sha256": "361709d1eee93d50b2aeeb526e2b35862ed9a7552036da0889cef0dea034139a",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "70",
+          "paragraph_number": 10,
+          "start": 93,
+          "end": 99,
+          "source_sha256": "336dea338b4810d70d5a1b0ff35364ab606ed18c071535edaaab49a17b95379c",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "77",
+          "paragraph_number": 10,
+          "start": 68,
+          "end": 74,
+          "source_sha256": "8acf79928a98fcbcaf7f88debcbcabb6bd52c5f6a7713fd07816f034a0386fbc",
+          "certainty": "unspecified"
+        }
+      ]
+    },
+    {
+      "key": "zürich",
+      "variants": [
+        "Zürich"
+      ],
+      "places": [
+        {
+          "place_id": "l587",
+          "name": "Zürich",
+          "coordinates_lat_lon": [
+            47.36667,
+            8.55
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "document_id": "23",
+          "paragraph_number": 13,
+          "start": 33,
+          "end": 39,
+          "source_sha256": "797ed99287e824ca16e28dbac6257c923dccef0bb8e0f1f39e09a1d6205d282d",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "32",
+          "paragraph_number": 6,
+          "start": 172,
+          "end": 178,
+          "source_sha256": "9981e234f0ca1f83898edc5bf72127a5321c16f6e9b6f6a1b3d04897d2eb124a",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "88",
+          "paragraph_number": 7,
+          "start": 84,
+          "end": 90,
+          "source_sha256": "39dadfe8065daa86cf3195d0ec5b53cd777a8a4d8f12b49017b07bb9f81857c7",
+          "certainty": "unspecified"
+        },
+        {
+          "document_id": "101",
+          "paragraph_number": 8,
+          "start": 54,
+          "end": 60,
+          "source_sha256": "bfd511b8a297b3ec72a150adb25a02a290a023281015e295ef2caa61df58d4fa",
+          "certainty": "unspecified"
+        }
+      ]
+    }
+  ],
+  "protocol_sha256": "abad92ca65c6ad7e1241eba4fd5c7dcc69e92efc8e1e192733aa04e5286dc5cb",
+  "interpretation": "Additive source-backed variants; not pixel-verified gold or certified geographic identities"
+}
