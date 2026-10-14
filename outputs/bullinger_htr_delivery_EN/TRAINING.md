@@ -35,4 +35,4 @@ subprocess.run([sys.executable, '-u', '/content/adapt_validation.py', '--seed', 
 
 Select the appropriate CPU/GPU before running a task. To release that task's runtime after success or failure, wrap execution in `try/finally` and use `google.colab.runtime.unassign()`. Do not release another active experiment. The new clean notebook defaults to no selected task, preventing accidental paid GPU work.
 
-Training dependencies are installed by the original workers (Transformers 4.51.0, Pillow 12.2.0, NumPy 2.2.6). Historical Colab runs recorded Python 3.13/PyTorch 2.11; cross-environment bitwise equality is not guaranteed. This delivery does not include image archives or model weights.
+Training dependencies are installed by the original workers (Transformers 4.51.0, Pillow 12.2.0, NumPy 2.2.6). Historical Colab runs recorded Python 3.13/PyTorch 2.11; cross-environment bitwise equality is not guaranteed. Image archives and optimizer state are not included. Complete inference weights are distributed through the GitHub Release. Fixed portable manifests are in data/splits/; see docs/REPRODUCTION.md.

@@ -53,7 +53,7 @@ Provide cropped **line images**, not complete manuscript pages:
 
 `transcribe_images.py` loads your local TrOCR checkpoint, processes each image, generates text and records image identity. It automatically uses CUDA if available, otherwise CPU; `--device cpu` is available. The output file must not already exist.
 
-This wrapper uses raw eight-beam decoding, not the saved character/word LM reranker. Its new-image output has **no measured CER/WER** unless you supply reference transcriptions and evaluate it. It must not inherit the historical reranked test score.
+The default wrapper uses raw eight-beam decoding. To enable local candidate reranking, add `--save-candidates --language de` (or `la`), then run `scripts/rerank_htr.py`. New-image outputs have no measured CER/WER until evaluated against explicit references. See [local reproduction and evaluation](docs/REPRODUCTION.md) for the complete example and provenance limits.
 
 ### Step 2: Extract place mentions
 
@@ -148,3 +148,7 @@ Use validation for choices. Do not tune on the test set or rerun a final test ju
 Current delivery contains English documentation, inference/experiment code, fixed official data, actual results and provenance. Original German/Latin sources are preserved. Personal review tables, raw image archives, caches and virtual environments are excluded. TrOCR inference weights are distributed as a Release asset rather than in the Git code tree. Obsolete legacy entry points have been removed from the current branch; their earlier versions remain in Git history.
 
 The original packaged official evaluation was fully reproduced offline. Both new team wrappers passed syntax and CLI checks. The text-to-place wrapper completed an offline two-record smoke run including an empty line. The released seed44 DE20 checkpoint was loaded successfully and used for a single-image CPU inference smoke check. No new independent accuracy result is claimed. Dependency versions are not a full cross-platform lockfile. A fresh computer must install dependencies, download the HTR release asset and cache GLiNER. Raw beam inference is distinct from the historical LM-reranked test.
+
+## Local reranking, example and HTR evaluation
+
+[REPRODUCTION.md](docs/REPRODUCTION.md) provides a runnable public-line example, the optional candidate reranker, corpus-level overall/de/la CER/WER evaluation, frozen split manifests, training-only statistics rebuilding and checks. The original Colab input image bundles are still required for historical training reproduction; they are not embedded in this repository.

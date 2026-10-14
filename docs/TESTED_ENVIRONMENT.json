@@ -1,0 +1,13 @@
+{
+  "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS CPU",
+  "packages": {
+    "torch": "2.11.0",
+    "transformers": "4.51.0",
+    "gliner": "0.2.22",
+    "huggingface-hub": "0.36.2",
+    "Pillow": "12.2.0",
+    "accelerate": "1.15.0"
+  },
+  "scope": "Existing environment; fresh installation not certified"
+}

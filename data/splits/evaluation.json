@@ -1,0 +1,4482 @@
+{
+  "validation": [
+    {
+      "image": "dataset/de/1149_02_r2l19.png",
+      "text": "dataset/de/1149_02_r2l19.txt",
+      "language": "de",
+      "letter_id": "1149"
+    },
+    {
+      "image": "dataset/la/1891_01_r1l10.png",
+      "text": "dataset/la/1891_01_r1l10.txt",
+      "language": "la",
+      "letter_id": "1891"
+    },
+    {
+      "image": "dataset/la/716_00_r1l4.png",
+      "text": "dataset/la/716_00_r1l4.txt",
+      "language": "la",
+      "letter_id": "716"
+    },
+    {
+      "image": "dataset/la/1564_00_r1l11.png",
+      "text": "dataset/la/1564_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "1564"
+    },
+    {
+      "image": "dataset/la/213_01_r1l1.png",
+      "text": "dataset/la/213_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "213"
+    },
+    {
+      "image": "dataset/la/1747_00_r2l6.png",
+      "text": "dataset/la/1747_00_r2l6.txt",
+      "language": "la",
+      "letter_id": "1747"
+    },
+    {
+      "image": "dataset/la/911_03_r3l24.png",
+      "text": "dataset/la/911_03_r3l24.txt",
+      "language": "la",
+      "letter_id": "911"
+    },
+    {
+      "image": "dataset/la/1565_00_r1l13.png",
+      "text": "dataset/la/1565_00_r1l13.txt",
+      "language": "la",
+      "letter_id": "1565"
+    },
+    {
+      "image": "dataset/la/1437_01_r1l3.png",
+      "text": "dataset/la/1437_01_r1l3.txt",
+      "language": "la",
+      "letter_id": "1437"
+    },
+    {
+      "image": "dataset/la/15_00_r4l7.png",
+      "text": "dataset/la/15_00_r4l7.txt",
+      "language": "la",
+      "letter_id": "15"
+    },
+    {
+      "image": "dataset/la/1420_00_r1l8.png",
+      "text": "dataset/la/1420_00_r1l8.txt",
+      "language": "la",
+      "letter_id": "1420"
+    },
+    {
+      "image": "dataset/la/1577_00_r2l18.png",
+      "text": "dataset/la/1577_00_r2l18.txt",
+      "language": "la",
+      "letter_id": "1577"
+    },
+    {
+      "image": "dataset/la/1529_03_r2l8.png",
+      "text": "dataset/la/1529_03_r2l8.txt",
+      "language": "la",
+      "letter_id": "1529"
+    },
+    {
+      "image": "dataset/la/757_00_r1l17.png",
+      "text": "dataset/la/757_00_r1l17.txt",
+      "language": "la",
+      "letter_id": "757"
+    },
+    {
+      "image": "dataset/de/567_01_r2l9.png",
+      "text": "dataset/de/567_01_r2l9.txt",
+      "language": "de",
+      "letter_id": "567"
+    },
+    {
+      "image": "dataset/la/878_01_r2l14.png",
+      "text": "dataset/la/878_01_r2l14.txt",
+      "language": "la",
+      "letter_id": "878"
+    },
+    {
+      "image": "dataset/la/205_02_r1l28.png",
+      "text": "dataset/la/205_02_r1l28.txt",
+      "language": "la",
+      "letter_id": "205"
+    },
+    {
+      "image": "dataset/la/1931_00_r1l23.png",
+      "text": "dataset/la/1931_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "1931"
+    },
+    {
+      "image": "dataset/la/1662_00_r2l2.png",
+      "text": "dataset/la/1662_00_r2l2.txt",
+      "language": "la",
+      "letter_id": "1662"
+    },
+    {
+      "image": "dataset/la/51_00_r2l16.png",
+      "text": "dataset/la/51_00_r2l16.txt",
+      "language": "la",
+      "letter_id": "51"
+    },
+    {
+      "image": "dataset/la/1876_00_r1l30.png",
+      "text": "dataset/la/1876_00_r1l30.txt",
+      "language": "la",
+      "letter_id": "1876"
+    },
+    {
+      "image": "dataset/la/727_00_r1l7.png",
+      "text": "dataset/la/727_00_r1l7.txt",
+      "language": "la",
+      "letter_id": "727"
+    },
+    {
+      "image": "dataset/la/615_01_r1l1.png",
+      "text": "dataset/la/615_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "615"
+    },
+    {
+      "image": "dataset/la/1785_00_r1l10.png",
+      "text": "dataset/la/1785_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "1785"
+    },
+    {
+      "image": "dataset/la/1798_00_r3l21.png",
+      "text": "dataset/la/1798_00_r3l21.txt",
+      "language": "la",
+      "letter_id": "1798"
+    },
+    {
+      "image": "dataset/la/1581_00_r1l11.png",
+      "text": "dataset/la/1581_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "1581"
+    },
+    {
+      "image": "dataset/de/140_00_r1l2.png",
+      "text": "dataset/de/140_00_r1l2.txt",
+      "language": "de",
+      "letter_id": "140"
+    },
+    {
+      "image": "dataset/la/630_00_r1l40.png",
+      "text": "dataset/la/630_00_r1l40.txt",
+      "language": "la",
+      "letter_id": "630"
+    },
+    {
+      "image": "dataset/la/399_00_r1l48.png",
+      "text": "dataset/la/399_00_r1l48.txt",
+      "language": "la",
+      "letter_id": "399"
+    },
+    {
+      "image": "dataset/la/681_00_r2l12.png",
+      "text": "dataset/la/681_00_r2l12.txt",
+      "language": "la",
+      "letter_id": "681"
+    },
+    {
+      "image": "dataset/la/739_00_r1l21.png",
+      "text": "dataset/la/739_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "739"
+    },
+    {
+      "image": "dataset/la/503_00_r1l54.png",
+      "text": "dataset/la/503_00_r1l54.txt",
+      "language": "la",
+      "letter_id": "503"
+    },
+    {
+      "image": "dataset/la/161_00_r1l11.png",
+      "text": "dataset/la/161_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "161"
+    },
+    {
+      "image": "dataset/la/1049_00_r1l35.png",
+      "text": "dataset/la/1049_00_r1l35.txt",
+      "language": "la",
+      "letter_id": "1049"
+    },
+    {
+      "image": "dataset/la/1008_03_r3l9.png",
+      "text": "dataset/la/1008_03_r3l9.txt",
+      "language": "la",
+      "letter_id": "1008"
+    },
+    {
+      "image": "dataset/la/1087_00_r1l11.png",
+      "text": "dataset/la/1087_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "1087"
+    },
+    {
+      "image": "dataset/la/960_00_r1l21.png",
+      "text": "dataset/la/960_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "960"
+    },
+    {
+      "image": "dataset/la/1570_00_r1l22.png",
+      "text": "dataset/la/1570_00_r1l22.txt",
+      "language": "la",
+      "letter_id": "1570"
+    },
+    {
+      "image": "dataset/la/1340_00_r1l19.png",
+      "text": "dataset/la/1340_00_r1l19.txt",
+      "language": "la",
+      "letter_id": "1340"
+    },
+    {
+      "image": "dataset/la/1693_00_r1l4.png",
+      "text": "dataset/la/1693_00_r1l4.txt",
+      "language": "la",
+      "letter_id": "1693"
+    },
+    {
+      "image": "dataset/de/380_01_r1l24.png",
+      "text": "dataset/de/380_01_r1l24.txt",
+      "language": "de",
+      "letter_id": "380"
+    },
+    {
+      "image": "dataset/la/1529_00_r2l18.png",
+      "text": "dataset/la/1529_00_r2l18.txt",
+      "language": "la",
+      "letter_id": "1529"
+    },
+    {
+      "image": "dataset/la/1005_00_r1l19.png",
+      "text": "dataset/la/1005_00_r1l19.txt",
+      "language": "la",
+      "letter_id": "1005"
+    },
+    {
+      "image": "dataset/la/1656_03_r1l6.png",
+      "text": "dataset/la/1656_03_r1l6.txt",
+      "language": "la",
+      "letter_id": "1656"
+    },
+    {
+      "image": "dataset/la/830_00_r1l21.png",
+      "text": "dataset/la/830_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "830"
+    },
+    {
+      "image": "dataset/la/276_01_r1l3.png",
+      "text": "dataset/la/276_01_r1l3.txt",
+      "language": "la",
+      "letter_id": "276"
+    },
+    {
+      "image": "dataset/la/480_00_r2l15.png",
+      "text": "dataset/la/480_00_r2l15.txt",
+      "language": "la",
+      "letter_id": "480"
+    },
+    {
+      "image": "dataset/la/918_00_r1l29.png",
+      "text": "dataset/la/918_00_r1l29.txt",
+      "language": "la",
+      "letter_id": "918"
+    },
+    {
+      "image": "dataset/la/1931_00_r1l7.png",
+      "text": "dataset/la/1931_00_r1l7.txt",
+      "language": "la",
+      "letter_id": "1931"
+    },
+    {
+      "image": "dataset/la/1801_01_r1l3.png",
+      "text": "dataset/la/1801_01_r1l3.txt",
+      "language": "la",
+      "letter_id": "1801"
+    },
+    {
+      "image": "dataset/de/1081_00_r1l4.png",
+      "text": "dataset/de/1081_00_r1l4.txt",
+      "language": "de",
+      "letter_id": "1081"
+    },
+    {
+      "image": "dataset/la/1342_00_r1l16.png",
+      "text": "dataset/la/1342_00_r1l16.txt",
+      "language": "la",
+      "letter_id": "1342"
+    },
+    {
+      "image": "dataset/la/1584_00_r1l24.png",
+      "text": "dataset/la/1584_00_r1l24.txt",
+      "language": "la",
+      "letter_id": "1584"
+    },
+    {
+      "image": "dataset/la/1546_00_r1l14.png",
+      "text": "dataset/la/1546_00_r1l14.txt",
+      "language": "la",
+      "letter_id": "1546"
+    },
+    {
+      "image": "dataset/la/624_04_r1l30.png",
+      "text": "dataset/la/624_04_r1l30.txt",
+      "language": "la",
+      "letter_id": "624"
+    },
+    {
+      "image": "dataset/la/615_00_r1l10.png",
+      "text": "dataset/la/615_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "615"
+    },
+    {
+      "image": "dataset/la/515_00_r1l11.png",
+      "text": "dataset/la/515_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "515"
+    },
+    {
+      "image": "dataset/de/462_00_r1l23.png",
+      "text": "dataset/de/462_00_r1l23.txt",
+      "language": "de",
+      "letter_id": "462"
+    },
+    {
+      "image": "dataset/la/1147_00_r2l13.png",
+      "text": "dataset/la/1147_00_r2l13.txt",
+      "language": "la",
+      "letter_id": "1147"
+    },
+    {
+      "image": "dataset/de/397_00_r1l2.png",
+      "text": "dataset/de/397_00_r1l2.txt",
+      "language": "de",
+      "letter_id": "397"
+    },
+    {
+      "image": "dataset/la/901_00_r1l26.png",
+      "text": "dataset/la/901_00_r1l26.txt",
+      "language": "la",
+      "letter_id": "901"
+    },
+    {
+      "image": "dataset/la/1373_01_r2l14.png",
+      "text": "dataset/la/1373_01_r2l14.txt",
+      "language": "la",
+      "letter_id": "1373"
+    },
+    {
+      "image": "dataset/de/1562_01_r1l26.png",
+      "text": "dataset/de/1562_01_r1l26.txt",
+      "language": "de",
+      "letter_id": "1562"
+    },
+    {
+      "image": "dataset/la/1728_00_r1l27.png",
+      "text": "dataset/la/1728_00_r1l27.txt",
+      "language": "la",
+      "letter_id": "1728"
+    },
+    {
+      "image": "dataset/la/922_00_r2l23.png",
+      "text": "dataset/la/922_00_r2l23.txt",
+      "language": "la",
+      "letter_id": "922"
+    },
+    {
+      "image": "dataset/la/624_01_r1l14.png",
+      "text": "dataset/la/624_01_r1l14.txt",
+      "language": "la",
+      "letter_id": "624"
+    },
+    {
+      "image": "dataset/de/1868_00_r1l17.png",
+      "text": "dataset/de/1868_00_r1l17.txt",
+      "language": "de",
+      "letter_id": "1868"
+    },
+    {
+      "image": "dataset/de/689_00_r1l7.png",
+      "text": "dataset/de/689_00_r1l7.txt",
+      "language": "de",
+      "letter_id": "689"
+    },
+    {
+      "image": "dataset/de/1678_01_r2l1.png",
+      "text": "dataset/de/1678_01_r2l1.txt",
+      "language": "de",
+      "letter_id": "1678"
+    },
+    {
+      "image": "dataset/la/1441_00_r1l12.png",
+      "text": "dataset/la/1441_00_r1l12.txt",
+      "language": "la",
+      "letter_id": "1441"
+    },
+    {
+      "image": "dataset/la/1656_04_r1l16.png",
+      "text": "dataset/la/1656_04_r1l16.txt",
+      "language": "la",
+      "letter_id": "1656"
+    },
+    {
+      "image": "dataset/la/274_01_r1l28.png",
+      "text": "dataset/la/274_01_r1l28.txt",
+      "language": "la",
+      "letter_id": "274"
+    },
+    {
+      "image": "dataset/de/306_00_r1l6.png",
+      "text": "dataset/de/306_00_r1l6.txt",
+      "language": "de",
+      "letter_id": "306"
+    },
+    {
+      "image": "dataset/la/1078_01_r1l11.png",
+      "text": "dataset/la/1078_01_r1l11.txt",
+      "language": "la",
+      "letter_id": "1078"
+    },
+    {
+      "image": "dataset/la/1048_01_r3l4.png",
+      "text": "dataset/la/1048_01_r3l4.txt",
+      "language": "la",
+      "letter_id": "1048"
+    },
+    {
+      "image": "dataset/la/624_02_r2l10.png",
+      "text": "dataset/la/624_02_r2l10.txt",
+      "language": "la",
+      "letter_id": "624"
+    },
+    {
+      "image": "dataset/la/1402_00_r1l23.png",
+      "text": "dataset/la/1402_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "1402"
+    },
+    {
+      "image": "dataset/de/1771_00_r1l33.png",
+      "text": "dataset/de/1771_00_r1l33.txt",
+      "language": "de",
+      "letter_id": "1771"
+    },
+    {
+      "image": "dataset/la/820_01_r1l20.png",
+      "text": "dataset/la/820_01_r1l20.txt",
+      "language": "la",
+      "letter_id": "820"
+    },
+    {
+      "image": "dataset/la/515_02_r2l7.png",
+      "text": "dataset/la/515_02_r2l7.txt",
+      "language": "la",
+      "letter_id": "515"
+    },
+    {
+      "image": "dataset/la/1665_00_r1l24.png",
+      "text": "dataset/la/1665_00_r1l24.txt",
+      "language": "la",
+      "letter_id": "1665"
+    },
+    {
+      "image": "dataset/la/582_01_r2l2.png",
+      "text": "dataset/la/582_01_r2l2.txt",
+      "language": "la",
+      "letter_id": "582"
+    },
+    {
+      "image": "dataset/la/1349_00_r1l7.png",
+      "text": "dataset/la/1349_00_r1l7.txt",
+      "language": "la",
+      "letter_id": "1349"
+    },
+    {
+      "image": "dataset/la/1387_00_r3l22.png",
+      "text": "dataset/la/1387_00_r3l22.txt",
+      "language": "la",
+      "letter_id": "1387"
+    },
+    {
+      "image": "dataset/la/1048_01_r3l33.png",
+      "text": "dataset/la/1048_01_r3l33.txt",
+      "language": "la",
+      "letter_id": "1048"
+    },
+    {
+      "image": "dataset/la/1166_00_r1l17.png",
+      "text": "dataset/la/1166_00_r1l17.txt",
+      "language": "la",
+      "letter_id": "1166"
+    },
+    {
+      "image": "dataset/la/1879_01_r1l16.png",
+      "text": "dataset/la/1879_01_r1l16.txt",
+      "language": "la",
+      "letter_id": "1879"
+    },
+    {
+      "image": "dataset/la/1158_00_r1l16.png",
+      "text": "dataset/la/1158_00_r1l16.txt",
+      "language": "la",
+      "letter_id": "1158"
+    },
+    {
+      "image": "dataset/la/1801_00_r2l38.png",
+      "text": "dataset/la/1801_00_r2l38.txt",
+      "language": "la",
+      "letter_id": "1801"
+    },
+    {
+      "image": "dataset/la/1900_00_r1l13.png",
+      "text": "dataset/la/1900_00_r1l13.txt",
+      "language": "la",
+      "letter_id": "1900"
+    },
+    {
+      "image": "dataset/la/542_00_r1l8.png",
+      "text": "dataset/la/542_00_r1l8.txt",
+      "language": "la",
+      "letter_id": "542"
+    },
+    {
+      "image": "dataset/de/1425_02_r1l3.png",
+      "text": "dataset/de/1425_02_r1l3.txt",
+      "language": "de",
+      "letter_id": "1425"
+    },
+    {
+      "image": "dataset/la/1930_00_r2l30.png",
+      "text": "dataset/la/1930_00_r2l30.txt",
+      "language": "la",
+      "letter_id": "1930"
+    },
+    {
+      "image": "dataset/la/137_00_r2l29.png",
+      "text": "dataset/la/137_00_r2l29.txt",
+      "language": "la",
+      "letter_id": "137"
+    },
+    {
+      "image": "dataset/la/735_01_r2l4.png",
+      "text": "dataset/la/735_01_r2l4.txt",
+      "language": "la",
+      "letter_id": "735"
+    },
+    {
+      "image": "dataset/la/1546_00_r1l27.png",
+      "text": "dataset/la/1546_00_r1l27.txt",
+      "language": "la",
+      "letter_id": "1546"
+    },
+    {
+      "image": "dataset/de/867_00_r2l29.png",
+      "text": "dataset/de/867_00_r2l29.txt",
+      "language": "de",
+      "letter_id": "867"
+    },
+    {
+      "image": "dataset/la/1728_00_r1l2.png",
+      "text": "dataset/la/1728_00_r1l2.txt",
+      "language": "la",
+      "letter_id": "1728"
+    },
+    {
+      "image": "dataset/la/1652_01_r1l2.png",
+      "text": "dataset/la/1652_01_r1l2.txt",
+      "language": "la",
+      "letter_id": "1652"
+    },
+    {
+      "image": "dataset/de/305_00_r1l17.png",
+      "text": "dataset/de/305_00_r1l17.txt",
+      "language": "de",
+      "letter_id": "305"
+    },
+    {
+      "image": "dataset/la/597_00_r1l2.png",
+      "text": "dataset/la/597_00_r1l2.txt",
+      "language": "la",
+      "letter_id": "597"
+    },
+    {
+      "image": "dataset/de/1058_00_r1l37.png",
+      "text": "dataset/de/1058_00_r1l37.txt",
+      "language": "de",
+      "letter_id": "1058"
+    },
+    {
+      "image": "dataset/de/397_00_r1l15.png",
+      "text": "dataset/de/397_00_r1l15.txt",
+      "language": "de",
+      "letter_id": "397"
+    },
+    {
+      "image": "dataset/la/850_01_r2l2.png",
+      "text": "dataset/la/850_01_r2l2.txt",
+      "language": "la",
+      "letter_id": "850"
+    },
+    {
+      "image": "dataset/la/1546_00_r1l17.png",
+      "text": "dataset/la/1546_00_r1l17.txt",
+      "language": "la",
+      "letter_id": "1546"
+    },
+    {
+      "image": "dataset/la/884_00_r1l25.png",
+      "text": "dataset/la/884_00_r1l25.txt",
+      "language": "la",
+      "letter_id": "884"
+    },
+    {
+      "image": "dataset/la/488_00_r1l23.png",
+      "text": "dataset/la/488_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "488"
+    },
+    {
+      "image": "dataset/la/101_00_r1l3.png",
+      "text": "dataset/la/101_00_r1l3.txt",
+      "language": "la",
+      "letter_id": "101"
+    },
+    {
+      "image": "dataset/la/1051_00_r1l22.png",
+      "text": "dataset/la/1051_00_r1l22.txt",
+      "language": "la",
+      "letter_id": "1051"
+    },
+    {
+      "image": "dataset/la/643_00_r1l9.png",
+      "text": "dataset/la/643_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "643"
+    },
+    {
+      "image": "dataset/la/1420_00_r1l3.png",
+      "text": "dataset/la/1420_00_r1l3.txt",
+      "language": "la",
+      "letter_id": "1420"
+    },
+    {
+      "image": "dataset/la/901_00_r1l4.png",
+      "text": "dataset/la/901_00_r1l4.txt",
+      "language": "la",
+      "letter_id": "901"
+    },
+    {
+      "image": "dataset/de/184_02_r1l4.png",
+      "text": "dataset/de/184_02_r1l4.txt",
+      "language": "de",
+      "letter_id": "184"
+    },
+    {
+      "image": "dataset/de/842_02_r1l9.png",
+      "text": "dataset/de/842_02_r1l9.txt",
+      "language": "de",
+      "letter_id": "842"
+    },
+    {
+      "image": "dataset/la/909_00_r1l9.png",
+      "text": "dataset/la/909_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "909"
+    },
+    {
+      "image": "dataset/la/870_00_r2l12.png",
+      "text": "dataset/la/870_00_r2l12.txt",
+      "language": "la",
+      "letter_id": "870"
+    },
+    {
+      "image": "dataset/la/1489_01_r2l18.png",
+      "text": "dataset/la/1489_01_r2l18.txt",
+      "language": "la",
+      "letter_id": "1489"
+    },
+    {
+      "image": "dataset/la/1225_00_r3l26.png",
+      "text": "dataset/la/1225_00_r3l26.txt",
+      "language": "la",
+      "letter_id": "1225"
+    },
+    {
+      "image": "dataset/de/1563_00_r1l28.png",
+      "text": "dataset/de/1563_00_r1l28.txt",
+      "language": "de",
+      "letter_id": "1563"
+    },
+    {
+      "image": "dataset/la/1652_00_r3l29.png",
+      "text": "dataset/la/1652_00_r3l29.txt",
+      "language": "la",
+      "letter_id": "1652"
+    },
+    {
+      "image": "dataset/la/1726_00_r1l19.png",
+      "text": "dataset/la/1726_00_r1l19.txt",
+      "language": "la",
+      "letter_id": "1726"
+    },
+    {
+      "image": "dataset/la/1059_00_r1l29.png",
+      "text": "dataset/la/1059_00_r1l29.txt",
+      "language": "la",
+      "letter_id": "1059"
+    },
+    {
+      "image": "dataset/la/203_00_r2l22.png",
+      "text": "dataset/la/203_00_r2l22.txt",
+      "language": "la",
+      "letter_id": "203"
+    },
+    {
+      "image": "dataset/la/1466_00_r1l9.png",
+      "text": "dataset/la/1466_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "1466"
+    },
+    {
+      "image": "dataset/la/827_00_r1l40.png",
+      "text": "dataset/la/827_00_r1l40.txt",
+      "language": "la",
+      "letter_id": "827"
+    },
+    {
+      "image": "dataset/la/1511_00_r2l24.png",
+      "text": "dataset/la/1511_00_r2l24.txt",
+      "language": "la",
+      "letter_id": "1511"
+    },
+    {
+      "image": "dataset/la/990_00_r2l13.png",
+      "text": "dataset/la/990_00_r2l13.txt",
+      "language": "la",
+      "letter_id": "990"
+    },
+    {
+      "image": "dataset/la/912_00_r1l18.png",
+      "text": "dataset/la/912_00_r1l18.txt",
+      "language": "la",
+      "letter_id": "912"
+    },
+    {
+      "image": "dataset/la/82_00_r1l9.png",
+      "text": "dataset/la/82_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "82"
+    },
+    {
+      "image": "dataset/la/1272_00_r1l34.png",
+      "text": "dataset/la/1272_00_r1l34.txt",
+      "language": "la",
+      "letter_id": "1272"
+    },
+    {
+      "image": "dataset/la/1599_00_r1l8.png",
+      "text": "dataset/la/1599_00_r1l8.txt",
+      "language": "la",
+      "letter_id": "1599"
+    },
+    {
+      "image": "dataset/la/1010_00_r1l26.png",
+      "text": "dataset/la/1010_00_r1l26.txt",
+      "language": "la",
+      "letter_id": "1010"
+    },
+    {
+      "image": "dataset/la/337_00_r1l1.png",
+      "text": "dataset/la/337_00_r1l1.txt",
+      "language": "la",
+      "letter_id": "337"
+    },
+    {
+      "image": "dataset/la/1980_00_r1l13.png",
+      "text": "dataset/la/1980_00_r1l13.txt",
+      "language": "la",
+      "letter_id": "1980"
+    },
+    {
+      "image": "dataset/la/259_00_r1l1.png",
+      "text": "dataset/la/259_00_r1l1.txt",
+      "language": "la",
+      "letter_id": "259"
+    },
+    {
+      "image": "dataset/la/1015_00_r1l18.png",
+      "text": "dataset/la/1015_00_r1l18.txt",
+      "language": "la",
+      "letter_id": "1015"
+    },
+    {
+      "image": "dataset/la/1489_00_r3l3.png",
+      "text": "dataset/la/1489_00_r3l3.txt",
+      "language": "la",
+      "letter_id": "1489"
+    },
+    {
+      "image": "dataset/de/1389_01_r2l5.png",
+      "text": "dataset/de/1389_01_r2l5.txt",
+      "language": "de",
+      "letter_id": "1389"
+    },
+    {
+      "image": "dataset/de/507_01_r1l6.png",
+      "text": "dataset/de/507_01_r1l6.txt",
+      "language": "de",
+      "letter_id": "507"
+    },
+    {
+      "image": "dataset/la/465_00_r1l28.png",
+      "text": "dataset/la/465_00_r1l28.txt",
+      "language": "la",
+      "letter_id": "465"
+    },
+    {
+      "image": "dataset/la/491_00_r3l12.png",
+      "text": "dataset/la/491_00_r3l12.txt",
+      "language": "la",
+      "letter_id": "491"
+    },
+    {
+      "image": "dataset/de/1058_01_r1l4.png",
+      "text": "dataset/de/1058_01_r1l4.txt",
+      "language": "de",
+      "letter_id": "1058"
+    },
+    {
+      "image": "dataset/la/1008_01_r2l26.png",
+      "text": "dataset/la/1008_01_r2l26.txt",
+      "language": "la",
+      "letter_id": "1008"
+    },
+    {
+      "image": "dataset/la/949_00_r2l20.png",
+      "text": "dataset/la/949_00_r2l20.txt",
+      "language": "la",
+      "letter_id": "949"
+    },
+    {
+      "image": "dataset/la/1698_01_r1l4.png",
+      "text": "dataset/la/1698_01_r1l4.txt",
+      "language": "la",
+      "letter_id": "1698"
+    },
+    {
+      "image": "dataset/la/397_01_r1l20.png",
+      "text": "dataset/la/397_01_r1l20.txt",
+      "language": "la",
+      "letter_id": "397"
+    },
+    {
+      "image": "dataset/la/1545_00_r2l6.png",
+      "text": "dataset/la/1545_00_r2l6.txt",
+      "language": "la",
+      "letter_id": "1545"
+    },
+    {
+      "image": "dataset/la/1581_00_r1l10.png",
+      "text": "dataset/la/1581_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "1581"
+    },
+    {
+      "image": "dataset/de/1563_00_r1l21.png",
+      "text": "dataset/de/1563_00_r1l21.txt",
+      "language": "de",
+      "letter_id": "1563"
+    },
+    {
+      "image": "dataset/la/119_00_r1l8.png",
+      "text": "dataset/la/119_00_r1l8.txt",
+      "language": "la",
+      "letter_id": "119"
+    },
+    {
+      "image": "dataset/la/376_00_r1l25.png",
+      "text": "dataset/la/376_00_r1l25.txt",
+      "language": "la",
+      "letter_id": "376"
+    },
+    {
+      "image": "dataset/la/613_00_r2l14.png",
+      "text": "dataset/la/613_00_r2l14.txt",
+      "language": "la",
+      "letter_id": "613"
+    },
+    {
+      "image": "dataset/la/47_00_r1l23.png",
+      "text": "dataset/la/47_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "47"
+    },
+    {
+      "image": "dataset/la/1448_01_r1l20.png",
+      "text": "dataset/la/1448_01_r1l20.txt",
+      "language": "la",
+      "letter_id": "1448"
+    },
+    {
+      "image": "dataset/la/1008_01_r2l28.png",
+      "text": "dataset/la/1008_01_r2l28.txt",
+      "language": "la",
+      "letter_id": "1008"
+    },
+    {
+      "image": "dataset/la/611_00_r2l23.png",
+      "text": "dataset/la/611_00_r2l23.txt",
+      "language": "la",
+      "letter_id": "611"
+    },
+    {
+      "image": "dataset/la/1855_00_r2l13.png",
+      "text": "dataset/la/1855_00_r2l13.txt",
+      "language": "la",
+      "letter_id": "1855"
+    },
+    {
+      "image": "dataset/la/846_01_r2l1.png",
+      "text": "dataset/la/846_01_r2l1.txt",
+      "language": "la",
+      "letter_id": "846"
+    },
+    {
+      "image": "dataset/la/1287_00_r2l17.png",
+      "text": "dataset/la/1287_00_r2l17.txt",
+      "language": "la",
+      "letter_id": "1287"
+    },
+    {
+      "image": "dataset/de/567_02_r1l10.png",
+      "text": "dataset/de/567_02_r1l10.txt",
+      "language": "de",
+      "letter_id": "567"
+    },
+    {
+      "image": "dataset/la/757_00_r1l4.png",
+      "text": "dataset/la/757_00_r1l4.txt",
+      "language": "la",
+      "letter_id": "757"
+    },
+    {
+      "image": "dataset/de/1236_00_r2l22.png",
+      "text": "dataset/de/1236_00_r2l22.txt",
+      "language": "de",
+      "letter_id": "1236"
+    },
+    {
+      "image": "dataset/la/274_00_r1l32.png",
+      "text": "dataset/la/274_00_r1l32.txt",
+      "language": "la",
+      "letter_id": "274"
+    },
+    {
+      "image": "dataset/la/936_01_r1l1.png",
+      "text": "dataset/la/936_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "936"
+    },
+    {
+      "image": "dataset/de/70_00_r1l16.png",
+      "text": "dataset/de/70_00_r1l16.txt",
+      "language": "de",
+      "letter_id": "70"
+    },
+    {
+      "image": "dataset/la/1051_00_r1l15.png",
+      "text": "dataset/la/1051_00_r1l15.txt",
+      "language": "la",
+      "letter_id": "1051"
+    },
+    {
+      "image": "dataset/la/52_00_r1l22.png",
+      "text": "dataset/la/52_00_r1l22.txt",
+      "language": "la",
+      "letter_id": "52"
+    },
+    {
+      "image": "dataset/la/1712_00_r2l21.png",
+      "text": "dataset/la/1712_00_r2l21.txt",
+      "language": "la",
+      "letter_id": "1712"
+    },
+    {
+      "image": "dataset/la/863_01_r1l3.png",
+      "text": "dataset/la/863_01_r1l3.txt",
+      "language": "la",
+      "letter_id": "863"
+    },
+    {
+      "image": "dataset/la/114_00_r1l22.png",
+      "text": "dataset/la/114_00_r1l22.txt",
+      "language": "la",
+      "letter_id": "114"
+    },
+    {
+      "image": "dataset/la/161_01_r2l10.png",
+      "text": "dataset/la/161_01_r2l10.txt",
+      "language": "la",
+      "letter_id": "161"
+    },
+    {
+      "image": "dataset/la/836_00_r1l14.png",
+      "text": "dataset/la/836_00_r1l14.txt",
+      "language": "la",
+      "letter_id": "836"
+    },
+    {
+      "image": "dataset/de/708_00_r1l28.png",
+      "text": "dataset/de/708_00_r1l28.txt",
+      "language": "de",
+      "letter_id": "708"
+    },
+    {
+      "image": "dataset/la/421_00_r1l5.png",
+      "text": "dataset/la/421_00_r1l5.txt",
+      "language": "la",
+      "letter_id": "421"
+    },
+    {
+      "image": "dataset/la/1683_00_r1l26.png",
+      "text": "dataset/la/1683_00_r1l26.txt",
+      "language": "la",
+      "letter_id": "1683"
+    },
+    {
+      "image": "dataset/la/318_00_r1l14.png",
+      "text": "dataset/la/318_00_r1l14.txt",
+      "language": "la",
+      "letter_id": "318"
+    },
+    {
+      "image": "dataset/de/1771_00_r1l30.png",
+      "text": "dataset/de/1771_00_r1l30.txt",
+      "language": "de",
+      "letter_id": "1771"
+    },
+    {
+      "image": "dataset/la/18_00_r1l30.png",
+      "text": "dataset/la/18_00_r1l30.txt",
+      "language": "la",
+      "letter_id": "18"
+    },
+    {
+      "image": "dataset/la/362_00_r1l14.png",
+      "text": "dataset/la/362_00_r1l14.txt",
+      "language": "la",
+      "letter_id": "362"
+    },
+    {
+      "image": "dataset/la/889_00_r1l20.png",
+      "text": "dataset/la/889_00_r1l20.txt",
+      "language": "la",
+      "letter_id": "889"
+    },
+    {
+      "image": "dataset/la/1287_01_r1l7.png",
+      "text": "dataset/la/1287_01_r1l7.txt",
+      "language": "la",
+      "letter_id": "1287"
+    },
+    {
+      "image": "dataset/la/380_02_r1l14.png",
+      "text": "dataset/la/380_02_r1l14.txt",
+      "language": "la",
+      "letter_id": "380"
+    },
+    {
+      "image": "dataset/la/739_00_r1l23.png",
+      "text": "dataset/la/739_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "739"
+    },
+    {
+      "image": "dataset/la/713_00_r3l11.png",
+      "text": "dataset/la/713_00_r3l11.txt",
+      "language": "la",
+      "letter_id": "713"
+    },
+    {
+      "image": "dataset/la/1546_00_r1l19.png",
+      "text": "dataset/la/1546_00_r1l19.txt",
+      "language": "la",
+      "letter_id": "1546"
+    },
+    {
+      "image": "dataset/de/553_00_r1l4.png",
+      "text": "dataset/de/553_00_r1l4.txt",
+      "language": "de",
+      "letter_id": "553"
+    },
+    {
+      "image": "dataset/la/1651_01_r2l10.png",
+      "text": "dataset/la/1651_01_r2l10.txt",
+      "language": "la",
+      "letter_id": "1651"
+    },
+    {
+      "image": "dataset/la/708_01_r1l1.png",
+      "text": "dataset/la/708_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "708"
+    },
+    {
+      "image": "dataset/de/1938_00_r1l8.png",
+      "text": "dataset/de/1938_00_r1l8.txt",
+      "language": "de",
+      "letter_id": "1938"
+    },
+    {
+      "image": "dataset/la/1628_00_r1l13.png",
+      "text": "dataset/la/1628_00_r1l13.txt",
+      "language": "la",
+      "letter_id": "1628"
+    },
+    {
+      "image": "dataset/la/1166_01_r2l2.png",
+      "text": "dataset/la/1166_01_r2l2.txt",
+      "language": "la",
+      "letter_id": "1166"
+    },
+    {
+      "image": "dataset/la/1975_00_r1l31.png",
+      "text": "dataset/la/1975_00_r1l31.txt",
+      "language": "la",
+      "letter_id": "1975"
+    },
+    {
+      "image": "dataset/la/477_00_r2l51.png",
+      "text": "dataset/la/477_00_r2l51.txt",
+      "language": "la",
+      "letter_id": "477"
+    },
+    {
+      "image": "dataset/la/1418_00_r1l9.png",
+      "text": "dataset/la/1418_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "1418"
+    },
+    {
+      "image": "dataset/la/1243_00_r1l28.png",
+      "text": "dataset/la/1243_00_r1l28.txt",
+      "language": "la",
+      "letter_id": "1243"
+    },
+    {
+      "image": "dataset/la/1053_00_r1l11.png",
+      "text": "dataset/la/1053_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "1053"
+    },
+    {
+      "image": "dataset/la/276_00_r1l30.png",
+      "text": "dataset/la/276_00_r1l30.txt",
+      "language": "la",
+      "letter_id": "276"
+    },
+    {
+      "image": "dataset/la/1930_00_r2l40.png",
+      "text": "dataset/la/1930_00_r2l40.txt",
+      "language": "la",
+      "letter_id": "1930"
+    },
+    {
+      "image": "dataset/la/1529_02_r2l10.png",
+      "text": "dataset/la/1529_02_r2l10.txt",
+      "language": "la",
+      "letter_id": "1529"
+    },
+    {
+      "image": "dataset/la/1387_00_r3l11.png",
+      "text": "dataset/la/1387_00_r3l11.txt",
+      "language": "la",
+      "letter_id": "1387"
+    },
+    {
+      "image": "dataset/la/1654_00_r1l41.png",
+      "text": "dataset/la/1654_00_r1l41.txt",
+      "language": "la",
+      "letter_id": "1654"
+    },
+    {
+      "image": "dataset/la/943_00_r1l16.png",
+      "text": "dataset/la/943_00_r1l16.txt",
+      "language": "la",
+      "letter_id": "943"
+    },
+    {
+      "image": "dataset/la/1030_00_r1l33.png",
+      "text": "dataset/la/1030_00_r1l33.txt",
+      "language": "la",
+      "letter_id": "1030"
+    },
+    {
+      "image": "dataset/la/1949_01_r1l2.png",
+      "text": "dataset/la/1949_01_r1l2.txt",
+      "language": "la",
+      "letter_id": "1949"
+    },
+    {
+      "image": "dataset/la/700_00_r1l11.png",
+      "text": "dataset/la/700_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "700"
+    },
+    {
+      "image": "dataset/de/877_00_r1l34.png",
+      "text": "dataset/de/877_00_r1l34.txt",
+      "language": "de",
+      "letter_id": "877"
+    },
+    {
+      "image": "dataset/la/536_00_r2l7.png",
+      "text": "dataset/la/536_00_r2l7.txt",
+      "language": "la",
+      "letter_id": "536"
+    },
+    {
+      "image": "dataset/la/1436_01_r2l1.png",
+      "text": "dataset/la/1436_01_r2l1.txt",
+      "language": "la",
+      "letter_id": "1436"
+    },
+    {
+      "image": "dataset/la/323_00_r3l43.png",
+      "text": "dataset/la/323_00_r3l43.txt",
+      "language": "la",
+      "letter_id": "323"
+    },
+    {
+      "image": "dataset/la/541_00_r1l7.png",
+      "text": "dataset/la/541_00_r1l7.txt",
+      "language": "la",
+      "letter_id": "541"
+    },
+    {
+      "image": "dataset/la/1760_01_r1l3.png",
+      "text": "dataset/la/1760_01_r1l3.txt",
+      "language": "la",
+      "letter_id": "1760"
+    },
+    {
+      "image": "dataset/la/1259_00_r1l10.png",
+      "text": "dataset/la/1259_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "1259"
+    },
+    {
+      "image": "dataset/la/236_01_r1l1.png",
+      "text": "dataset/la/236_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "236"
+    },
+    {
+      "image": "dataset/la/354_00_r1l28.png",
+      "text": "dataset/la/354_00_r1l28.txt",
+      "language": "la",
+      "letter_id": "354"
+    },
+    {
+      "image": "dataset/de/1544_00_r1l31.png",
+      "text": "dataset/de/1544_00_r1l31.txt",
+      "language": "de",
+      "letter_id": "1544"
+    },
+    {
+      "image": "dataset/la/255_00_r1l10.png",
+      "text": "dataset/la/255_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "255"
+    },
+    {
+      "image": "dataset/la/543_01_r1l26.png",
+      "text": "dataset/la/543_01_r1l26.txt",
+      "language": "la",
+      "letter_id": "543"
+    },
+    {
+      "image": "dataset/la/1147_01_r2l3.png",
+      "text": "dataset/la/1147_01_r2l3.txt",
+      "language": "la",
+      "letter_id": "1147"
+    },
+    {
+      "image": "dataset/la/869_00_r1l12.png",
+      "text": "dataset/la/869_00_r1l12.txt",
+      "language": "la",
+      "letter_id": "869"
+    },
+    {
+      "image": "dataset/la/514_00_r2l3.png",
+      "text": "dataset/la/514_00_r2l3.txt",
+      "language": "la",
+      "letter_id": "514"
+    },
+    {
+      "image": "dataset/la/1101_00_r1l7.png",
+      "text": "dataset/la/1101_00_r1l7.txt",
+      "language": "la",
+      "letter_id": "1101"
+    },
+    {
+      "image": "dataset/la/1177_00_r1l5.png",
+      "text": "dataset/la/1177_00_r1l5.txt",
+      "language": "la",
+      "letter_id": "1177"
+    },
+    {
+      "image": "dataset/la/161_00_r1l49.png",
+      "text": "dataset/la/161_00_r1l49.txt",
+      "language": "la",
+      "letter_id": "161"
+    },
+    {
+      "image": "dataset/la/922_00_r2l25.png",
+      "text": "dataset/la/922_00_r2l25.txt",
+      "language": "la",
+      "letter_id": "922"
+    },
+    {
+      "image": "dataset/la/1448_01_r1l28.png",
+      "text": "dataset/la/1448_01_r1l28.txt",
+      "language": "la",
+      "letter_id": "1448"
+    },
+    {
+      "image": "dataset/la/1513_01_r1l5.png",
+      "text": "dataset/la/1513_01_r1l5.txt",
+      "language": "la",
+      "letter_id": "1513"
+    },
+    {
+      "image": "dataset/la/380_00_r2l15.png",
+      "text": "dataset/la/380_00_r2l15.txt",
+      "language": "la",
+      "letter_id": "380"
+    },
+    {
+      "image": "dataset/la/1351_00_r1l24.png",
+      "text": "dataset/la/1351_00_r1l24.txt",
+      "language": "la",
+      "letter_id": "1351"
+    },
+    {
+      "image": "dataset/la/858_00_r2l8.png",
+      "text": "dataset/la/858_00_r2l8.txt",
+      "language": "la",
+      "letter_id": "858"
+    },
+    {
+      "image": "dataset/la/599_00_r1l33.png",
+      "text": "dataset/la/599_00_r1l33.txt",
+      "language": "la",
+      "letter_id": "599"
+    },
+    {
+      "image": "dataset/la/1975_00_r1l29.png",
+      "text": "dataset/la/1975_00_r1l29.txt",
+      "language": "la",
+      "letter_id": "1975"
+    },
+    {
+      "image": "dataset/la/1448_00_r2l4.png",
+      "text": "dataset/la/1448_00_r2l4.txt",
+      "language": "la",
+      "letter_id": "1448"
+    },
+    {
+      "image": "dataset/la/1665_01_r1l3.png",
+      "text": "dataset/la/1665_01_r1l3.txt",
+      "language": "la",
+      "letter_id": "1665"
+    },
+    {
+      "image": "dataset/la/1043_00_r1l9.png",
+      "text": "dataset/la/1043_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "1043"
+    },
+    {
+      "image": "dataset/de/459_01_r1l10.png",
+      "text": "dataset/de/459_01_r1l10.txt",
+      "language": "de",
+      "letter_id": "459"
+    },
+    {
+      "image": "dataset/la/744_01_r1l5.png",
+      "text": "dataset/la/744_01_r1l5.txt",
+      "language": "la",
+      "letter_id": "744"
+    },
+    {
+      "image": "dataset/la/26_00_r1l5.png",
+      "text": "dataset/la/26_00_r1l5.txt",
+      "language": "la",
+      "letter_id": "26"
+    },
+    {
+      "image": "dataset/la/855_00_r2l27.png",
+      "text": "dataset/la/855_00_r2l27.txt",
+      "language": "la",
+      "letter_id": "855"
+    },
+    {
+      "image": "dataset/la/1472_00_r1l50.png",
+      "text": "dataset/la/1472_00_r1l50.txt",
+      "language": "la",
+      "letter_id": "1472"
+    },
+    {
+      "image": "dataset/la/1651_01_r2l11.png",
+      "text": "dataset/la/1651_01_r2l11.txt",
+      "language": "la",
+      "letter_id": "1651"
+    },
+    {
+      "image": "dataset/la/270_00_r1l2.png",
+      "text": "dataset/la/270_00_r1l2.txt",
+      "language": "la",
+      "letter_id": "270"
+    },
+    {
+      "image": "dataset/la/95_00_r1l24.png",
+      "text": "dataset/la/95_00_r1l24.txt",
+      "language": "la",
+      "letter_id": "95"
+    },
+    {
+      "image": "dataset/la/24_00_r1l1.png",
+      "text": "dataset/la/24_00_r1l1.txt",
+      "language": "la",
+      "letter_id": "24"
+    },
+    {
+      "image": "dataset/la/1804_01_r1l5.png",
+      "text": "dataset/la/1804_01_r1l5.txt",
+      "language": "la",
+      "letter_id": "1804"
+    },
+    {
+      "image": "dataset/la/949_00_r2l29.png",
+      "text": "dataset/la/949_00_r2l29.txt",
+      "language": "la",
+      "letter_id": "949"
+    },
+    {
+      "image": "dataset/la/1456_00_r1l7.png",
+      "text": "dataset/la/1456_00_r1l7.txt",
+      "language": "la",
+      "letter_id": "1456"
+    }
+  ],
+  "test": [
+    {
+      "image": "dataset/la/402_00_r2l20.png",
+      "text": "dataset/la/402_00_r2l20.txt",
+      "language": "la",
+      "letter_id": "402"
+    },
+    {
+      "image": "dataset/la/1523_00_r2l29.png",
+      "text": "dataset/la/1523_00_r2l29.txt",
+      "language": "la",
+      "letter_id": "1523"
+    },
+    {
+      "image": "dataset/la/1863_01_r1l1.png",
+      "text": "dataset/la/1863_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "1863"
+    },
+    {
+      "image": "dataset/la/1069_00_r1l4.png",
+      "text": "dataset/la/1069_00_r1l4.txt",
+      "language": "la",
+      "letter_id": "1069"
+    },
+    {
+      "image": "dataset/la/246_02_r1l3.png",
+      "text": "dataset/la/246_02_r1l3.txt",
+      "language": "la",
+      "letter_id": "246"
+    },
+    {
+      "image": "dataset/de/938_00_r1l11.png",
+      "text": "dataset/de/938_00_r1l11.txt",
+      "language": "de",
+      "letter_id": "938"
+    },
+    {
+      "image": "dataset/la/934_00_r1l12.png",
+      "text": "dataset/la/934_00_r1l12.txt",
+      "language": "la",
+      "letter_id": "934"
+    },
+    {
+      "image": "dataset/la/1781_00_r2l29.png",
+      "text": "dataset/la/1781_00_r2l29.txt",
+      "language": "la",
+      "letter_id": "1781"
+    },
+    {
+      "image": "dataset/la/1593_00_r3l29.png",
+      "text": "dataset/la/1593_00_r3l29.txt",
+      "language": "la",
+      "letter_id": "1593"
+    },
+    {
+      "image": "dataset/la/1618_00_r1l6.png",
+      "text": "dataset/la/1618_00_r1l6.txt",
+      "language": "la",
+      "letter_id": "1618"
+    },
+    {
+      "image": "dataset/la/150_00_r1l27.png",
+      "text": "dataset/la/150_00_r1l27.txt",
+      "language": "la",
+      "letter_id": "150"
+    },
+    {
+      "image": "dataset/la/501_01_r1l2.png",
+      "text": "dataset/la/501_01_r1l2.txt",
+      "language": "la",
+      "letter_id": "501"
+    },
+    {
+      "image": "dataset/la/201_00_r1l4.png",
+      "text": "dataset/la/201_00_r1l4.txt",
+      "language": "la",
+      "letter_id": "201"
+    },
+    {
+      "image": "dataset/la/610_00_r1l66.png",
+      "text": "dataset/la/610_00_r1l66.txt",
+      "language": "la",
+      "letter_id": "610"
+    },
+    {
+      "image": "dataset/la/916_00_r2l13.png",
+      "text": "dataset/la/916_00_r2l13.txt",
+      "language": "la",
+      "letter_id": "916"
+    },
+    {
+      "image": "dataset/de/240_00_r2l4.png",
+      "text": "dataset/de/240_00_r2l4.txt",
+      "language": "de",
+      "letter_id": "240"
+    },
+    {
+      "image": "dataset/de/1925_01_r1l40.png",
+      "text": "dataset/de/1925_01_r1l40.txt",
+      "language": "de",
+      "letter_id": "1925"
+    },
+    {
+      "image": "dataset/la/284_01_r1l4.png",
+      "text": "dataset/la/284_01_r1l4.txt",
+      "language": "la",
+      "letter_id": "284"
+    },
+    {
+      "image": "dataset/la/1446_01_r1l22.png",
+      "text": "dataset/la/1446_01_r1l22.txt",
+      "language": "la",
+      "letter_id": "1446"
+    },
+    {
+      "image": "dataset/la/1986_00_r1l26.png",
+      "text": "dataset/la/1986_00_r1l26.txt",
+      "language": "la",
+      "letter_id": "1986"
+    },
+    {
+      "image": "dataset/de/1973_00_r2l31.png",
+      "text": "dataset/de/1973_00_r2l31.txt",
+      "language": "de",
+      "letter_id": "1973"
+    },
+    {
+      "image": "dataset/la/1372_00_r1l40.png",
+      "text": "dataset/la/1372_00_r1l40.txt",
+      "language": "la",
+      "letter_id": "1372"
+    },
+    {
+      "image": "dataset/la/699_00_r2l23.png",
+      "text": "dataset/la/699_00_r2l23.txt",
+      "language": "la",
+      "letter_id": "699"
+    },
+    {
+      "image": "dataset/la/1809_00_r2l8.png",
+      "text": "dataset/la/1809_00_r2l8.txt",
+      "language": "la",
+      "letter_id": "1809"
+    },
+    {
+      "image": "dataset/la/1538_00_r1l35.png",
+      "text": "dataset/la/1538_00_r1l35.txt",
+      "language": "la",
+      "letter_id": "1538"
+    },
+    {
+      "image": "dataset/la/871_04_r1l26.png",
+      "text": "dataset/la/871_04_r1l26.txt",
+      "language": "la",
+      "letter_id": "871"
+    },
+    {
+      "image": "dataset/la/1571_00_r1l3.png",
+      "text": "dataset/la/1571_00_r1l3.txt",
+      "language": "la",
+      "letter_id": "1571"
+    },
+    {
+      "image": "dataset/de/1405_00_r2l26.png",
+      "text": "dataset/de/1405_00_r2l26.txt",
+      "language": "de",
+      "letter_id": "1405"
+    },
+    {
+      "image": "dataset/la/1580_00_r1l29.png",
+      "text": "dataset/la/1580_00_r1l29.txt",
+      "language": "la",
+      "letter_id": "1580"
+    },
+    {
+      "image": "dataset/la/831_02_r1l17.png",
+      "text": "dataset/la/831_02_r1l17.txt",
+      "language": "la",
+      "letter_id": "831"
+    },
+    {
+      "image": "dataset/la/1204_00_r1l23.png",
+      "text": "dataset/la/1204_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "1204"
+    },
+    {
+      "image": "dataset/la/659_00_r2l19.png",
+      "text": "dataset/la/659_00_r2l19.txt",
+      "language": "la",
+      "letter_id": "659"
+    },
+    {
+      "image": "dataset/la/925_00_r1l9.png",
+      "text": "dataset/la/925_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "925"
+    },
+    {
+      "image": "dataset/la/860_00_r2l13.png",
+      "text": "dataset/la/860_00_r2l13.txt",
+      "language": "la",
+      "letter_id": "860"
+    },
+    {
+      "image": "dataset/la/1857_01_r2l5.png",
+      "text": "dataset/la/1857_01_r2l5.txt",
+      "language": "la",
+      "letter_id": "1857"
+    },
+    {
+      "image": "dataset/la/554_00_r1l11.png",
+      "text": "dataset/la/554_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "554"
+    },
+    {
+      "image": "dataset/de/403_00_r1l32.png",
+      "text": "dataset/de/403_00_r1l32.txt",
+      "language": "de",
+      "letter_id": "403"
+    },
+    {
+      "image": "dataset/de/1848_00_r1l28.png",
+      "text": "dataset/de/1848_00_r1l28.txt",
+      "language": "de",
+      "letter_id": "1848"
+    },
+    {
+      "image": "dataset/la/704_00_r1l37.png",
+      "text": "dataset/la/704_00_r1l37.txt",
+      "language": "la",
+      "letter_id": "704"
+    },
+    {
+      "image": "dataset/la/1262_01_r1l4.png",
+      "text": "dataset/la/1262_01_r1l4.txt",
+      "language": "la",
+      "letter_id": "1262"
+    },
+    {
+      "image": "dataset/la/1967_01_r1l40.png",
+      "text": "dataset/la/1967_01_r1l40.txt",
+      "language": "la",
+      "letter_id": "1967"
+    },
+    {
+      "image": "dataset/la/1571_00_r2l25.png",
+      "text": "dataset/la/1571_00_r2l25.txt",
+      "language": "la",
+      "letter_id": "1571"
+    },
+    {
+      "image": "dataset/la/1271_00_r1l23.png",
+      "text": "dataset/la/1271_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "1271"
+    },
+    {
+      "image": "dataset/la/333_00_r2l16.png",
+      "text": "dataset/la/333_00_r2l16.txt",
+      "language": "la",
+      "letter_id": "333"
+    },
+    {
+      "image": "dataset/la/1076_00_r2l42.png",
+      "text": "dataset/la/1076_00_r2l42.txt",
+      "language": "la",
+      "letter_id": "1076"
+    },
+    {
+      "image": "dataset/la/1961_00_r1l23.png",
+      "text": "dataset/la/1961_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "1961"
+    },
+    {
+      "image": "dataset/la/1561_01_r3l22.png",
+      "text": "dataset/la/1561_01_r3l22.txt",
+      "language": "la",
+      "letter_id": "1561"
+    },
+    {
+      "image": "dataset/la/285_00_r1l16.png",
+      "text": "dataset/la/285_00_r1l16.txt",
+      "language": "la",
+      "letter_id": "285"
+    },
+    {
+      "image": "dataset/la/194_02_r1l3.png",
+      "text": "dataset/la/194_02_r1l3.txt",
+      "language": "la",
+      "letter_id": "194"
+    },
+    {
+      "image": "dataset/la/58_00_r1l10.png",
+      "text": "dataset/la/58_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "58"
+    },
+    {
+      "image": "dataset/la/1298_01_r1l3.png",
+      "text": "dataset/la/1298_01_r1l3.txt",
+      "language": "la",
+      "letter_id": "1298"
+    },
+    {
+      "image": "dataset/la/771_00_r1l12.png",
+      "text": "dataset/la/771_00_r1l12.txt",
+      "language": "la",
+      "letter_id": "771"
+    },
+    {
+      "image": "dataset/la/704_00_r1l41.png",
+      "text": "dataset/la/704_00_r1l41.txt",
+      "language": "la",
+      "letter_id": "704"
+    },
+    {
+      "image": "dataset/de/367_01_r2l37.png",
+      "text": "dataset/de/367_01_r2l37.txt",
+      "language": "de",
+      "letter_id": "367"
+    },
+    {
+      "image": "dataset/la/521_01_r1l29.png",
+      "text": "dataset/la/521_01_r1l29.txt",
+      "language": "la",
+      "letter_id": "521"
+    },
+    {
+      "image": "dataset/la/1999_00_r2l3.png",
+      "text": "dataset/la/1999_00_r2l3.txt",
+      "language": "la",
+      "letter_id": "1999"
+    },
+    {
+      "image": "dataset/la/1592_00_r1l27.png",
+      "text": "dataset/la/1592_00_r1l27.txt",
+      "language": "la",
+      "letter_id": "1592"
+    },
+    {
+      "image": "dataset/la/449_01_r1l29.png",
+      "text": "dataset/la/449_01_r1l29.txt",
+      "language": "la",
+      "letter_id": "449"
+    },
+    {
+      "image": "dataset/la/982_00_r1l9.png",
+      "text": "dataset/la/982_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "982"
+    },
+    {
+      "image": "dataset/la/424_00_r2l14.png",
+      "text": "dataset/la/424_00_r2l14.txt",
+      "language": "la",
+      "letter_id": "424"
+    },
+    {
+      "image": "dataset/la/873_00_r1l9.png",
+      "text": "dataset/la/873_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "873"
+    },
+    {
+      "image": "dataset/la/1812_02_r3l4.png",
+      "text": "dataset/la/1812_02_r3l4.txt",
+      "language": "la",
+      "letter_id": "1812"
+    },
+    {
+      "image": "dataset/la/625_02_r2l26.png",
+      "text": "dataset/la/625_02_r2l26.txt",
+      "language": "la",
+      "letter_id": "625"
+    },
+    {
+      "image": "dataset/la/1722_00_r1l3.png",
+      "text": "dataset/la/1722_00_r1l3.txt",
+      "language": "la",
+      "letter_id": "1722"
+    },
+    {
+      "image": "dataset/la/882_00_r2l15.png",
+      "text": "dataset/la/882_00_r2l15.txt",
+      "language": "la",
+      "letter_id": "882"
+    },
+    {
+      "image": "dataset/la/895_00_r2l9.png",
+      "text": "dataset/la/895_00_r2l9.txt",
+      "language": "la",
+      "letter_id": "895"
+    },
+    {
+      "image": "dataset/la/1252_02_r1l16.png",
+      "text": "dataset/la/1252_02_r1l16.txt",
+      "language": "la",
+      "letter_id": "1252"
+    },
+    {
+      "image": "dataset/la/907_00_r1l17.png",
+      "text": "dataset/la/907_00_r1l17.txt",
+      "language": "la",
+      "letter_id": "907"
+    },
+    {
+      "image": "dataset/de/136_00_r2l8.png",
+      "text": "dataset/de/136_00_r2l8.txt",
+      "language": "de",
+      "letter_id": "136"
+    },
+    {
+      "image": "dataset/la/812_00_r2l15.png",
+      "text": "dataset/la/812_00_r2l15.txt",
+      "language": "la",
+      "letter_id": "812"
+    },
+    {
+      "image": "dataset/de/1464_01_r1l30.png",
+      "text": "dataset/de/1464_01_r1l30.txt",
+      "language": "de",
+      "letter_id": "1464"
+    },
+    {
+      "image": "dataset/la/963_00_r1l30.png",
+      "text": "dataset/la/963_00_r1l30.txt",
+      "language": "la",
+      "letter_id": "963"
+    },
+    {
+      "image": "dataset/la/672_00_r1l10.png",
+      "text": "dataset/la/672_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "672"
+    },
+    {
+      "image": "dataset/la/862_03_r1l5.png",
+      "text": "dataset/la/862_03_r1l5.txt",
+      "language": "la",
+      "letter_id": "862"
+    },
+    {
+      "image": "dataset/la/1851_00_r4l13.png",
+      "text": "dataset/la/1851_00_r4l13.txt",
+      "language": "la",
+      "letter_id": "1851"
+    },
+    {
+      "image": "dataset/la/1490_00_r1l26.png",
+      "text": "dataset/la/1490_00_r1l26.txt",
+      "language": "la",
+      "letter_id": "1490"
+    },
+    {
+      "image": "dataset/de/996_00_r1l13.png",
+      "text": "dataset/de/996_00_r1l13.txt",
+      "language": "de",
+      "letter_id": "996"
+    },
+    {
+      "image": "dataset/la/1203_00_r1l10.png",
+      "text": "dataset/la/1203_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "1203"
+    },
+    {
+      "image": "dataset/la/959_02_r3l19.png",
+      "text": "dataset/la/959_02_r3l19.txt",
+      "language": "la",
+      "letter_id": "959"
+    },
+    {
+      "image": "dataset/la/1740_00_r1l24.png",
+      "text": "dataset/la/1740_00_r1l24.txt",
+      "language": "la",
+      "letter_id": "1740"
+    },
+    {
+      "image": "dataset/la/325_00_r1l37.png",
+      "text": "dataset/la/325_00_r1l37.txt",
+      "language": "la",
+      "letter_id": "325"
+    },
+    {
+      "image": "dataset/la/1277_01_r1l1.png",
+      "text": "dataset/la/1277_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "1277"
+    },
+    {
+      "image": "dataset/la/947_00_r1l9.png",
+      "text": "dataset/la/947_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "947"
+    },
+    {
+      "image": "dataset/la/538_01_r1l5.png",
+      "text": "dataset/la/538_01_r1l5.txt",
+      "language": "la",
+      "letter_id": "538"
+    },
+    {
+      "image": "dataset/de/1397_00_r1l7.png",
+      "text": "dataset/de/1397_00_r1l7.txt",
+      "language": "de",
+      "letter_id": "1397"
+    },
+    {
+      "image": "dataset/la/33_00_r1l23.png",
+      "text": "dataset/la/33_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "33"
+    },
+    {
+      "image": "dataset/la/866_00_r1l34.png",
+      "text": "dataset/la/866_00_r1l34.txt",
+      "language": "la",
+      "letter_id": "866"
+    },
+    {
+      "image": "dataset/la/1277_00_r1l13.png",
+      "text": "dataset/la/1277_00_r1l13.txt",
+      "language": "la",
+      "letter_id": "1277"
+    },
+    {
+      "image": "dataset/la/196_00_r2l8.png",
+      "text": "dataset/la/196_00_r2l8.txt",
+      "language": "la",
+      "letter_id": "196"
+    },
+    {
+      "image": "dataset/la/1235_00_r1l4.png",
+      "text": "dataset/la/1235_00_r1l4.txt",
+      "language": "la",
+      "letter_id": "1235"
+    },
+    {
+      "image": "dataset/la/482_00_r1l28.png",
+      "text": "dataset/la/482_00_r1l28.txt",
+      "language": "la",
+      "letter_id": "482"
+    },
+    {
+      "image": "dataset/la/868_01_r1l46.png",
+      "text": "dataset/la/868_01_r1l46.txt",
+      "language": "la",
+      "letter_id": "868"
+    },
+    {
+      "image": "dataset/la/1926_00_r2l35.png",
+      "text": "dataset/la/1926_00_r2l35.txt",
+      "language": "la",
+      "letter_id": "1926"
+    },
+    {
+      "image": "dataset/de/167_02_r1l45.png",
+      "text": "dataset/de/167_02_r1l45.txt",
+      "language": "de",
+      "letter_id": "167"
+    },
+    {
+      "image": "dataset/la/54_01_r1l15.png",
+      "text": "dataset/la/54_01_r1l15.txt",
+      "language": "la",
+      "letter_id": "54"
+    },
+    {
+      "image": "dataset/la/1459_00_r2l17.png",
+      "text": "dataset/la/1459_00_r2l17.txt",
+      "language": "la",
+      "letter_id": "1459"
+    },
+    {
+      "image": "dataset/la/563_02_r1l20.png",
+      "text": "dataset/la/563_02_r1l20.txt",
+      "language": "la",
+      "letter_id": "563"
+    },
+    {
+      "image": "dataset/la/714_00_r2l7.png",
+      "text": "dataset/la/714_00_r2l7.txt",
+      "language": "la",
+      "letter_id": "714"
+    },
+    {
+      "image": "dataset/la/729_00_r1l3.png",
+      "text": "dataset/la/729_00_r1l3.txt",
+      "language": "la",
+      "letter_id": "729"
+    },
+    {
+      "image": "dataset/la/426_00_r1l8.png",
+      "text": "dataset/la/426_00_r1l8.txt",
+      "language": "la",
+      "letter_id": "426"
+    },
+    {
+      "image": "dataset/la/50_00_r1l32.png",
+      "text": "dataset/la/50_00_r1l32.txt",
+      "language": "la",
+      "letter_id": "50"
+    },
+    {
+      "image": "dataset/la/1316_00_r2l21.png",
+      "text": "dataset/la/1316_00_r2l21.txt",
+      "language": "la",
+      "letter_id": "1316"
+    },
+    {
+      "image": "dataset/la/126_00_r1l33.png",
+      "text": "dataset/la/126_00_r1l33.txt",
+      "language": "la",
+      "letter_id": "126"
+    },
+    {
+      "image": "dataset/de/176_00_r1l30.png",
+      "text": "dataset/de/176_00_r1l30.txt",
+      "language": "de",
+      "letter_id": "176"
+    },
+    {
+      "image": "dataset/de/1625_01_r1l3.png",
+      "text": "dataset/de/1625_01_r1l3.txt",
+      "language": "de",
+      "letter_id": "1625"
+    },
+    {
+      "image": "dataset/la/563_03_r2l3.png",
+      "text": "dataset/la/563_03_r2l3.txt",
+      "language": "la",
+      "letter_id": "563"
+    },
+    {
+      "image": "dataset/la/1077_01_r1l10.png",
+      "text": "dataset/la/1077_01_r1l10.txt",
+      "language": "la",
+      "letter_id": "1077"
+    },
+    {
+      "image": "dataset/la/770_00_r1l46.png",
+      "text": "dataset/la/770_00_r1l46.txt",
+      "language": "la",
+      "letter_id": "770"
+    },
+    {
+      "image": "dataset/la/1583_01_r1l30.png",
+      "text": "dataset/la/1583_01_r1l30.txt",
+      "language": "la",
+      "letter_id": "1583"
+    },
+    {
+      "image": "dataset/la/758_00_r2l38.png",
+      "text": "dataset/la/758_00_r2l38.txt",
+      "language": "la",
+      "letter_id": "758"
+    },
+    {
+      "image": "dataset/la/74_00_r1l18.png",
+      "text": "dataset/la/74_00_r1l18.txt",
+      "language": "la",
+      "letter_id": "74"
+    },
+    {
+      "image": "dataset/la/408_01_r1l5.png",
+      "text": "dataset/la/408_01_r1l5.txt",
+      "language": "la",
+      "letter_id": "408"
+    },
+    {
+      "image": "dataset/la/1114_02_r1l21.png",
+      "text": "dataset/la/1114_02_r1l21.txt",
+      "language": "la",
+      "letter_id": "1114"
+    },
+    {
+      "image": "dataset/la/955_00_r4l35.png",
+      "text": "dataset/la/955_00_r4l35.txt",
+      "language": "la",
+      "letter_id": "955"
+    },
+    {
+      "image": "dataset/de/1497_05_r3l7.png",
+      "text": "dataset/de/1497_05_r3l7.txt",
+      "language": "de",
+      "letter_id": "1497"
+    },
+    {
+      "image": "dataset/la/1163_00_r1l21.png",
+      "text": "dataset/la/1163_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "1163"
+    },
+    {
+      "image": "dataset/la/934_00_r1l33.png",
+      "text": "dataset/la/934_00_r1l33.txt",
+      "language": "la",
+      "letter_id": "934"
+    },
+    {
+      "image": "dataset/la/1332_00_r1l3.png",
+      "text": "dataset/la/1332_00_r1l3.txt",
+      "language": "la",
+      "letter_id": "1332"
+    },
+    {
+      "image": "dataset/la/135_00_r1l40.png",
+      "text": "dataset/la/135_00_r1l40.txt",
+      "language": "la",
+      "letter_id": "135"
+    },
+    {
+      "image": "dataset/la/745_01_r1l25.png",
+      "text": "dataset/la/745_01_r1l25.txt",
+      "language": "la",
+      "letter_id": "745"
+    },
+    {
+      "image": "dataset/de/1550_00_r1l6.png",
+      "text": "dataset/de/1550_00_r1l6.txt",
+      "language": "de",
+      "letter_id": "1550"
+    },
+    {
+      "image": "dataset/la/954_02_r1l12.png",
+      "text": "dataset/la/954_02_r1l12.txt",
+      "language": "la",
+      "letter_id": "954"
+    },
+    {
+      "image": "dataset/la/1959_01_r1l3.png",
+      "text": "dataset/la/1959_01_r1l3.txt",
+      "language": "la",
+      "letter_id": "1959"
+    },
+    {
+      "image": "dataset/de/1102_01_r1l1.png",
+      "text": "dataset/de/1102_01_r1l1.txt",
+      "language": "de",
+      "letter_id": "1102"
+    },
+    {
+      "image": "dataset/la/849_01_r1l22.png",
+      "text": "dataset/la/849_01_r1l22.txt",
+      "language": "la",
+      "letter_id": "849"
+    },
+    {
+      "image": "dataset/la/1068_00_r1l16.png",
+      "text": "dataset/la/1068_00_r1l16.txt",
+      "language": "la",
+      "letter_id": "1068"
+    },
+    {
+      "image": "dataset/la/796_01_r2l6.png",
+      "text": "dataset/la/796_01_r2l6.txt",
+      "language": "la",
+      "letter_id": "796"
+    },
+    {
+      "image": "dataset/la/117_01_r1l8.png",
+      "text": "dataset/la/117_01_r1l8.txt",
+      "language": "la",
+      "letter_id": "117"
+    },
+    {
+      "image": "dataset/la/1969_00_r1l21.png",
+      "text": "dataset/la/1969_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "1969"
+    },
+    {
+      "image": "dataset/la/1832_02_r1l19.png",
+      "text": "dataset/la/1832_02_r1l19.txt",
+      "language": "la",
+      "letter_id": "1832"
+    },
+    {
+      "image": "dataset/la/849_01_r1l27.png",
+      "text": "dataset/la/849_01_r1l27.txt",
+      "language": "la",
+      "letter_id": "849"
+    },
+    {
+      "image": "dataset/la/521_00_r2l21.png",
+      "text": "dataset/la/521_00_r2l21.txt",
+      "language": "la",
+      "letter_id": "521"
+    },
+    {
+      "image": "dataset/la/435_00_r1l18.png",
+      "text": "dataset/la/435_00_r1l18.txt",
+      "language": "la",
+      "letter_id": "435"
+    },
+    {
+      "image": "dataset/de/485_00_r1l17.png",
+      "text": "dataset/de/485_00_r1l17.txt",
+      "language": "de",
+      "letter_id": "485"
+    },
+    {
+      "image": "dataset/de/1345_00_r2l3.png",
+      "text": "dataset/de/1345_00_r2l3.txt",
+      "language": "de",
+      "letter_id": "1345"
+    },
+    {
+      "image": "dataset/la/1401_00_r1l22.png",
+      "text": "dataset/la/1401_00_r1l22.txt",
+      "language": "la",
+      "letter_id": "1401"
+    },
+    {
+      "image": "dataset/la/953_01_r1l37.png",
+      "text": "dataset/la/953_01_r1l37.txt",
+      "language": "la",
+      "letter_id": "953"
+    },
+    {
+      "image": "dataset/de/425_01_r1l3.png",
+      "text": "dataset/de/425_01_r1l3.txt",
+      "language": "de",
+      "letter_id": "425"
+    },
+    {
+      "image": "dataset/la/753_00_r1l6.png",
+      "text": "dataset/la/753_00_r1l6.txt",
+      "language": "la",
+      "letter_id": "753"
+    },
+    {
+      "image": "dataset/la/1384_01_r2l5.png",
+      "text": "dataset/la/1384_01_r2l5.txt",
+      "language": "la",
+      "letter_id": "1384"
+    },
+    {
+      "image": "dataset/la/1863_00_r2l10.png",
+      "text": "dataset/la/1863_00_r2l10.txt",
+      "language": "la",
+      "letter_id": "1863"
+    },
+    {
+      "image": "dataset/la/966_00_r1l18.png",
+      "text": "dataset/la/966_00_r1l18.txt",
+      "language": "la",
+      "letter_id": "966"
+    },
+    {
+      "image": "dataset/la/1216_00_r2l18.png",
+      "text": "dataset/la/1216_00_r2l18.txt",
+      "language": "la",
+      "letter_id": "1216"
+    },
+    {
+      "image": "dataset/la/1875_00_r3l30.png",
+      "text": "dataset/la/1875_00_r3l30.txt",
+      "language": "la",
+      "letter_id": "1875"
+    },
+    {
+      "image": "dataset/la/1459_00_r2l37.png",
+      "text": "dataset/la/1459_00_r2l37.txt",
+      "language": "la",
+      "letter_id": "1459"
+    },
+    {
+      "image": "dataset/la/1894_00_r4l29.png",
+      "text": "dataset/la/1894_00_r4l29.txt",
+      "language": "la",
+      "letter_id": "1894"
+    },
+    {
+      "image": "dataset/la/46_00_r1l31.png",
+      "text": "dataset/la/46_00_r1l31.txt",
+      "language": "la",
+      "letter_id": "46"
+    },
+    {
+      "image": "dataset/de/257_01_r1l40.png",
+      "text": "dataset/de/257_01_r1l40.txt",
+      "language": "de",
+      "letter_id": "257"
+    },
+    {
+      "image": "dataset/la/1444_00_r1l21.png",
+      "text": "dataset/la/1444_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "1444"
+    },
+    {
+      "image": "dataset/de/1927_00_r1l10.png",
+      "text": "dataset/de/1927_00_r1l10.txt",
+      "language": "de",
+      "letter_id": "1927"
+    },
+    {
+      "image": "dataset/la/250_00_r1l33.png",
+      "text": "dataset/la/250_00_r1l33.txt",
+      "language": "la",
+      "letter_id": "250"
+    },
+    {
+      "image": "dataset/la/1534_00_r3l24.png",
+      "text": "dataset/la/1534_00_r3l24.txt",
+      "language": "la",
+      "letter_id": "1534"
+    },
+    {
+      "image": "dataset/de/1857_00_r2l39.png",
+      "text": "dataset/de/1857_00_r2l39.txt",
+      "language": "de",
+      "letter_id": "1857"
+    },
+    {
+      "image": "dataset/la/1111_01_r1l1.png",
+      "text": "dataset/la/1111_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "1111"
+    },
+    {
+      "image": "dataset/la/266_00_r1l4.png",
+      "text": "dataset/la/266_00_r1l4.txt",
+      "language": "la",
+      "letter_id": "266"
+    },
+    {
+      "image": "dataset/la/435_00_r1l2.png",
+      "text": "dataset/la/435_00_r1l2.txt",
+      "language": "la",
+      "letter_id": "435"
+    },
+    {
+      "image": "dataset/la/1364_02_r1l31.png",
+      "text": "dataset/la/1364_02_r1l31.txt",
+      "language": "la",
+      "letter_id": "1364"
+    },
+    {
+      "image": "dataset/la/165_00_r1l10.png",
+      "text": "dataset/la/165_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "165"
+    },
+    {
+      "image": "dataset/la/1435_00_r1l22.png",
+      "text": "dataset/la/1435_00_r1l22.txt",
+      "language": "la",
+      "letter_id": "1435"
+    },
+    {
+      "image": "dataset/la/1103_00_r1l33.png",
+      "text": "dataset/la/1103_00_r1l33.txt",
+      "language": "la",
+      "letter_id": "1103"
+    },
+    {
+      "image": "dataset/la/585_02_r1l7.png",
+      "text": "dataset/la/585_02_r1l7.txt",
+      "language": "la",
+      "letter_id": "585"
+    },
+    {
+      "image": "dataset/la/1992_00_r2l17.png",
+      "text": "dataset/la/1992_00_r2l17.txt",
+      "language": "la",
+      "letter_id": "1992"
+    },
+    {
+      "image": "dataset/la/1060_00_r1l6.png",
+      "text": "dataset/la/1060_00_r1l6.txt",
+      "language": "la",
+      "letter_id": "1060"
+    },
+    {
+      "image": "dataset/la/703_00_r2l49.png",
+      "text": "dataset/la/703_00_r2l49.txt",
+      "language": "la",
+      "letter_id": "703"
+    },
+    {
+      "image": "dataset/la/561_02_r1l27.png",
+      "text": "dataset/la/561_02_r1l27.txt",
+      "language": "la",
+      "letter_id": "561"
+    },
+    {
+      "image": "dataset/de/1925_02_r1l33.png",
+      "text": "dataset/de/1925_02_r1l33.txt",
+      "language": "de",
+      "letter_id": "1925"
+    },
+    {
+      "image": "dataset/la/849_00_r1l27.png",
+      "text": "dataset/la/849_00_r1l27.txt",
+      "language": "la",
+      "letter_id": "849"
+    },
+    {
+      "image": "dataset/la/733_01_r1l20.png",
+      "text": "dataset/la/733_01_r1l20.txt",
+      "language": "la",
+      "letter_id": "733"
+    },
+    {
+      "image": "dataset/la/1076_00_r2l31.png",
+      "text": "dataset/la/1076_00_r2l31.txt",
+      "language": "la",
+      "letter_id": "1076"
+    },
+    {
+      "image": "dataset/de/764_00_r2l2.png",
+      "text": "dataset/de/764_00_r2l2.txt",
+      "language": "de",
+      "letter_id": "764"
+    },
+    {
+      "image": "dataset/la/1106_00_r1l39.png",
+      "text": "dataset/la/1106_00_r1l39.txt",
+      "language": "la",
+      "letter_id": "1106"
+    },
+    {
+      "image": "dataset/la/1889_00_r1l36.png",
+      "text": "dataset/la/1889_00_r1l36.txt",
+      "language": "la",
+      "letter_id": "1889"
+    },
+    {
+      "image": "dataset/la/679_01_r2l6.png",
+      "text": "dataset/la/679_01_r2l6.txt",
+      "language": "la",
+      "letter_id": "679"
+    },
+    {
+      "image": "dataset/la/1083_01_r1l33.png",
+      "text": "dataset/la/1083_01_r1l33.txt",
+      "language": "la",
+      "letter_id": "1083"
+    },
+    {
+      "image": "dataset/de/46_01_r1l42.png",
+      "text": "dataset/de/46_01_r1l42.txt",
+      "language": "de",
+      "letter_id": "46"
+    },
+    {
+      "image": "dataset/la/946_01_r1l30.png",
+      "text": "dataset/la/946_01_r1l30.txt",
+      "language": "la",
+      "letter_id": "946"
+    },
+    {
+      "image": "dataset/la/1602_00_r1l28.png",
+      "text": "dataset/la/1602_00_r1l28.txt",
+      "language": "la",
+      "letter_id": "1602"
+    },
+    {
+      "image": "dataset/la/1459_00_r2l32.png",
+      "text": "dataset/la/1459_00_r2l32.txt",
+      "language": "la",
+      "letter_id": "1459"
+    },
+    {
+      "image": "dataset/la/112_00_r1l31.png",
+      "text": "dataset/la/112_00_r1l31.txt",
+      "language": "la",
+      "letter_id": "112"
+    },
+    {
+      "image": "dataset/la/1121_00_r1l21.png",
+      "text": "dataset/la/1121_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "1121"
+    },
+    {
+      "image": "dataset/la/1620_00_r2l2.png",
+      "text": "dataset/la/1620_00_r2l2.txt",
+      "language": "la",
+      "letter_id": "1620"
+    },
+    {
+      "image": "dataset/de/752_01_r2l20.png",
+      "text": "dataset/de/752_01_r2l20.txt",
+      "language": "de",
+      "letter_id": "752"
+    },
+    {
+      "image": "dataset/la/729_00_r1l26.png",
+      "text": "dataset/la/729_00_r1l26.txt",
+      "language": "la",
+      "letter_id": "729"
+    },
+    {
+      "image": "dataset/la/271_00_r1l15.png",
+      "text": "dataset/la/271_00_r1l15.txt",
+      "language": "la",
+      "letter_id": "271"
+    },
+    {
+      "image": "dataset/la/1908_00_r2l26.png",
+      "text": "dataset/la/1908_00_r2l26.txt",
+      "language": "la",
+      "letter_id": "1908"
+    },
+    {
+      "image": "dataset/la/895_01_r2l46.png",
+      "text": "dataset/la/895_01_r2l46.txt",
+      "language": "la",
+      "letter_id": "895"
+    },
+    {
+      "image": "dataset/la/1145_00_r1l32.png",
+      "text": "dataset/la/1145_00_r1l32.txt",
+      "language": "la",
+      "letter_id": "1145"
+    },
+    {
+      "image": "dataset/la/1913_01_r1l26.png",
+      "text": "dataset/la/1913_01_r1l26.txt",
+      "language": "la",
+      "letter_id": "1913"
+    },
+    {
+      "image": "dataset/la/482_00_r1l27.png",
+      "text": "dataset/la/482_00_r1l27.txt",
+      "language": "la",
+      "letter_id": "482"
+    },
+    {
+      "image": "dataset/la/579_01_r2l10.png",
+      "text": "dataset/la/579_01_r2l10.txt",
+      "language": "la",
+      "letter_id": "579"
+    },
+    {
+      "image": "dataset/de/964_00_r2l15.png",
+      "text": "dataset/de/964_00_r2l15.txt",
+      "language": "de",
+      "letter_id": "964"
+    },
+    {
+      "image": "dataset/la/1322_00_r1l16.png",
+      "text": "dataset/la/1322_00_r1l16.txt",
+      "language": "la",
+      "letter_id": "1322"
+    },
+    {
+      "image": "dataset/la/1999_01_r1l5.png",
+      "text": "dataset/la/1999_01_r1l5.txt",
+      "language": "la",
+      "letter_id": "1999"
+    },
+    {
+      "image": "dataset/la/1318_01_r2l29.png",
+      "text": "dataset/la/1318_01_r2l29.txt",
+      "language": "la",
+      "letter_id": "1318"
+    },
+    {
+      "image": "dataset/la/1967_01_r1l6.png",
+      "text": "dataset/la/1967_01_r1l6.txt",
+      "language": "la",
+      "letter_id": "1967"
+    },
+    {
+      "image": "dataset/de/164_00_r1l7.png",
+      "text": "dataset/de/164_00_r1l7.txt",
+      "language": "de",
+      "letter_id": "164"
+    },
+    {
+      "image": "dataset/la/1155_00_r1l20.png",
+      "text": "dataset/la/1155_00_r1l20.txt",
+      "language": "la",
+      "letter_id": "1155"
+    },
+    {
+      "image": "dataset/la/1384_00_r1l7.png",
+      "text": "dataset/la/1384_00_r1l7.txt",
+      "language": "la",
+      "letter_id": "1384"
+    },
+    {
+      "image": "dataset/la/340_02_r1l25.png",
+      "text": "dataset/la/340_02_r1l25.txt",
+      "language": "la",
+      "letter_id": "340"
+    },
+    {
+      "image": "dataset/la/1165_01_r3l14.png",
+      "text": "dataset/la/1165_01_r3l14.txt",
+      "language": "la",
+      "letter_id": "1165"
+    },
+    {
+      "image": "dataset/de/420_04_r1l26.png",
+      "text": "dataset/de/420_04_r1l26.txt",
+      "language": "de",
+      "letter_id": "420"
+    },
+    {
+      "image": "dataset/de/1353_00_r2l12.png",
+      "text": "dataset/de/1353_00_r2l12.txt",
+      "language": "de",
+      "letter_id": "1353"
+    },
+    {
+      "image": "dataset/la/1583_01_r1l16.png",
+      "text": "dataset/la/1583_01_r1l16.txt",
+      "language": "la",
+      "letter_id": "1583"
+    },
+    {
+      "image": "dataset/la/1211_00_r1l26.png",
+      "text": "dataset/la/1211_00_r1l26.txt",
+      "language": "la",
+      "letter_id": "1211"
+    },
+    {
+      "image": "dataset/la/1052_00_r2l28.png",
+      "text": "dataset/la/1052_00_r2l28.txt",
+      "language": "la",
+      "letter_id": "1052"
+    },
+    {
+      "image": "dataset/de/795_01_r3l2.png",
+      "text": "dataset/de/795_01_r3l2.txt",
+      "language": "de",
+      "letter_id": "795"
+    },
+    {
+      "image": "dataset/la/908_00_r1l15.png",
+      "text": "dataset/la/908_00_r1l15.txt",
+      "language": "la",
+      "letter_id": "908"
+    },
+    {
+      "image": "dataset/la/565_00_r1l6.png",
+      "text": "dataset/la/565_00_r1l6.txt",
+      "language": "la",
+      "letter_id": "565"
+    },
+    {
+      "image": "dataset/de/1397_00_r1l21.png",
+      "text": "dataset/de/1397_00_r1l21.txt",
+      "language": "de",
+      "letter_id": "1397"
+    },
+    {
+      "image": "dataset/la/1013_00_r1l21.png",
+      "text": "dataset/la/1013_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "1013"
+    },
+    {
+      "image": "dataset/la/1592_01_r2l4.png",
+      "text": "dataset/la/1592_01_r2l4.txt",
+      "language": "la",
+      "letter_id": "1592"
+    },
+    {
+      "image": "dataset/la/831_02_r1l2.png",
+      "text": "dataset/la/831_02_r1l2.txt",
+      "language": "la",
+      "letter_id": "831"
+    },
+    {
+      "image": "dataset/la/894_00_r2l18.png",
+      "text": "dataset/la/894_00_r2l18.txt",
+      "language": "la",
+      "letter_id": "894"
+    },
+    {
+      "image": "dataset/la/740_01_r3l2.png",
+      "text": "dataset/la/740_01_r3l2.txt",
+      "language": "la",
+      "letter_id": "740"
+    },
+    {
+      "image": "dataset/la/1396_00_r2l9.png",
+      "text": "dataset/la/1396_00_r2l9.txt",
+      "language": "la",
+      "letter_id": "1396"
+    },
+    {
+      "image": "dataset/la/853_00_r1l8.png",
+      "text": "dataset/la/853_00_r1l8.txt",
+      "language": "la",
+      "letter_id": "853"
+    },
+    {
+      "image": "dataset/la/1659_00_r1l8.png",
+      "text": "dataset/la/1659_00_r1l8.txt",
+      "language": "la",
+      "letter_id": "1659"
+    },
+    {
+      "image": "dataset/de/1125_01_r1l22.png",
+      "text": "dataset/de/1125_01_r1l22.txt",
+      "language": "de",
+      "letter_id": "1125"
+    },
+    {
+      "image": "dataset/la/504_00_r2l25.png",
+      "text": "dataset/la/504_00_r2l25.txt",
+      "language": "la",
+      "letter_id": "504"
+    },
+    {
+      "image": "dataset/la/1583_02_r1l2.png",
+      "text": "dataset/la/1583_02_r1l2.txt",
+      "language": "la",
+      "letter_id": "1583"
+    },
+    {
+      "image": "dataset/la/734_00_r2l4.png",
+      "text": "dataset/la/734_00_r2l4.txt",
+      "language": "la",
+      "letter_id": "734"
+    },
+    {
+      "image": "dataset/la/981_00_r1l22.png",
+      "text": "dataset/la/981_00_r1l22.txt",
+      "language": "la",
+      "letter_id": "981"
+    },
+    {
+      "image": "dataset/la/1000_00_r1l48.png",
+      "text": "dataset/la/1000_00_r1l48.txt",
+      "language": "la",
+      "letter_id": "1000"
+    },
+    {
+      "image": "dataset/la/578_01_r1l12.png",
+      "text": "dataset/la/578_01_r1l12.txt",
+      "language": "la",
+      "letter_id": "578"
+    },
+    {
+      "image": "dataset/de/9_01_r1l9.png",
+      "text": "dataset/de/9_01_r1l9.txt",
+      "language": "de",
+      "letter_id": "9"
+    },
+    {
+      "image": "dataset/de/819_02_r1l2.png",
+      "text": "dataset/de/819_02_r1l2.txt",
+      "language": "de",
+      "letter_id": "819"
+    },
+    {
+      "image": "dataset/la/453_00_r1l30.png",
+      "text": "dataset/la/453_00_r1l30.txt",
+      "language": "la",
+      "letter_id": "453"
+    },
+    {
+      "image": "dataset/de/257_01_r1l36.png",
+      "text": "dataset/de/257_01_r1l36.txt",
+      "language": "de",
+      "letter_id": "257"
+    },
+    {
+      "image": "dataset/de/1630_00_r2l38.png",
+      "text": "dataset/de/1630_00_r2l38.txt",
+      "language": "de",
+      "letter_id": "1630"
+    },
+    {
+      "image": "dataset/de/1069_00_r1l14.png",
+      "text": "dataset/de/1069_00_r1l14.txt",
+      "language": "de",
+      "letter_id": "1069"
+    },
+    {
+      "image": "dataset/de/590_01_r1l3.png",
+      "text": "dataset/de/590_01_r1l3.txt",
+      "language": "de",
+      "letter_id": "590"
+    },
+    {
+      "image": "dataset/la/726_00_r2l2.png",
+      "text": "dataset/la/726_00_r2l2.txt",
+      "language": "la",
+      "letter_id": "726"
+    },
+    {
+      "image": "dataset/de/1576_00_r1l19.png",
+      "text": "dataset/de/1576_00_r1l19.txt",
+      "language": "de",
+      "letter_id": "1576"
+    },
+    {
+      "image": "dataset/de/1846_00_r1l3.png",
+      "text": "dataset/de/1846_00_r1l3.txt",
+      "language": "de",
+      "letter_id": "1846"
+    },
+    {
+      "image": "dataset/de/959_01_r2l13.png",
+      "text": "dataset/de/959_01_r2l13.txt",
+      "language": "de",
+      "letter_id": "959"
+    },
+    {
+      "image": "dataset/la/969_00_r6l12.png",
+      "text": "dataset/la/969_00_r6l12.txt",
+      "language": "la",
+      "letter_id": "969"
+    },
+    {
+      "image": "dataset/la/997_00_r1l28.png",
+      "text": "dataset/la/997_00_r1l28.txt",
+      "language": "la",
+      "letter_id": "997"
+    },
+    {
+      "image": "dataset/la/1920_00_r2l1.png",
+      "text": "dataset/la/1920_00_r2l1.txt",
+      "language": "la",
+      "letter_id": "1920"
+    },
+    {
+      "image": "dataset/de/804_01_r1l23.png",
+      "text": "dataset/de/804_01_r1l23.txt",
+      "language": "de",
+      "letter_id": "804"
+    },
+    {
+      "image": "dataset/la/486_02_r1l12.png",
+      "text": "dataset/la/486_02_r1l12.txt",
+      "language": "la",
+      "letter_id": "486"
+    },
+    {
+      "image": "dataset/la/38_00_r1l19.png",
+      "text": "dataset/la/38_00_r1l19.txt",
+      "language": "la",
+      "letter_id": "38"
+    },
+    {
+      "image": "dataset/la/539_00_r3l14.png",
+      "text": "dataset/la/539_00_r3l14.txt",
+      "language": "la",
+      "letter_id": "539"
+    },
+    {
+      "image": "dataset/la/1319_00_r1l40.png",
+      "text": "dataset/la/1319_00_r1l40.txt",
+      "language": "la",
+      "letter_id": "1319"
+    },
+    {
+      "image": "dataset/la/954_02_r1l9.png",
+      "text": "dataset/la/954_02_r1l9.txt",
+      "language": "la",
+      "letter_id": "954"
+    },
+    {
+      "image": "dataset/la/1153_00_r1l10.png",
+      "text": "dataset/la/1153_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "1153"
+    },
+    {
+      "image": "dataset/la/257_00_r1l13.png",
+      "text": "dataset/la/257_00_r1l13.txt",
+      "language": "la",
+      "letter_id": "257"
+    },
+    {
+      "image": "dataset/la/135_00_r1l31.png",
+      "text": "dataset/la/135_00_r1l31.txt",
+      "language": "la",
+      "letter_id": "135"
+    },
+    {
+      "image": "dataset/la/1687_00_r1l6.png",
+      "text": "dataset/la/1687_00_r1l6.txt",
+      "language": "la",
+      "letter_id": "1687"
+    },
+    {
+      "image": "dataset/la/1262_00_r1l36.png",
+      "text": "dataset/la/1262_00_r1l36.txt",
+      "language": "la",
+      "letter_id": "1262"
+    },
+    {
+      "image": "dataset/de/959_00_r3l24.png",
+      "text": "dataset/de/959_00_r3l24.txt",
+      "language": "de",
+      "letter_id": "959"
+    },
+    {
+      "image": "dataset/de/752_01_r2l19.png",
+      "text": "dataset/de/752_01_r2l19.txt",
+      "language": "de",
+      "letter_id": "752"
+    },
+    {
+      "image": "dataset/la/815_02_r1l2.png",
+      "text": "dataset/la/815_02_r1l2.txt",
+      "language": "la",
+      "letter_id": "815"
+    },
+    {
+      "image": "dataset/la/705_00_r1l2.png",
+      "text": "dataset/la/705_00_r1l2.txt",
+      "language": "la",
+      "letter_id": "705"
+    },
+    {
+      "image": "dataset/de/282_00_r1l20.png",
+      "text": "dataset/de/282_00_r1l20.txt",
+      "language": "de",
+      "letter_id": "282"
+    },
+    {
+      "image": "dataset/la/1979_01_r1l2.png",
+      "text": "dataset/la/1979_01_r1l2.txt",
+      "language": "la",
+      "letter_id": "1979"
+    },
+    {
+      "image": "dataset/la/550_01_r1l9.png",
+      "text": "dataset/la/550_01_r1l9.txt",
+      "language": "la",
+      "letter_id": "550"
+    },
+    {
+      "image": "dataset/la/860_00_r2l27.png",
+      "text": "dataset/la/860_00_r2l27.txt",
+      "language": "la",
+      "letter_id": "860"
+    },
+    {
+      "image": "dataset/la/1583_00_r1l21.png",
+      "text": "dataset/la/1583_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "1583"
+    },
+    {
+      "image": "dataset/la/469_00_r1l10.png",
+      "text": "dataset/la/469_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "469"
+    },
+    {
+      "image": "dataset/la/1331_00_r2l1.png",
+      "text": "dataset/la/1331_00_r2l1.txt",
+      "language": "la",
+      "letter_id": "1331"
+    },
+    {
+      "image": "dataset/la/108_00_r2l3.png",
+      "text": "dataset/la/108_00_r2l3.txt",
+      "language": "la",
+      "letter_id": "108"
+    },
+    {
+      "image": "dataset/la/1752_00_r2l34.png",
+      "text": "dataset/la/1752_00_r2l34.txt",
+      "language": "la",
+      "letter_id": "1752"
+    },
+    {
+      "image": "dataset/la/592_01_r2l25.png",
+      "text": "dataset/la/592_01_r2l25.txt",
+      "language": "la",
+      "letter_id": "592"
+    },
+    {
+      "image": "dataset/la/1685_00_r1l33.png",
+      "text": "dataset/la/1685_00_r1l33.txt",
+      "language": "la",
+      "letter_id": "1685"
+    },
+    {
+      "image": "dataset/la/201_00_r1l14.png",
+      "text": "dataset/la/201_00_r1l14.txt",
+      "language": "la",
+      "letter_id": "201"
+    },
+    {
+      "image": "dataset/la/102_00_r1l16.png",
+      "text": "dataset/la/102_00_r1l16.txt",
+      "language": "la",
+      "letter_id": "102"
+    },
+    {
+      "image": "dataset/la/1157_00_r1l34.png",
+      "text": "dataset/la/1157_00_r1l34.txt",
+      "language": "la",
+      "letter_id": "1157"
+    },
+    {
+      "image": "dataset/de/282_01_r1l13.png",
+      "text": "dataset/de/282_01_r1l13.txt",
+      "language": "de",
+      "letter_id": "282"
+    },
+    {
+      "image": "dataset/la/64_00_r1l19.png",
+      "text": "dataset/la/64_00_r1l19.txt",
+      "language": "la",
+      "letter_id": "64"
+    },
+    {
+      "image": "dataset/la/1852_00_r1l23.png",
+      "text": "dataset/la/1852_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "1852"
+    },
+    {
+      "image": "dataset/la/561_02_r1l16.png",
+      "text": "dataset/la/561_02_r1l16.txt",
+      "language": "la",
+      "letter_id": "561"
+    },
+    {
+      "image": "dataset/la/1844_00_r1l4.png",
+      "text": "dataset/la/1844_00_r1l4.txt",
+      "language": "la",
+      "letter_id": "1844"
+    },
+    {
+      "image": "dataset/la/1497_04_r1l26.png",
+      "text": "dataset/la/1497_04_r1l26.txt",
+      "language": "la",
+      "letter_id": "1497"
+    },
+    {
+      "image": "dataset/la/894_00_r2l11.png",
+      "text": "dataset/la/894_00_r2l11.txt",
+      "language": "la",
+      "letter_id": "894"
+    },
+    {
+      "image": "dataset/la/286_00_r1l10.png",
+      "text": "dataset/la/286_00_r1l10.txt",
+      "language": "la",
+      "letter_id": "286"
+    },
+    {
+      "image": "dataset/la/1063_01_r1l1.png",
+      "text": "dataset/la/1063_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "1063"
+    },
+    {
+      "image": "dataset/de/788_01_r3l34.png",
+      "text": "dataset/de/788_01_r3l34.txt",
+      "language": "de",
+      "letter_id": "788"
+    },
+    {
+      "image": "dataset/la/442_00_r1l5.png",
+      "text": "dataset/la/442_00_r1l5.txt",
+      "language": "la",
+      "letter_id": "442"
+    },
+    {
+      "image": "dataset/la/1967_01_r1l3.png",
+      "text": "dataset/la/1967_01_r1l3.txt",
+      "language": "la",
+      "letter_id": "1967"
+    },
+    {
+      "image": "dataset/la/1618_00_r1l29.png",
+      "text": "dataset/la/1618_00_r1l29.txt",
+      "language": "la",
+      "letter_id": "1618"
+    },
+    {
+      "image": "dataset/la/117_01_r1l33.png",
+      "text": "dataset/la/117_01_r1l33.txt",
+      "language": "la",
+      "letter_id": "117"
+    },
+    {
+      "image": "dataset/la/1068_01_r1l1.png",
+      "text": "dataset/la/1068_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "1068"
+    },
+    {
+      "image": "dataset/la/808_00_r1l15.png",
+      "text": "dataset/la/808_00_r1l15.txt",
+      "language": "la",
+      "letter_id": "808"
+    },
+    {
+      "image": "dataset/la/1619_00_r1l24.png",
+      "text": "dataset/la/1619_00_r1l24.txt",
+      "language": "la",
+      "letter_id": "1619"
+    },
+    {
+      "image": "dataset/la/741_01_r1l13.png",
+      "text": "dataset/la/741_01_r1l13.txt",
+      "language": "la",
+      "letter_id": "741"
+    },
+    {
+      "image": "dataset/la/1632_00_r2l22.png",
+      "text": "dataset/la/1632_00_r2l22.txt",
+      "language": "la",
+      "letter_id": "1632"
+    },
+    {
+      "image": "dataset/la/1099_00_r1l19.png",
+      "text": "dataset/la/1099_00_r1l19.txt",
+      "language": "la",
+      "letter_id": "1099"
+    },
+    {
+      "image": "dataset/la/883_00_r2l19.png",
+      "text": "dataset/la/883_00_r2l19.txt",
+      "language": "la",
+      "letter_id": "883"
+    },
+    {
+      "image": "dataset/la/612_01_r1l16.png",
+      "text": "dataset/la/612_01_r1l16.txt",
+      "language": "la",
+      "letter_id": "612"
+    },
+    {
+      "image": "dataset/la/1396_00_r2l28.png",
+      "text": "dataset/la/1396_00_r2l28.txt",
+      "language": "la",
+      "letter_id": "1396"
+    },
+    {
+      "image": "dataset/la/1364_02_r1l35.png",
+      "text": "dataset/la/1364_02_r1l35.txt",
+      "language": "la",
+      "letter_id": "1364"
+    },
+    {
+      "image": "dataset/la/247_00_r1l17.png",
+      "text": "dataset/la/247_00_r1l17.txt",
+      "language": "la",
+      "letter_id": "247"
+    },
+    {
+      "image": "dataset/de/938_00_r1l7.png",
+      "text": "dataset/de/938_00_r1l7.txt",
+      "language": "de",
+      "letter_id": "938"
+    },
+    {
+      "image": "dataset/la/438_00_r2l39.png",
+      "text": "dataset/la/438_00_r2l39.txt",
+      "language": "la",
+      "letter_id": "438"
+    },
+    {
+      "image": "dataset/la/1982_00_r2l21.png",
+      "text": "dataset/la/1982_00_r2l21.txt",
+      "language": "la",
+      "letter_id": "1982"
+    },
+    {
+      "image": "dataset/la/1699_00_r1l22.png",
+      "text": "dataset/la/1699_00_r1l22.txt",
+      "language": "la",
+      "letter_id": "1699"
+    },
+    {
+      "image": "dataset/de/1846_00_r1l9.png",
+      "text": "dataset/de/1846_00_r1l9.txt",
+      "language": "de",
+      "letter_id": "1846"
+    },
+    {
+      "image": "dataset/la/813_02_r2l14.png",
+      "text": "dataset/la/813_02_r2l14.txt",
+      "language": "la",
+      "letter_id": "813"
+    },
+    {
+      "image": "dataset/la/1685_00_r1l13.png",
+      "text": "dataset/la/1685_00_r1l13.txt",
+      "language": "la",
+      "letter_id": "1685"
+    },
+    {
+      "image": "dataset/la/1601_00_r1l21.png",
+      "text": "dataset/la/1601_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "1601"
+    },
+    {
+      "image": "dataset/de/1743_00_r2l3.png",
+      "text": "dataset/de/1743_00_r2l3.txt",
+      "language": "de",
+      "letter_id": "1743"
+    },
+    {
+      "image": "dataset/la/1884_00_r3l16.png",
+      "text": "dataset/la/1884_00_r3l16.txt",
+      "language": "la",
+      "letter_id": "1884"
+    },
+    {
+      "image": "dataset/la/366_00_r2l28.png",
+      "text": "dataset/la/366_00_r2l28.txt",
+      "language": "la",
+      "letter_id": "366"
+    },
+    {
+      "image": "dataset/la/499_01_r2l31.png",
+      "text": "dataset/la/499_01_r2l31.txt",
+      "language": "la",
+      "letter_id": "499"
+    },
+    {
+      "image": "dataset/la/1959_00_r1l4.png",
+      "text": "dataset/la/1959_00_r1l4.txt",
+      "language": "la",
+      "letter_id": "1959"
+    },
+    {
+      "image": "dataset/la/1556_00_r1l14.png",
+      "text": "dataset/la/1556_00_r1l14.txt",
+      "language": "la",
+      "letter_id": "1556"
+    },
+    {
+      "image": "dataset/la/1809_01_r2l4.png",
+      "text": "dataset/la/1809_01_r2l4.txt",
+      "language": "la",
+      "letter_id": "1809"
+    },
+    {
+      "image": "dataset/la/1763_02_r2l8.png",
+      "text": "dataset/la/1763_02_r2l8.txt",
+      "language": "la",
+      "letter_id": "1763"
+    },
+    {
+      "image": "dataset/de/1869_00_r3l4.png",
+      "text": "dataset/de/1869_00_r3l4.txt",
+      "language": "de",
+      "letter_id": "1869"
+    },
+    {
+      "image": "dataset/la/680_00_r2l8.png",
+      "text": "dataset/la/680_00_r2l8.txt",
+      "language": "la",
+      "letter_id": "680"
+    },
+    {
+      "image": "dataset/la/551_00_r1l5.png",
+      "text": "dataset/la/551_00_r1l5.txt",
+      "language": "la",
+      "letter_id": "551"
+    },
+    {
+      "image": "dataset/de/1358_00_r1l4.png",
+      "text": "dataset/de/1358_00_r1l4.txt",
+      "language": "de",
+      "letter_id": "1358"
+    },
+    {
+      "image": "dataset/la/641_01_r1l2.png",
+      "text": "dataset/la/641_01_r1l2.txt",
+      "language": "la",
+      "letter_id": "641"
+    },
+    {
+      "image": "dataset/la/579_01_r2l8.png",
+      "text": "dataset/la/579_01_r2l8.txt",
+      "language": "la",
+      "letter_id": "579"
+    },
+    {
+      "image": "dataset/la/1523_00_r2l30.png",
+      "text": "dataset/la/1523_00_r2l30.txt",
+      "language": "la",
+      "letter_id": "1523"
+    },
+    {
+      "image": "dataset/la/1238_01_r2l2.png",
+      "text": "dataset/la/1238_01_r2l2.txt",
+      "language": "la",
+      "letter_id": "1238"
+    },
+    {
+      "image": "dataset/de/1576_00_r1l36.png",
+      "text": "dataset/de/1576_00_r1l36.txt",
+      "language": "de",
+      "letter_id": "1576"
+    },
+    {
+      "image": "dataset/de/77_00_r1l26.png",
+      "text": "dataset/de/77_00_r1l26.txt",
+      "language": "de",
+      "letter_id": "77"
+    },
+    {
+      "image": "dataset/la/745_01_r1l36.png",
+      "text": "dataset/la/745_01_r1l36.txt",
+      "language": "la",
+      "letter_id": "745"
+    },
+    {
+      "image": "dataset/de/1612_00_r1l18.png",
+      "text": "dataset/de/1612_00_r1l18.txt",
+      "language": "de",
+      "letter_id": "1612"
+    },
+    {
+      "image": "dataset/la/407_01_r2l3.png",
+      "text": "dataset/la/407_01_r2l3.txt",
+      "language": "la",
+      "letter_id": "407"
+    },
+    {
+      "image": "dataset/la/1343_00_r2l20.png",
+      "text": "dataset/la/1343_00_r2l20.txt",
+      "language": "la",
+      "letter_id": "1343"
+    },
+    {
+      "image": "dataset/de/804_02_r1l15.png",
+      "text": "dataset/de/804_02_r1l15.txt",
+      "language": "de",
+      "letter_id": "804"
+    },
+    {
+      "image": "dataset/la/765_02_r1l16.png",
+      "text": "dataset/la/765_02_r1l16.txt",
+      "language": "la",
+      "letter_id": "765"
+    },
+    {
+      "image": "dataset/de/998_00_r1l22.png",
+      "text": "dataset/de/998_00_r1l22.txt",
+      "language": "de",
+      "letter_id": "998"
+    },
+    {
+      "image": "dataset/la/1370_01_r1l9.png",
+      "text": "dataset/la/1370_01_r1l9.txt",
+      "language": "la",
+      "letter_id": "1370"
+    },
+    {
+      "image": "dataset/la/325_00_r1l5.png",
+      "text": "dataset/la/325_00_r1l5.txt",
+      "language": "la",
+      "letter_id": "325"
+    },
+    {
+      "image": "dataset/la/625_02_r2l29.png",
+      "text": "dataset/la/625_02_r2l29.txt",
+      "language": "la",
+      "letter_id": "625"
+    },
+    {
+      "image": "dataset/la/1497_04_r1l35.png",
+      "text": "dataset/la/1497_04_r1l35.txt",
+      "language": "la",
+      "letter_id": "1497"
+    },
+    {
+      "image": "dataset/la/1400_00_r3l34.png",
+      "text": "dataset/la/1400_00_r3l34.txt",
+      "language": "la",
+      "letter_id": "1400"
+    },
+    {
+      "image": "dataset/la/117_00_r1l16.png",
+      "text": "dataset/la/117_00_r1l16.txt",
+      "language": "la",
+      "letter_id": "117"
+    },
+    {
+      "image": "dataset/la/703_00_r2l13.png",
+      "text": "dataset/la/703_00_r2l13.txt",
+      "language": "la",
+      "letter_id": "703"
+    },
+    {
+      "image": "dataset/la/710_00_r2l3.png",
+      "text": "dataset/la/710_00_r2l3.txt",
+      "language": "la",
+      "letter_id": "710"
+    },
+    {
+      "image": "dataset/la/1164_00_r2l41.png",
+      "text": "dataset/la/1164_00_r2l41.txt",
+      "language": "la",
+      "letter_id": "1164"
+    },
+    {
+      "image": "dataset/de/473_03_r3l3.png",
+      "text": "dataset/de/473_03_r3l3.txt",
+      "language": "de",
+      "letter_id": "473"
+    },
+    {
+      "image": "dataset/de/1169_00_r1l10.png",
+      "text": "dataset/de/1169_00_r1l10.txt",
+      "language": "de",
+      "letter_id": "1169"
+    },
+    {
+      "image": "dataset/la/637_00_r1l9.png",
+      "text": "dataset/la/637_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "637"
+    },
+    {
+      "image": "dataset/la/1449_00_r3l19.png",
+      "text": "dataset/la/1449_00_r3l19.txt",
+      "language": "la",
+      "letter_id": "1449"
+    },
+    {
+      "image": "dataset/la/1483_02_r2l6.png",
+      "text": "dataset/la/1483_02_r2l6.txt",
+      "language": "la",
+      "letter_id": "1483"
+    },
+    {
+      "image": "dataset/de/1775_01_r1l3.png",
+      "text": "dataset/de/1775_01_r1l3.txt",
+      "language": "de",
+      "letter_id": "1775"
+    },
+    {
+      "image": "dataset/la/181_00_r2l17.png",
+      "text": "dataset/la/181_00_r2l17.txt",
+      "language": "la",
+      "letter_id": "181"
+    },
+    {
+      "image": "dataset/la/1887_00_r1l27.png",
+      "text": "dataset/la/1887_00_r1l27.txt",
+      "language": "la",
+      "letter_id": "1887"
+    },
+    {
+      "image": "dataset/la/1293_00_r1l18.png",
+      "text": "dataset/la/1293_00_r1l18.txt",
+      "language": "la",
+      "letter_id": "1293"
+    },
+    {
+      "image": "dataset/la/1964_00_r1l23.png",
+      "text": "dataset/la/1964_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "1964"
+    },
+    {
+      "image": "dataset/la/1837_00_r1l33.png",
+      "text": "dataset/la/1837_00_r1l33.txt",
+      "language": "la",
+      "letter_id": "1837"
+    },
+    {
+      "image": "dataset/la/646_01_r1l24.png",
+      "text": "dataset/la/646_01_r1l24.txt",
+      "language": "la",
+      "letter_id": "646"
+    },
+    {
+      "image": "dataset/la/953_00_r1l33.png",
+      "text": "dataset/la/953_00_r1l33.txt",
+      "language": "la",
+      "letter_id": "953"
+    },
+    {
+      "image": "dataset/la/1773_01_r1l3.png",
+      "text": "dataset/la/1773_01_r1l3.txt",
+      "language": "la",
+      "letter_id": "1773"
+    },
+    {
+      "image": "dataset/la/498_00_r1l7.png",
+      "text": "dataset/la/498_00_r1l7.txt",
+      "language": "la",
+      "letter_id": "498"
+    },
+    {
+      "image": "dataset/la/1571_01_r3l8.png",
+      "text": "dataset/la/1571_01_r3l8.txt",
+      "language": "la",
+      "letter_id": "1571"
+    },
+    {
+      "image": "dataset/la/1727_00_r1l5.png",
+      "text": "dataset/la/1727_00_r1l5.txt",
+      "language": "la",
+      "letter_id": "1727"
+    },
+    {
+      "image": "dataset/la/1364_04_r1l13.png",
+      "text": "dataset/la/1364_04_r1l13.txt",
+      "language": "la",
+      "letter_id": "1364"
+    },
+    {
+      "image": "dataset/de/429_03_r1l12.png",
+      "text": "dataset/de/429_03_r1l12.txt",
+      "language": "de",
+      "letter_id": "429"
+    },
+    {
+      "image": "dataset/la/745_01_r1l29.png",
+      "text": "dataset/la/745_01_r1l29.txt",
+      "language": "la",
+      "letter_id": "745"
+    },
+    {
+      "image": "dataset/la/871_02_r1l9.png",
+      "text": "dataset/la/871_02_r1l9.txt",
+      "language": "la",
+      "letter_id": "871"
+    },
+    {
+      "image": "dataset/la/163_00_r1l48.png",
+      "text": "dataset/la/163_00_r1l48.txt",
+      "language": "la",
+      "letter_id": "163"
+    },
+    {
+      "image": "dataset/la/1951_00_r1l21.png",
+      "text": "dataset/la/1951_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "1951"
+    },
+    {
+      "image": "dataset/la/1912_01_r1l5.png",
+      "text": "dataset/la/1912_01_r1l5.txt",
+      "language": "la",
+      "letter_id": "1912"
+    },
+    {
+      "image": "dataset/la/58_00_r1l8.png",
+      "text": "dataset/la/58_00_r1l8.txt",
+      "language": "la",
+      "letter_id": "58"
+    },
+    {
+      "image": "dataset/la/1339_00_r1l5.png",
+      "text": "dataset/la/1339_00_r1l5.txt",
+      "language": "la",
+      "letter_id": "1339"
+    },
+    {
+      "image": "dataset/la/1867_00_r1l6.png",
+      "text": "dataset/la/1867_00_r1l6.txt",
+      "language": "la",
+      "letter_id": "1867"
+    },
+    {
+      "image": "dataset/la/87_00_r2l13.png",
+      "text": "dataset/la/87_00_r2l13.txt",
+      "language": "la",
+      "letter_id": "87"
+    },
+    {
+      "image": "dataset/la/703_00_r2l63.png",
+      "text": "dataset/la/703_00_r2l63.txt",
+      "language": "la",
+      "letter_id": "703"
+    },
+    {
+      "image": "dataset/la/234_00_r1l9.png",
+      "text": "dataset/la/234_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "234"
+    },
+    {
+      "image": "dataset/la/797_00_r2l12.png",
+      "text": "dataset/la/797_00_r2l12.txt",
+      "language": "la",
+      "letter_id": "797"
+    },
+    {
+      "image": "dataset/la/340_00_r1l25.png",
+      "text": "dataset/la/340_00_r1l25.txt",
+      "language": "la",
+      "letter_id": "340"
+    },
+    {
+      "image": "dataset/la/908_00_r1l9.png",
+      "text": "dataset/la/908_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "908"
+    },
+    {
+      "image": "dataset/de/314_00_r2l26.png",
+      "text": "dataset/de/314_00_r2l26.txt",
+      "language": "de",
+      "letter_id": "314"
+    },
+    {
+      "image": "dataset/de/1630_00_r2l9.png",
+      "text": "dataset/de/1630_00_r2l9.txt",
+      "language": "de",
+      "letter_id": "1630"
+    },
+    {
+      "image": "dataset/la/666_00_r1l11.png",
+      "text": "dataset/la/666_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "666"
+    },
+    {
+      "image": "dataset/la/931_00_r2l9.png",
+      "text": "dataset/la/931_00_r2l9.txt",
+      "language": "la",
+      "letter_id": "931"
+    },
+    {
+      "image": "dataset/la/510_00_r1l24.png",
+      "text": "dataset/la/510_00_r1l24.txt",
+      "language": "la",
+      "letter_id": "510"
+    },
+    {
+      "image": "dataset/la/129_00_r2l2.png",
+      "text": "dataset/la/129_00_r2l2.txt",
+      "language": "la",
+      "letter_id": "129"
+    },
+    {
+      "image": "dataset/la/142_01_r1l3.png",
+      "text": "dataset/la/142_01_r1l3.txt",
+      "language": "la",
+      "letter_id": "142"
+    },
+    {
+      "image": "dataset/la/988_00_r2l12.png",
+      "text": "dataset/la/988_00_r2l12.txt",
+      "language": "la",
+      "letter_id": "988"
+    },
+    {
+      "image": "dataset/la/1111_00_r2l4.png",
+      "text": "dataset/la/1111_00_r2l4.txt",
+      "language": "la",
+      "letter_id": "1111"
+    },
+    {
+      "image": "dataset/la/751_00_r1l7.png",
+      "text": "dataset/la/751_00_r1l7.txt",
+      "language": "la",
+      "letter_id": "751"
+    },
+    {
+      "image": "dataset/la/1818_00_r2l7.png",
+      "text": "dataset/la/1818_00_r2l7.txt",
+      "language": "la",
+      "letter_id": "1818"
+    },
+    {
+      "image": "dataset/la/1490_00_r1l20.png",
+      "text": "dataset/la/1490_00_r1l20.txt",
+      "language": "la",
+      "letter_id": "1490"
+    },
+    {
+      "image": "dataset/la/167_01_r3l13.png",
+      "text": "dataset/la/167_01_r3l13.txt",
+      "language": "la",
+      "letter_id": "167"
+    },
+    {
+      "image": "dataset/de/1844_01_r1l5.png",
+      "text": "dataset/de/1844_01_r1l5.txt",
+      "language": "de",
+      "letter_id": "1844"
+    },
+    {
+      "image": "dataset/la/896_00_r1l17.png",
+      "text": "dataset/la/896_00_r1l17.txt",
+      "language": "la",
+      "letter_id": "896"
+    },
+    {
+      "image": "dataset/de/804_01_r1l7.png",
+      "text": "dataset/de/804_01_r1l7.txt",
+      "language": "de",
+      "letter_id": "804"
+    },
+    {
+      "image": "dataset/la/1462_00_r1l25.png",
+      "text": "dataset/la/1462_00_r1l25.txt",
+      "language": "la",
+      "letter_id": "1462"
+    },
+    {
+      "image": "dataset/la/1648_00_r1l13.png",
+      "text": "dataset/la/1648_00_r1l13.txt",
+      "language": "la",
+      "letter_id": "1648"
+    },
+    {
+      "image": "dataset/de/403_01_r1l26.png",
+      "text": "dataset/de/403_01_r1l26.txt",
+      "language": "de",
+      "letter_id": "403"
+    },
+    {
+      "image": "dataset/la/714_00_r2l21.png",
+      "text": "dataset/la/714_00_r2l21.txt",
+      "language": "la",
+      "letter_id": "714"
+    },
+    {
+      "image": "dataset/la/266_00_r1l6.png",
+      "text": "dataset/la/266_00_r1l6.txt",
+      "language": "la",
+      "letter_id": "266"
+    },
+    {
+      "image": "dataset/de/422_00_r2l17.png",
+      "text": "dataset/de/422_00_r2l17.txt",
+      "language": "de",
+      "letter_id": "422"
+    },
+    {
+      "image": "dataset/de/68_00_r1l2.png",
+      "text": "dataset/de/68_00_r1l2.txt",
+      "language": "de",
+      "letter_id": "68"
+    },
+    {
+      "image": "dataset/la/1561_01_r3l23.png",
+      "text": "dataset/la/1561_01_r3l23.txt",
+      "language": "la",
+      "letter_id": "1561"
+    },
+    {
+      "image": "dataset/la/1637_00_r2l35.png",
+      "text": "dataset/la/1637_00_r2l35.txt",
+      "language": "la",
+      "letter_id": "1637"
+    },
+    {
+      "image": "dataset/la/1844_01_r1l1.png",
+      "text": "dataset/la/1844_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "1844"
+    },
+    {
+      "image": "dataset/de/1055_00_r1l6.png",
+      "text": "dataset/de/1055_00_r1l6.txt",
+      "language": "de",
+      "letter_id": "1055"
+    },
+    {
+      "image": "dataset/la/797_02_r2l3.png",
+      "text": "dataset/la/797_02_r2l3.txt",
+      "language": "la",
+      "letter_id": "797"
+    },
+    {
+      "image": "dataset/la/1121_00_r1l15.png",
+      "text": "dataset/la/1121_00_r1l15.txt",
+      "language": "la",
+      "letter_id": "1121"
+    },
+    {
+      "image": "dataset/de/772_01_r2l13.png",
+      "text": "dataset/de/772_01_r2l13.txt",
+      "language": "de",
+      "letter_id": "772"
+    },
+    {
+      "image": "dataset/la/1632_00_r2l11.png",
+      "text": "dataset/la/1632_00_r2l11.txt",
+      "language": "la",
+      "letter_id": "1632"
+    },
+    {
+      "image": "dataset/la/799_01_r1l13.png",
+      "text": "dataset/la/799_01_r1l13.txt",
+      "language": "la",
+      "letter_id": "799"
+    },
+    {
+      "image": "dataset/la/928_00_r1l19.png",
+      "text": "dataset/la/928_00_r1l19.txt",
+      "language": "la",
+      "letter_id": "928"
+    },
+    {
+      "image": "dataset/la/510_00_r1l21.png",
+      "text": "dataset/la/510_00_r1l21.txt",
+      "language": "la",
+      "letter_id": "510"
+    },
+    {
+      "image": "dataset/de/167_03_r1l5.png",
+      "text": "dataset/de/167_03_r1l5.txt",
+      "language": "de",
+      "letter_id": "167"
+    },
+    {
+      "image": "dataset/de/1636_00_r1l33.png",
+      "text": "dataset/de/1636_00_r1l33.txt",
+      "language": "de",
+      "letter_id": "1636"
+    },
+    {
+      "image": "dataset/la/407_00_r1l39.png",
+      "text": "dataset/la/407_00_r1l39.txt",
+      "language": "la",
+      "letter_id": "407"
+    },
+    {
+      "image": "dataset/la/43_00_r1l31.png",
+      "text": "dataset/la/43_00_r1l31.txt",
+      "language": "la",
+      "letter_id": "43"
+    },
+    {
+      "image": "dataset/la/841_00_r2l29.png",
+      "text": "dataset/la/841_00_r2l29.txt",
+      "language": "la",
+      "letter_id": "841"
+    },
+    {
+      "image": "dataset/la/934_00_r1l7.png",
+      "text": "dataset/la/934_00_r1l7.txt",
+      "language": "la",
+      "letter_id": "934"
+    },
+    {
+      "image": "dataset/de/1065_01_r2l23.png",
+      "text": "dataset/de/1065_01_r2l23.txt",
+      "language": "de",
+      "letter_id": "1065"
+    },
+    {
+      "image": "dataset/la/632_01_r2l8.png",
+      "text": "dataset/la/632_01_r2l8.txt",
+      "language": "la",
+      "letter_id": "632"
+    },
+    {
+      "image": "dataset/la/109_00_r1l13.png",
+      "text": "dataset/la/109_00_r1l13.txt",
+      "language": "la",
+      "letter_id": "109"
+    },
+    {
+      "image": "dataset/la/1054_00_r1l11.png",
+      "text": "dataset/la/1054_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "1054"
+    },
+    {
+      "image": "dataset/la/843_01_r1l32.png",
+      "text": "dataset/la/843_01_r1l32.txt",
+      "language": "la",
+      "letter_id": "843"
+    },
+    {
+      "image": "dataset/la/1233_00_r1l27.png",
+      "text": "dataset/la/1233_00_r1l27.txt",
+      "language": "la",
+      "letter_id": "1233"
+    },
+    {
+      "image": "dataset/de/472_00_r1l38.png",
+      "text": "dataset/de/472_00_r1l38.txt",
+      "language": "de",
+      "letter_id": "472"
+    },
+    {
+      "image": "dataset/la/340_03_r2l1.png",
+      "text": "dataset/la/340_03_r2l1.txt",
+      "language": "la",
+      "letter_id": "340"
+    },
+    {
+      "image": "dataset/de/257_01_r1l18.png",
+      "text": "dataset/de/257_01_r1l18.txt",
+      "language": "de",
+      "letter_id": "257"
+    },
+    {
+      "image": "dataset/la/234_00_r1l55.png",
+      "text": "dataset/la/234_00_r1l55.txt",
+      "language": "la",
+      "letter_id": "234"
+    },
+    {
+      "image": "dataset/la/292_01_r1l18.png",
+      "text": "dataset/la/292_01_r1l18.txt",
+      "language": "la",
+      "letter_id": "292"
+    },
+    {
+      "image": "dataset/la/886_00_r1l32.png",
+      "text": "dataset/la/886_00_r1l32.txt",
+      "language": "la",
+      "letter_id": "886"
+    },
+    {
+      "image": "dataset/la/250_00_r1l11.png",
+      "text": "dataset/la/250_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "250"
+    },
+    {
+      "image": "dataset/la/216_00_r1l38.png",
+      "text": "dataset/la/216_00_r1l38.txt",
+      "language": "la",
+      "letter_id": "216"
+    },
+    {
+      "image": "dataset/la/6_00_r1l37.png",
+      "text": "dataset/la/6_00_r1l37.txt",
+      "language": "la",
+      "letter_id": "6"
+    },
+    {
+      "image": "dataset/la/1077_01_r1l64.png",
+      "text": "dataset/la/1077_01_r1l64.txt",
+      "language": "la",
+      "letter_id": "1077"
+    },
+    {
+      "image": "dataset/de/538_00_r1l19.png",
+      "text": "dataset/de/538_00_r1l19.txt",
+      "language": "de",
+      "letter_id": "538"
+    },
+    {
+      "image": "dataset/la/1270_01_r2l51.png",
+      "text": "dataset/la/1270_01_r2l51.txt",
+      "language": "la",
+      "letter_id": "1270"
+    },
+    {
+      "image": "dataset/de/731_01_r1l6.png",
+      "text": "dataset/de/731_01_r1l6.txt",
+      "language": "de",
+      "letter_id": "731"
+    },
+    {
+      "image": "dataset/la/1687_02_r4l20.png",
+      "text": "dataset/la/1687_02_r4l20.txt",
+      "language": "la",
+      "letter_id": "1687"
+    },
+    {
+      "image": "dataset/la/1483_01_r4l7.png",
+      "text": "dataset/la/1483_01_r4l7.txt",
+      "language": "la",
+      "letter_id": "1483"
+    },
+    {
+      "image": "dataset/la/719_00_r1l2.png",
+      "text": "dataset/la/719_00_r1l2.txt",
+      "language": "la",
+      "letter_id": "719"
+    },
+    {
+      "image": "dataset/la/1487_01_r1l1.png",
+      "text": "dataset/la/1487_01_r1l1.txt",
+      "language": "la",
+      "letter_id": "1487"
+    },
+    {
+      "image": "dataset/de/10_00_r1l8.png",
+      "text": "dataset/de/10_00_r1l8.txt",
+      "language": "de",
+      "letter_id": "10"
+    },
+    {
+      "image": "dataset/la/510_00_r1l11.png",
+      "text": "dataset/la/510_00_r1l11.txt",
+      "language": "la",
+      "letter_id": "510"
+    },
+    {
+      "image": "dataset/de/207_01_r1l17.png",
+      "text": "dataset/de/207_01_r1l17.txt",
+      "language": "de",
+      "letter_id": "207"
+    },
+    {
+      "image": "dataset/la/409_01_r1l20.png",
+      "text": "dataset/la/409_01_r1l20.txt",
+      "language": "la",
+      "letter_id": "409"
+    },
+    {
+      "image": "dataset/la/1889_00_r1l31.png",
+      "text": "dataset/la/1889_00_r1l31.txt",
+      "language": "la",
+      "letter_id": "1889"
+    },
+    {
+      "image": "dataset/la/1913_02_r1l29.png",
+      "text": "dataset/la/1913_02_r1l29.txt",
+      "language": "la",
+      "letter_id": "1913"
+    },
+    {
+      "image": "dataset/la/504_00_r2l39.png",
+      "text": "dataset/la/504_00_r2l39.txt",
+      "language": "la",
+      "letter_id": "504"
+    },
+    {
+      "image": "dataset/de/83_02_r4l10.png",
+      "text": "dataset/de/83_02_r4l10.txt",
+      "language": "de",
+      "letter_id": "83"
+    },
+    {
+      "image": "dataset/la/57_00_r3l19.png",
+      "text": "dataset/la/57_00_r3l19.txt",
+      "language": "la",
+      "letter_id": "57"
+    },
+    {
+      "image": "dataset/la/1994_01_r1l21.png",
+      "text": "dataset/la/1994_01_r1l21.txt",
+      "language": "la",
+      "letter_id": "1994"
+    },
+    {
+      "image": "dataset/de/88_00_r1l31.png",
+      "text": "dataset/de/88_00_r1l31.txt",
+      "language": "de",
+      "letter_id": "88"
+    },
+    {
+      "image": "dataset/la/872_00_r1l17.png",
+      "text": "dataset/la/872_00_r1l17.txt",
+      "language": "la",
+      "letter_id": "872"
+    },
+    {
+      "image": "dataset/la/896_00_r1l6.png",
+      "text": "dataset/la/896_00_r1l6.txt",
+      "language": "la",
+      "letter_id": "896"
+    },
+    {
+      "image": "dataset/la/750_00_r2l43.png",
+      "text": "dataset/la/750_00_r2l43.txt",
+      "language": "la",
+      "letter_id": "750"
+    },
+    {
+      "image": "dataset/la/1204_00_r1l15.png",
+      "text": "dataset/la/1204_00_r1l15.txt",
+      "language": "la",
+      "letter_id": "1204"
+    },
+    {
+      "image": "dataset/la/1314_01_r1l13.png",
+      "text": "dataset/la/1314_01_r1l13.txt",
+      "language": "la",
+      "letter_id": "1314"
+    },
+    {
+      "image": "dataset/la/595_01_r1l29.png",
+      "text": "dataset/la/595_01_r1l29.txt",
+      "language": "la",
+      "letter_id": "595"
+    },
+    {
+      "image": "dataset/de/1775_01_r1l25.png",
+      "text": "dataset/de/1775_01_r1l25.txt",
+      "language": "de",
+      "letter_id": "1775"
+    },
+    {
+      "image": "dataset/la/1296_02_r1l5.png",
+      "text": "dataset/la/1296_02_r1l5.txt",
+      "language": "la",
+      "letter_id": "1296"
+    },
+    {
+      "image": "dataset/la/1994_01_r1l10.png",
+      "text": "dataset/la/1994_01_r1l10.txt",
+      "language": "la",
+      "letter_id": "1994"
+    },
+    {
+      "image": "dataset/de/375_00_r1l9.png",
+      "text": "dataset/de/375_00_r1l9.txt",
+      "language": "de",
+      "letter_id": "375"
+    },
+    {
+      "image": "dataset/la/207_00_r2l11.png",
+      "text": "dataset/la/207_00_r2l11.txt",
+      "language": "la",
+      "letter_id": "207"
+    },
+    {
+      "image": "dataset/de/1396_00_r2l8.png",
+      "text": "dataset/de/1396_00_r2l8.txt",
+      "language": "de",
+      "letter_id": "1396"
+    },
+    {
+      "image": "dataset/la/1065_01_r2l1.png",
+      "text": "dataset/la/1065_01_r2l1.txt",
+      "language": "la",
+      "letter_id": "1065"
+    },
+    {
+      "image": "dataset/la/359_00_r2l43.png",
+      "text": "dataset/la/359_00_r2l43.txt",
+      "language": "la",
+      "letter_id": "359"
+    },
+    {
+      "image": "dataset/la/1012_00_r1l5.png",
+      "text": "dataset/la/1012_00_r1l5.txt",
+      "language": "la",
+      "letter_id": "1012"
+    },
+    {
+      "image": "dataset/la/304_01_r2l9.png",
+      "text": "dataset/la/304_01_r2l9.txt",
+      "language": "la",
+      "letter_id": "304"
+    },
+    {
+      "image": "dataset/la/1322_00_r1l14.png",
+      "text": "dataset/la/1322_00_r1l14.txt",
+      "language": "la",
+      "letter_id": "1322"
+    },
+    {
+      "image": "dataset/la/361_02_r1l9.png",
+      "text": "dataset/la/361_02_r1l9.txt",
+      "language": "la",
+      "letter_id": "361"
+    },
+    {
+      "image": "dataset/la/1955_00_r1l2.png",
+      "text": "dataset/la/1955_00_r1l2.txt",
+      "language": "la",
+      "letter_id": "1955"
+    },
+    {
+      "image": "dataset/la/170_00_r1l41.png",
+      "text": "dataset/la/170_00_r1l41.txt",
+      "language": "la",
+      "letter_id": "170"
+    },
+    {
+      "image": "dataset/la/487_00_r1l30.png",
+      "text": "dataset/la/487_00_r1l30.txt",
+      "language": "la",
+      "letter_id": "487"
+    },
+    {
+      "image": "dataset/la/946_00_r2l10.png",
+      "text": "dataset/la/946_00_r2l10.txt",
+      "language": "la",
+      "letter_id": "946"
+    },
+    {
+      "image": "dataset/la/585_00_r1l8.png",
+      "text": "dataset/la/585_00_r1l8.txt",
+      "language": "la",
+      "letter_id": "585"
+    },
+    {
+      "image": "dataset/la/745_02_r1l18.png",
+      "text": "dataset/la/745_02_r1l18.txt",
+      "language": "la",
+      "letter_id": "745"
+    },
+    {
+      "image": "dataset/de/435_01_r2l5.png",
+      "text": "dataset/de/435_01_r2l5.txt",
+      "language": "de",
+      "letter_id": "435"
+    },
+    {
+      "image": "dataset/la/976_00_r1l3.png",
+      "text": "dataset/la/976_00_r1l3.txt",
+      "language": "la",
+      "letter_id": "976"
+    },
+    {
+      "image": "dataset/la/129_00_r2l33.png",
+      "text": "dataset/la/129_00_r2l33.txt",
+      "language": "la",
+      "letter_id": "129"
+    },
+    {
+      "image": "dataset/la/1153_00_r1l23.png",
+      "text": "dataset/la/1153_00_r1l23.txt",
+      "language": "la",
+      "letter_id": "1153"
+    },
+    {
+      "image": "dataset/la/962_01_r2l1.png",
+      "text": "dataset/la/962_01_r2l1.txt",
+      "language": "la",
+      "letter_id": "962"
+    },
+    {
+      "image": "dataset/la/868_01_r1l40.png",
+      "text": "dataset/la/868_01_r1l40.txt",
+      "language": "la",
+      "letter_id": "868"
+    },
+    {
+      "image": "dataset/de/1973_00_r2l7.png",
+      "text": "dataset/de/1973_00_r2l7.txt",
+      "language": "de",
+      "letter_id": "1973"
+    },
+    {
+      "image": "dataset/la/1164_00_r2l45.png",
+      "text": "dataset/la/1164_00_r2l45.txt",
+      "language": "la",
+      "letter_id": "1164"
+    },
+    {
+      "image": "dataset/la/866_01_r1l2.png",
+      "text": "dataset/la/866_01_r1l2.txt",
+      "language": "la",
+      "letter_id": "866"
+    },
+    {
+      "image": "dataset/la/435_00_r1l46.png",
+      "text": "dataset/la/435_00_r1l46.txt",
+      "language": "la",
+      "letter_id": "435"
+    },
+    {
+      "image": "dataset/la/750_00_r2l28.png",
+      "text": "dataset/la/750_00_r2l28.txt",
+      "language": "la",
+      "letter_id": "750"
+    },
+    {
+      "image": "dataset/la/1163_02_r1l3.png",
+      "text": "dataset/la/1163_02_r1l3.txt",
+      "language": "la",
+      "letter_id": "1163"
+    },
+    {
+      "image": "dataset/la/1070_01_r1l4.png",
+      "text": "dataset/la/1070_01_r1l4.txt",
+      "language": "la",
+      "letter_id": "1070"
+    },
+    {
+      "image": "dataset/la/703_00_r2l35.png",
+      "text": "dataset/la/703_00_r2l35.txt",
+      "language": "la",
+      "letter_id": "703"
+    },
+    {
+      "image": "dataset/la/1497_02_r2l8.png",
+      "text": "dataset/la/1497_02_r2l8.txt",
+      "language": "la",
+      "letter_id": "1497"
+    },
+    {
+      "image": "dataset/la/196_01_r1l4.png",
+      "text": "dataset/la/196_01_r1l4.txt",
+      "language": "la",
+      "letter_id": "196"
+    },
+    {
+      "image": "dataset/la/154_00_r3l9.png",
+      "text": "dataset/la/154_00_r3l9.txt",
+      "language": "la",
+      "letter_id": "154"
+    },
+    {
+      "image": "dataset/la/1027_00_r1l5.png",
+      "text": "dataset/la/1027_00_r1l5.txt",
+      "language": "la",
+      "letter_id": "1027"
+    },
+    {
+      "image": "dataset/la/1490_00_r1l39.png",
+      "text": "dataset/la/1490_00_r1l39.txt",
+      "language": "la",
+      "letter_id": "1490"
+    },
+    {
+      "image": "dataset/la/38_00_r1l9.png",
+      "text": "dataset/la/38_00_r1l9.txt",
+      "language": "la",
+      "letter_id": "38"
+    },
+    {
+      "image": "dataset/la/1347_00_r1l4.png",
+      "text": "dataset/la/1347_00_r1l4.txt",
+      "language": "la",
+      "letter_id": "1347"
+    },
+    {
+      "image": "dataset/la/1050_00_r1l36.png",
+      "text": "dataset/la/1050_00_r1l36.txt",
+      "language": "la",
+      "letter_id": "1050"
+    },
+    {
+      "image": "dataset/la/1687_00_r1l34.png",
+      "text": "dataset/la/1687_00_r1l34.txt",
+      "language": "la",
+      "letter_id": "1687"
+    },
+    {
+      "image": "dataset/la/908_01_r1l24.png",
+      "text": "dataset/la/908_01_r1l24.txt",
+      "language": "la",
+      "letter_id": "908"
+    },
+    {
+      "image": "dataset/la/1623_00_r1l18.png",
+      "text": "dataset/la/1623_00_r1l18.txt",
+      "language": "la",
+      "letter_id": "1623"
+    },
+    {
+      "image": "dataset/de/400_02_r1l6.png",
+      "text": "dataset/de/400_02_r1l6.txt",
+      "language": "de",
+      "letter_id": "400"
+    },
+    {
+      "image": "dataset/la/1524_01_r1l17.png",
+      "text": "dataset/la/1524_01_r1l17.txt",
+      "language": "la",
+      "letter_id": "1524"
+    },
+    {
+      "image": "dataset/la/654_00_r1l16.png",
+      "text": "dataset/la/654_00_r1l16.txt",
+      "language": "la",
+      "letter_id": "654"
+    },
+    {
+      "image": "dataset/la/537_00_r1l17.png",
+      "text": "dataset/la/537_00_r1l17.txt",
+      "language": "la",
+      "letter_id": "537"
+    },
+    {
+      "image": "dataset/la/801_01_r1l4.png",
+      "text": "dataset/la/801_01_r1l4.txt",
+      "language": "la",
+      "letter_id": "801"
+    },
+    {
+      "image": "dataset/la/974_03_r2l13.png",
+      "text": "dataset/la/974_03_r2l13.txt",
+      "language": "la",
+      "letter_id": "974"
+    },
+    {
+      "image": "dataset/la/113_00_r2l23.png",
+      "text": "dataset/la/113_00_r2l23.txt",
+      "language": "la",
+      "letter_id": "113"
+    },
+    {
+      "image": "dataset/la/1316_00_r2l20.png",
+      "text": "dataset/la/1316_00_r2l20.txt",
+      "language": "la",
+      "letter_id": "1316"
+    },
+    {
+      "image": "dataset/la/304_01_r2l5.png",
+      "text": "dataset/la/304_01_r2l5.txt",
+      "language": "la",
+      "letter_id": "304"
+    },
+    {
+      "image": "dataset/la/170_00_r1l2.png",
+      "text": "dataset/la/170_00_r1l2.txt",
+      "language": "la",
+      "letter_id": "170"
+    }
+  ]
+}
