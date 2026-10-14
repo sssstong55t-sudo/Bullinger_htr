@@ -10,17 +10,21 @@ Recognize cropped manuscript line images with TrOCR, then extract place mentions
 
 Dataset licenses and model terms apply separately. Do not assume all repository content has a permissive software license.
 
-## Installation
+## Setup and deployment
 
-Use Python 3.10 or a compatible environment. From the repository root:
+Use Python 3.10 on macOS or Linux with a virtual environment. CPU execution is supported; a CUDA GPU is optional for faster handwriting recognition. On Windows, use WSL or adapt the Python executable paths to your virtual environment.
+
+Clone the repository and install the dependencies:
 
 ```sh
+git clone https://github.com/sssstong55t-sudo/Bullinger_htr.git
+cd Bullinger_htr
 python3 -m venv .venv-nlp
 .venv-nlp/bin/python -m pip install -r requirements.txt
 .venv-nlp/bin/python scripts/download_model.py
 ```
 
-`download_model.py` downloads the pinned GLiNER snapshot once, requiring network access and approximately 1 GB of cache space. Subsequent place inference runs offline on CPU. A trained **TrOCR checkpoint must be supplied separately**: weights, model config, generation config, tokenizer and image-processor files must be together in the complete directory saved by `save_pretrained`. JSON files alone cannot recognize handwriting.
+`download_model.py` downloads the pinned GLiNER snapshot once, requiring network access and approximately 1 GB of cache space. Subsequent place inference runs offline on CPU. A trained **TrOCR checkpoint must be supplied separately**: weights, model config, generation config, tokenizer and image-processor files must be together in the complete directory saved by `save_pretrained`. Keep the model files together; the downloader below installs the complete checkpoint.
 
 Download the complete **seed44 DE20 inference checkpoint** from the [model release](https://github.com/sssstong55t-sudo/Bullinger_htr/releases/tag/v1.0.0-seed44-de20):
 
@@ -31,7 +35,11 @@ Download the complete **seed44 DE20 inference checkpoint** from the [model relea
 The downloader fetches 20 Release parts, combines them, verifies the fixed archive SHA256 and every checkpoint file, and extracts `models/bullinger_checkpoint/`. Allow approximately 4 GB of free disk space for parts, archive and extracted weights. Verified temporary downloads remain under `models/checkpoint_download/` and can be deleted afterward. Do not delete the extracted checkpoint. The model archive is approximately 1.34 GB and excludes optimizer state. An actual single-image CPU smoke run passed. GLiNER is downloaded separately by `scripts/download_model.py`.
 
 
-## 1. Handwriting image to text
+## Run the recognition pipeline
+
+All commands below run from the repository root. Create cropped line images first; page segmentation is outside this pipeline. Use new output filenames for each run to preserve existing predictions.
+
+### Step 1: Recognize manuscript lines
 
 Provide cropped **line images**, not complete manuscript pages:
 
@@ -47,7 +55,7 @@ Provide cropped **line images**, not complete manuscript pages:
 
 This wrapper uses raw eight-beam decoding, not the saved character/word LM reranker. Its new-image output has **no measured CER/WER** unless you supply reference transcriptions and evaluate it. It must not inherit the historical reranked test score.
 
-## 2. Recognized text to place mentions
+### Step 2: Extract place mentions
 
 ```sh
 .venv-nlp/bin/python scripts/extract_places.py \
@@ -74,7 +82,19 @@ Input requires `line_id` and string `text`. The handwriting command produces bot
 
 This object is a schema example, not an actual scored prediction. A GLiNER score is not a calibrated probability of correctness. Alias-only matches have no GLiNER score.
 
-## Which JSON files do I need?
+## Entry points
+
+| Command | Purpose | Input | Output |
+|---|---|---|---|
+| `scripts/download_model.py` | Cache the fixed pretrained GLiNER snapshot | Internet access | `.cache/huggingface/` |
+| `scripts/download_htr_checkpoint.py` | Download, assemble and verify the trained TrOCR checkpoint | GitHub Release assets | `models/bullinger_checkpoint/` |
+| `scripts/transcribe_images.py` | Recognize manuscript line images | Line images and TrOCR checkpoint | HTR text JSONL |
+| `scripts/extract_places.py` | Extract literal place spans | Text JSONL | JSONL with a `places` array |
+| Package `scripts/run_official_ner.py` | Reproduce the fixed official-text evaluation | Included reference corpus | Metrics, predictions and protocol |
+
+For command-line options, run an entry point with `--help`. The download commands require network access. Once models are cached, the two inference commands and the official-text evaluation run locally offline. This is a command-line pipeline; no web server or API service is deployed by these commands.
+
+## Configuration and output files
 
 | File | Meaning | Used for |
 |---|---|---|
@@ -90,9 +110,9 @@ This object is a schema example, not an actual scored prediction. A GLiNER score
 | Package `data/reference.jsonl` | Fixed official reference paragraphs and spans | Evaluation only; never insert its reference text into HTR inference |
 | Package `manifest.json` | SHA256 checksums | Package integrity, not model selection |
 
-JSONL means one JSON object per line. Do not confuse a result file with a checkpoint or model configuration.
+JSONL stores one JSON object per line. The two configuration files control inference; output JSONL files carry predictions between stages. Checkpoint metadata and saved evaluation records serve separate purposes.
 
-## 3. Reproduce the fixed official-text evaluation
+## Reproduce the official-text evaluation
 
 ```sh
 .venv-nlp/bin/python outputs/bullinger_htr_delivery_EN/scripts/run_official_ner.py \
@@ -106,9 +126,9 @@ This separate command evaluates **official reference text**, not images or your 
 | Historical frozen HTR test, 500 lines, LM reranked | 13.3917% | 38.6088% | — | — | — |
 | Official annotation agreement, 357 paragraphs, GLiNER + variants | — | — | 82.99% | 61.16% | 70.42% |
 
-These are separate experiments, **not image-to-place end-to-end metrics**. Official annotation completeness is unestablished; unmatched predictions are not automatically true false positives. Strict WER<37% and precision>=85% goals remain unmet. This official sample is already exposed; further tuning on it is development work. See [fixed comparisons and limitations](outputs/bullinger_htr_delivery_EN/RESULTS.md).
+These are separate experiments, **not image-to-place end-to-end metrics**. Official annotation completeness is unestablished; unmatched predictions are not automatically true false positives. This official sample is already exposed; further tuning on it is development work. See [fixed comparisons and limitations](outputs/bullinger_htr_delivery_EN/RESULTS.md).
 
-## 4. Colab training and the frozen reranked HTR test
+## Reproduce HTR experiments in Colab
 
 Open [Bullinger_Clean_Colab.ipynb](outputs/bullinger_htr_delivery_EN/Bullinger_Clean_Colab.ipynb) and read [TRAINING.md](outputs/bullinger_htr_delivery_EN/TRAINING.md) first. The notebook defaults to `TASK=None`; explicitly select one task. Existing Drive datasets, checkpoints and saved candidates are required. It is not a self-contained from-scratch run.
 
@@ -127,4 +147,4 @@ Use validation for choices. Do not tune on the test set or rerun a final test ju
 
 Current delivery contains English documentation, inference/experiment code, fixed official data, actual results and provenance. Original German/Latin sources are preserved. Personal review tables, raw image archives, caches and virtual environments are excluded. TrOCR inference weights are distributed as a Release asset rather than in the Git code tree. Obsolete legacy entry points have been removed from the current branch; their earlier versions remain in Git history.
 
-The original packaged official evaluation was fully reproduced offline. Both new team wrappers passed syntax and CLI checks. The text-to-place wrapper completed an offline two-record smoke run including an empty line. New-image HTR inference was not run for this update. No new independent accuracy result is claimed. Dependency versions are not a full cross-platform lockfile. A fresh computer must install dependencies, download the HTR release asset and cache GLiNER. Raw beam inference is distinct from the historical LM-reranked test.
+The original packaged official evaluation was fully reproduced offline. Both new team wrappers passed syntax and CLI checks. The text-to-place wrapper completed an offline two-record smoke run including an empty line. The released seed44 DE20 checkpoint was loaded successfully and used for a single-image CPU inference smoke check. No new independent accuracy result is claimed. Dependency versions are not a full cross-platform lockfile. A fresh computer must install dependencies, download the HTR release asset and cache GLiNER. Raw beam inference is distinct from the historical LM-reranked test.
