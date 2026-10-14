@@ -3,3 +3,4 @@ gliner==0.2.22
 transformers==4.51.0
 huggingface-hub==0.36.2
 Pillow>=10,<13
+accelerate==1.15.0
