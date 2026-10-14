@@ -22,7 +22,14 @@ python3 -m venv .venv-nlp
 
 `download_model.py` downloads the pinned GLiNER snapshot once, requiring network access and approximately 1 GB of cache space. Subsequent place inference runs offline on CPU. A trained **TrOCR checkpoint must be supplied separately**: weights, model config, generation config, tokenizer and image-processor files must be together in the complete directory saved by `save_pretrained`. JSON files alone cannot recognize handwriting.
 
-The best frozen Colab checkpoint is recorded at `MyDrive/BullingerAblation/adapt20k_replication_v1/seed44_20261013T172351Z/de20`. Consult the saved experiment metadata to identify the actual model folder below that run. Copy/download its complete model folder as `models/bullinger_checkpoint/`; do not use a folder containing only result JSON. Weights and Drive access are not provided by this repository.
+Download the complete **seed44 DE20 inference checkpoint** from the [model release](https://github.com/sssstong55t-sudo/Bullinger_htr/releases/tag/v1.0.0-seed44-de20):
+
+```sh
+.venv-nlp/bin/python scripts/download_htr_checkpoint.py
+```
+
+The downloader fetches 20 Release parts, combines them, verifies the fixed archive SHA256 and every checkpoint file, and extracts `models/bullinger_checkpoint/`. Allow approximately 4 GB of free disk space for parts, archive and extracted weights. Verified temporary downloads remain under `models/checkpoint_download/` and can be deleted afterward. Do not delete the extracted checkpoint. The model archive is approximately 1.34 GB and excludes optimizer state. An actual single-image CPU smoke run passed. GLiNER is downloaded separately by `scripts/download_model.py`.
+
 
 ## 1. Handwriting image to text
 
@@ -118,6 +125,6 @@ Use validation for choices. Do not tune on the test set or rerun a final test ju
 
 ## Repository scope and verification
 
-Current delivery contains English documentation, inference/experiment code, fixed official data, actual results and provenance. Original German/Latin sources are preserved. Personal review tables, raw image archives, model weights, caches and virtual environments are excluded. Obsolete legacy entry points have been removed from the current branch; their earlier versions remain in Git history.
+Current delivery contains English documentation, inference/experiment code, fixed official data, actual results and provenance. Original German/Latin sources are preserved. Personal review tables, raw image archives, caches and virtual environments are excluded. TrOCR inference weights are distributed as a Release asset rather than in the Git code tree. Obsolete legacy entry points have been removed from the current branch; their earlier versions remain in Git history.
 
-The original packaged official evaluation was fully reproduced offline. Both new team wrappers passed syntax and CLI checks. The text-to-place wrapper completed an offline two-record smoke run including an empty line. New-image HTR inference was not run for this update. No new independent accuracy result is claimed. Dependency versions are not a full cross-platform lockfile. A fresh computer must install dependencies and obtain the models; this repository alone does not include the best HTR weights.
+The original packaged official evaluation was fully reproduced offline. Both new team wrappers passed syntax and CLI checks. The text-to-place wrapper completed an offline two-record smoke run including an empty line. New-image HTR inference was not run for this update. No new independent accuracy result is claimed. Dependency versions are not a full cross-platform lockfile. A fresh computer must install dependencies, download the HTR release asset and cache GLiNER. Raw beam inference is distinct from the historical LM-reranked test.

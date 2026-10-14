@@ -9,3 +9,4 @@ outputs/official_ner_run*/
 *.bin
 *.zip
 *.z[0-9][0-9]
+models/
