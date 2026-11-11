@@ -22,18 +22,12 @@ cd Bullinger_htr
 python3 -m venv .venv-nlp
 .venv-nlp/bin/python -m pip install -r requirements.txt
 .venv-nlp/bin/python scripts/download_model.py
+.venv-nlp/bin/python scripts/download_public_trocr.py
 ```
 
-`download_model.py` downloads the pinned GLiNER weights and the pinned mDeBERTa tokenizer and encoder configuration. Allow approximately 1 GB of cache space. The setup requires network access. Subsequent place inference runs offline on CPU. A trained **TrOCR checkpoint must be supplied separately**: weights, model config, generation config, tokenizer and image-processor files must be together in the complete directory saved by `save_pretrained`. Keep the model files together; the downloader below installs the complete checkpoint.
+`download_model.py` downloads the pinned GLiNER weights and the pinned mDeBERTa tokenizer and encoder configuration. Allow approximately 1 GB of cache space. The setup requires network access. Subsequent place inference runs offline on CPU.
 
-Download the complete **seed44 DE20 inference checkpoint** from the [model release](https://github.com/sssstong55t-sudo/Bullinger_htr/releases/tag/v1.0.0-seed44-de20):
-
-```sh
-.venv-nlp/bin/python scripts/download_htr_checkpoint.py
-```
-
-The downloader fetches 20 Release parts, combines them, verifies the fixed archive SHA256 and every checkpoint file, and extracts `models/bullinger_checkpoint/`. Allow approximately 4 GB of free disk space for parts, archive and extracted weights. Verified temporary downloads remain under `models/checkpoint_download/` and can be deleted afterward. Do not delete the extracted checkpoint. The model archive is approximately 1.34 GB and excludes optimizer state. An actual single-image CPU smoke run passed. GLiNER is downloaded separately by `scripts/download_model.py`.
-
+`download_public_trocr.py` installs the default [public Bullinger TrOCR checkpoint](https://huggingface.co/pstroe/bullinger-general-model/tree/be32c883a4deb812ab6f461ae79f583c3f9edc53) and its tokenizer. Allow about 2.2 GB for the download. The installer verifies the weights against the evaluation's SHA-256. Transcription runs offline after installation.
 
 ## Run the recognition pipeline
 
@@ -59,7 +53,6 @@ To transcribe the exported lines in order on macOS or Linux:
 
 ```sh
 .venv-nlp/bin/python scripts/transcribe_images.py \
-  --model-dir models/bullinger_checkpoint \
   --images outputs/letter_lines/line_*.png \
   --output outputs/letter_htr.jsonl
 ```
@@ -70,28 +63,13 @@ Provide cropped **line images**, not complete manuscript pages:
 
 ```sh
 .venv-nlp/bin/python scripts/transcribe_images.py \
-  --model-dir models/bullinger_checkpoint \
-  --config configs/htr_inference.json \
   --images /absolute/path/line1.png /absolute/path/line2.png \
   --output outputs/team_htr.jsonl
 ```
 
-`transcribe_images.py` loads your local TrOCR checkpoint, processes each image, generates text and records image identity. It automatically uses CUDA if available, otherwise CPU; `--device cpu` is available. The output file must not already exist.
+`transcribe_images.py` loads the installed public Bullinger TrOCR checkpoint by default, processes each image, generates text and records image identity. It automatically uses CUDA if available, otherwise CPU; `--device cpu` is available. The output file must not already exist.
 
-The default wrapper uses raw eight-beam decoding. To enable local candidate reranking, add `--save-candidates --language de` (or `la`), then run `scripts/rerank_htr.py`. New-image outputs have no measured CER/WER until evaluated against explicit references. See [local reproduction and evaluation](docs/REPRODUCTION.md) for the complete example and provenance limits.
-
-#### Optional public Bullinger TrOCR
-
-Download [the public Bullinger model](https://huggingface.co/pstroe/bullinger-general-model/tree/be32c883a4deb812ab6f461ae79f583c3f9edc53) and its tokenizer once, then run it offline. Allow about 2.2 GB for the download. The downloader verifies the model weights against the SHA-256 from the evaluation.
-
-```sh
-.venv-nlp/bin/python scripts/download_public_trocr.py
-.venv-nlp/bin/python scripts/transcribe_images.py \
-  --public-trocr --images outputs/letter_lines/line_*.png \
-  --output outputs/letter_public_htr.jsonl
-```
-
-This selects the top prediction from eight beams with a 128-token generation limit. Use `--save-candidates --language de` (or `la`) if you need all eight candidates for the reranker.
+The default wrapper uses raw eight-beam decoding with a 128-token generation limit. To enable local candidate reranking, add `--save-candidates --language de` (or `la`), then run `scripts/rerank_htr.py`. New-image outputs have no measured CER/WER until evaluated against explicit references. See [local reproduction and evaluation](docs/REPRODUCTION.md) for the complete example and provenance limits.
 
 ### Step 2: Extract place mentions
 
@@ -116,7 +94,7 @@ curl --fail --location --output models/bullinger_mbert_20261022.zip https://gith
 unzip models/bullinger_mbert_20261022.zip -d models
 .venv-nlp/bin/python scripts/extract_places.py \
   --mbert \
-  --input outputs/letter_public_htr.jsonl \
+  --input outputs/letter_htr.jsonl \
   --output outputs/letter_mbert_places.jsonl
 ```
 
@@ -141,7 +119,6 @@ This object is a schema example, not an actual scored prediction. A GLiNER score
 | Command | Purpose | Input | Output |
 |---|---|---|---|
 | `scripts/download_model.py` | Cache GLiNER and its encoder tokenizer and configuration | Internet access | `.cache/huggingface/` |
-| `scripts/download_htr_checkpoint.py` | Download, assemble and verify the trained TrOCR checkpoint | GitHub Release assets | `models/bullinger_checkpoint/` |
 | `scripts/download_public_trocr.py` | Cache the fixed public Bullinger TrOCR and tokenizer | Hugging Face | `models/bullinger_public_trocr/` |
 | `scripts/page_segmentation_loose.py` | Split one manuscript page into ordered lines | Page image | Line PNGs, manifest and preview |
 | `scripts/transcribe_images.py` | Recognize manuscript line images | Line images and TrOCR checkpoint | HTR text JSONL |
@@ -154,8 +131,8 @@ For command-line options, run an entry point with `--help`. The download command
 
 | File | Meaning | Used for |
 |---|---|---|
-| `configs/htr_inference.json` | Beam count, generation length and cache settings | New-image TrOCR command; does not contain weights |
-| Checkpoint `config.json`, `generation_config.json`, tokenizer and processor JSON files | Model architecture and preprocessing metadata | Must accompany real weights inside `--model-dir` |
+| `configs/htr_inference.json` | Beam count, generation length and cache settings | Default public inference enables the generation cache. An explicit `--config` uses the values in that file. |
+| Checkpoint configuration, tokenizer and processor files | Model architecture and preprocessing metadata | Installed with the public checkpoint |
 | `configs/place_inference.json` | Pinned GLiNER revision, labels, threshold, windowing and lexicon paths | Text-to-place command |
 | `outputs/bullinger_htr_delivery_EN/data/historical_aliases.json` | Official-source historical variants | Adds literal name variants missed by GLiNER |
 | `outputs/bullinger_htr_delivery_EN/data/source_aliases.json` | Additional disjoint source-derived variants | Second lexicon layer |
@@ -217,9 +194,9 @@ Use validation for choices. Do not tune on the test set or rerun a final test ju
 
 ## Repository scope and verification
 
-Current delivery contains English documentation, inference/experiment code, fixed official data, actual results and provenance. Original German/Latin sources are preserved. Personal review tables, raw image archives, caches and virtual environments are excluded. TrOCR inference weights are distributed as a Release asset rather than in the Git code tree. Obsolete legacy entry points have been removed from the current branch; their earlier versions remain in Git history.
+Current delivery contains English documentation, inference/experiment code, fixed official data, actual results and provenance. Original German/Latin sources are preserved. Personal review tables, raw image archives, caches and virtual environments are excluded. The default TrOCR weights are downloaded from Hugging Face. Obsolete legacy entry points have been removed from the current branch; their earlier versions remain in Git history.
 
-The original packaged official evaluation was fully reproduced offline. Both new team wrappers passed syntax and CLI checks. The text-to-place wrapper completed an offline two-record smoke run including an empty line. The released seed44 DE20 checkpoint was loaded successfully and used for a single-image CPU inference smoke check. No new independent accuracy result is claimed. Dependency versions are not a full cross-platform lockfile. A fresh computer must install dependencies and obtain the models selected for inference. Raw beam inference is distinct from the historical LM-reranked test.
+The original packaged official evaluation was fully reproduced offline. Both new team wrappers passed syntax and CLI checks. The text-to-place wrapper completed an offline two-record smoke run including an empty line. The default public checkpoint was verified with an offline CPU inference smoke check. No new independent accuracy result is claimed. Dependency versions are not a full cross-platform lockfile. A fresh computer must install dependencies and obtain the models selected for inference. Raw beam inference is distinct from the historical LM-reranked test.
 
 ## Local reranking, example and HTR evaluation
 
