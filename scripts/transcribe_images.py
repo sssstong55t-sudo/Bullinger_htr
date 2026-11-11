@@ -2,10 +2,14 @@
 import argparse,hashlib,json
 from pathlib import Path
 
+from download_public_trocr import MODEL_DIR, MODEL_ID, MODEL_REVISION, TOKENIZER_DIR
+
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--model-dir',type=Path,required=True,help='Complete local TrOCR checkpoint, including weights and processor files')
-    p.add_argument('--config',type=Path,default=Path(__file__).resolve().parents[1]/'configs/htr_inference.json')
+    source=p.add_mutually_exclusive_group(required=True)
+    source.add_argument('--model-dir',type=Path,help='Complete local TrOCR checkpoint')
+    source.add_argument('--public-trocr',action='store_true',help='Use the pinned public Bullinger TrOCR')
+    p.add_argument('--config',type=Path,default=None)
     p.add_argument('--images',type=Path,nargs='+',required=True,help='Cropped line images, not whole letter pages')
     p.add_argument('--output',type=Path,required=True,help='New JSONL output file')
     p.add_argument('--save-candidates',action='store_true',help='Save eight beam candidates for fixed LM reranking')
@@ -14,16 +18,33 @@ def main():
     a=p.parse_args()
     if a.save_candidates and not a.language:p.error('--language is required for reranking candidates')
     if a.output.exists():p.error('Output already exists; choose a new path')
+    if a.public_trocr:
+        a.model_dir=MODEL_DIR
+        if not (MODEL_DIR/'pytorch_model.bin').is_file() or not (TOKENIZER_DIR/'vocab.json').is_file():
+            p.error('Run scripts/download_public_trocr.py first')
     if not a.model_dir.is_dir():p.error('Model directory does not exist')
     for image in a.images:
         if not image.is_file():p.error('Missing image: '+str(image))
-    cfg=json.loads(a.config.read_text());params={k:cfg[k] for k in ['num_beams','max_new_tokens','do_sample','use_cache']}
+    default_config=Path(__file__).resolve().parents[1]/'configs/htr_inference.json'
+    cfg=json.loads((a.config or default_config).read_text())
+    params={k:cfg[k] for k in ['num_beams','max_new_tokens','do_sample','use_cache']}
+    if a.public_trocr and a.config is None:
+        params['use_cache']=True
     import torch
     from PIL import Image
-    from transformers import TrOCRProcessor,VisionEncoderDecoderModel
+    from transformers import RobertaTokenizerFast, TrOCRProcessor, ViTImageProcessor, VisionEncoderDecoderModel
     device=('cuda' if torch.cuda.is_available() else 'cpu') if a.device=='auto' else a.device
-    processor=TrOCRProcessor.from_pretrained(str(a.model_dir),local_files_only=True,use_fast=False)
+    if a.public_trocr:
+        tokenizer=RobertaTokenizerFast.from_pretrained(TOKENIZER_DIR,local_files_only=True)
+        image_processor=ViTImageProcessor.from_pretrained(MODEL_DIR,local_files_only=True)
+        processor=TrOCRProcessor(image_processor=image_processor,tokenizer=tokenizer)
+    else:
+        processor=TrOCRProcessor.from_pretrained(str(a.model_dir),local_files_only=True,use_fast=False)
     model=VisionEncoderDecoderModel.from_pretrained(str(a.model_dir),local_files_only=True).to(device).eval()
+    if a.public_trocr:
+        model.generation_config.decoder_start_token_id=model.config.decoder_start_token_id
+        model.generation_config.pad_token_id=tokenizer.pad_token_id
+        model.generation_config.eos_token_id=tokenizer.sep_token_id
     a.output.parent.mkdir(parents=True,exist_ok=True)
     with a.output.open('x',encoding='utf-8') as out,torch.inference_mode():
         for i,path in enumerate(a.images,1):
@@ -32,6 +53,7 @@ def main():
             texts=[t.strip() for t in processor.batch_decode(generated.sequences,skip_special_tokens=True)]
             text=texts[0]
             row={'line_id':str(path),'image':str(path.resolve()),'image_sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'text':text,'text_source':'htr_output','model_directory':str(a.model_dir.resolve()),'generation':params,'verification_status':'Unverified HTR output'}
+            if a.public_trocr:row.update(model_id=MODEL_ID,model_revision=MODEL_REVISION)
             if a.language:row['language']=a.language
             if a.save_candidates:row['candidates']=[{'text':t,'model_score':score} for t,score in zip(texts,generated.sequences_scores.cpu().tolist())]
             out.write(json.dumps(row,ensure_ascii=False)+'\n');out.flush();print(f'{i}/{len(a.images)}: {text}',flush=True)

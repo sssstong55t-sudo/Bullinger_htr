@@ -265,7 +265,7 @@ def _polygon_crop(page, polygon):
     return box, Image.composite(crop, Image.new("RGB", crop.size, "white"), mask)
 
 
-def export_page(source, output_dir, *, contours=False):
+def export_page(source, output_dir, *, contours=True):
     """Export PNG lines, manifest.json and preview.png into a new directory.
 
     No recognition model is loaded. Existing destinations are never overwritten.
@@ -311,7 +311,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Export ordered line images using the deskew variant.")
     parser.add_argument("--image", type=Path, required=True)
     parser.add_argument("--output-dir", type=Path, required=True)
-    parser.add_argument("--contours", action="store_true", help="Trace line polygons and mask the surrounding pixels.")
+    parser.add_argument("--contours", action=argparse.BooleanOptionalAction, default=True,
+                        help="Trace and mask line polygons (default). Use --no-contours for rectangles.")
     args = parser.parse_args()
     if not args.image.is_file():
         parser.error(f"Missing image: {args.image}")
