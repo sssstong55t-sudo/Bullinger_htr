@@ -1,0 +1,215 @@
+{
+  "seed": 45,
+  "pages": [
+    {
+      "letter": "12476",
+      "page": 1,
+      "source": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!12476!Kopie!00%20E_II_345__fol__361_r_.tif/full/max/0/default.jpg",
+      "reference": 44,
+      "default_rectangle": {
+        "predicted": 39,
+        "matched_iou_50": 37,
+        "matched_iou_30": 38
+      },
+      "deskew_rectangle": {
+        "predicted": 39,
+        "matched_iou_50": 37,
+        "matched_iou_30": 38
+      },
+      "tracked_polygon": {
+        "predicted": 39,
+        "matched_iou_50": 37,
+        "matched_iou_30": 38
+      }
+    },
+    {
+      "letter": "12982",
+      "page": 1,
+      "source": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!12982!Autograph!00%20E_II_335__fol__2054_r_.tif/full/max/0/default.jpg",
+      "reference": 30,
+      "default_rectangle": {
+        "predicted": 29,
+        "matched_iou_50": 23,
+        "matched_iou_30": 29
+      },
+      "deskew_rectangle": {
+        "predicted": 31,
+        "matched_iou_50": 25,
+        "matched_iou_30": 29
+      },
+      "tracked_polygon": {
+        "predicted": 31,
+        "matched_iou_50": 25,
+        "matched_iou_30": 29
+      }
+    },
+    {
+      "letter": "12982",
+      "page": 2,
+      "source": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!12982!Autograph!01%20E_II_335__fol__2054_v_.tif/full/max/0/default.jpg",
+      "reference": 8,
+      "default_rectangle": {
+        "predicted": 9,
+        "matched_iou_50": 5,
+        "matched_iou_30": 5
+      },
+      "deskew_rectangle": {
+        "predicted": 9,
+        "matched_iou_50": 5,
+        "matched_iou_30": 5
+      },
+      "tracked_polygon": {
+        "predicted": 9,
+        "matched_iou_50": 5,
+        "matched_iou_30": 5
+      }
+    },
+    {
+      "letter": "12111",
+      "page": 1,
+      "source": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!12111!Autograph!00%20E_II_347__S__309_.tif/full/max/0/default.jpg",
+      "reference": 49,
+      "default_rectangle": {
+        "predicted": 49,
+        "matched_iou_50": 47,
+        "matched_iou_30": 49
+      },
+      "deskew_rectangle": {
+        "predicted": 49,
+        "matched_iou_50": 47,
+        "matched_iou_30": 49
+      },
+      "tracked_polygon": {
+        "predicted": 49,
+        "matched_iou_50": 49,
+        "matched_iou_30": 49
+      }
+    },
+    {
+      "letter": "11511",
+      "page": 1,
+      "source": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!11511!Autograph!00%20E_II_362__S__39_.tif/full/max/0/default.jpg",
+      "reference": 34,
+      "default_rectangle": {
+        "predicted": 31,
+        "matched_iou_50": 31,
+        "matched_iou_30": 31
+      },
+      "deskew_rectangle": {
+        "predicted": 31,
+        "matched_iou_50": 31,
+        "matched_iou_30": 31
+      },
+      "tracked_polygon": {
+        "predicted": 31,
+        "matched_iou_50": 31,
+        "matched_iou_30": 31
+      }
+    },
+    {
+      "letter": "13141",
+      "page": 1,
+      "source": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!13141!Autograph!00%20E_II_357__fol__876_r_.tif/full/max/0/default.jpg",
+      "reference": 55,
+      "default_rectangle": {
+        "predicted": 52,
+        "matched_iou_50": 7,
+        "matched_iou_30": 41
+      },
+      "deskew_rectangle": {
+        "predicted": 65,
+        "matched_iou_50": 9,
+        "matched_iou_30": 46
+      },
+      "tracked_polygon": {
+        "predicted": 65,
+        "matched_iou_50": 39,
+        "matched_iou_30": 50
+      }
+    },
+    {
+      "letter": "13141",
+      "page": 2,
+      "source": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!13141!Autograph!01%20E_II_357__fol__876_v_.tif/full/max/0/default.jpg",
+      "reference": 3,
+      "default_rectangle": {
+        "predicted": 5,
+        "matched_iou_50": 3,
+        "matched_iou_30": 3
+      },
+      "deskew_rectangle": {
+        "predicted": 5,
+        "matched_iou_50": 3,
+        "matched_iou_30": 3
+      },
+      "tracked_polygon": {
+        "predicted": 5,
+        "matched_iou_50": 3,
+        "matched_iou_30": 3
+      }
+    },
+    {
+      "letter": "12476",
+      "page": 2,
+      "source": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!12476!Kopie!01%20E_II_345__fol__361_v_.tif/full/max/0/default.jpg",
+      "reference": 38,
+      "default_rectangle": {
+        "predicted": 37,
+        "matched_iou_50": 36,
+        "matched_iou_30": 37
+      },
+      "deskew_rectangle": {
+        "predicted": 37,
+        "matched_iou_50": 37,
+        "matched_iou_30": 37
+      },
+      "tracked_polygon": {
+        "predicted": 37,
+        "matched_iou_50": 37,
+        "matched_iou_30": 37
+      }
+    },
+    {
+      "letter": "12111",
+      "page": 2,
+      "source": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!12111!Autograph!01%20E_II_347__S__310_.tif/full/max/0/default.jpg",
+      "reference": 25,
+      "default_rectangle": {
+        "predicted": 23,
+        "matched_iou_50": 22,
+        "matched_iou_30": 22
+      },
+      "deskew_rectangle": {
+        "predicted": 23,
+        "matched_iou_50": 22,
+        "matched_iou_30": 22
+      },
+      "tracked_polygon": {
+        "predicted": 23,
+        "matched_iou_50": 22,
+        "matched_iou_30": 22
+      }
+    },
+    {
+      "letter": "11511",
+      "page": 2,
+      "source": "https://media.sources-online.org/cantaloupe/iiif/3/bullinger!11511!Autograph!01%20E_II_362__S__40_.tif/full/max/0/default.jpg",
+      "reference": 4,
+      "default_rectangle": {
+        "predicted": 10,
+        "matched_iou_50": 3,
+        "matched_iou_30": 4
+      },
+      "deskew_rectangle": {
+        "predicted": 11,
+        "matched_iou_50": 3,
+        "matched_iou_30": 4
+      },
+      "tracked_polygon": {
+        "predicted": 11,
+        "matched_iou_50": 3,
+        "matched_iou_30": 4
+      }
+    }
+  ]
+}

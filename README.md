@@ -162,7 +162,7 @@ These are separate experiments, **not image-to-place end-to-end metrics**. Offic
 
 ## Whole-page evaluation
 
-The evaluation used 10 original manuscript page images from five letters, previously used for the contour comparison. Each contour crop was transcribed with public Bullinger TrOCR at revision `be32c883a4deb812ab6f461ae79f583c3f9edc53`. The two place extractors processed the same 300 transcriptions.
+The evaluation used 10 original manuscript page images from five letters, previously used for the contour comparison. Each contour crop was transcribed with public Bullinger TrOCR at revision `be32c883a4deb812ab6f461ae79f583c3f9edc53`. The two place extractors processed the same 300 transcriptions. The [evaluation package](evaluation/whole_page_20261111/) contains the frozen inputs, predictions, and per-page counts. See [reproduction commands](docs/REPRODUCTION.md#reproduce-the-10-page-evaluation) to recompute the scores.
 
 | Stage | Comparison | Result |
 | --- | --- | --- |

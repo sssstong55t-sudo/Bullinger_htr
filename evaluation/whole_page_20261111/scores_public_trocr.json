@@ -1,0 +1,137 @@
+{
+  "segmentation": {
+    "tp": 251,
+    "fp": 49,
+    "fn": 39,
+    "precision": 0.8366666666666667,
+    "recall": 0.8655172413793103,
+    "f1": 0.8508474576271187
+  },
+  "transcription": {
+    "full_page": {
+      "char_errors": 6367,
+      "chars": 17549,
+      "word_errors": 1416,
+      "words": 2655,
+      "cer": 0.3628126958801071,
+      "wer": 0.5333333333333333
+    },
+    "matched_only": {
+      "char_errors": 3119,
+      "chars": 16471,
+      "word_errors": 868,
+      "words": 2478,
+      "cer": 0.18936312306478054,
+      "wer": 0.3502824858757062
+    }
+  },
+  "ner": null,
+  "pages": [
+    {
+      "page": "12476-1",
+      "seg_tp": 37,
+      "seg_fp": 2,
+      "seg_fn": 7,
+      "excluded_reference_lines": 8,
+      "excluded_reference_places": 0,
+      "char_errors": 1644,
+      "chars": 963,
+      "word_errors": 256,
+      "words": 158
+    },
+    {
+      "page": "12982-1",
+      "seg_tp": 25,
+      "seg_fp": 6,
+      "seg_fn": 5,
+      "char_errors": 448,
+      "chars": 1239,
+      "word_errors": 122,
+      "words": 198
+    },
+    {
+      "page": "12982-2",
+      "seg_tp": 5,
+      "seg_fp": 4,
+      "seg_fn": 3,
+      "char_errors": 31,
+      "chars": 122,
+      "word_errors": 15,
+      "words": 19,
+      "excluded_reference_lines": 2,
+      "excluded_reference_places": 0
+    },
+    {
+      "page": "12111-1",
+      "seg_tp": 49,
+      "seg_fp": 0,
+      "seg_fn": 0,
+      "char_errors": 210,
+      "chars": 3854,
+      "word_errors": 117,
+      "words": 582
+    },
+    {
+      "page": "11511-1",
+      "seg_tp": 31,
+      "seg_fp": 0,
+      "seg_fn": 3,
+      "char_errors": 234,
+      "chars": 3094,
+      "word_errors": 114,
+      "words": 459
+    },
+    {
+      "page": "13141-1",
+      "seg_tp": 39,
+      "seg_fp": 26,
+      "seg_fn": 16,
+      "char_errors": 3102,
+      "chars": 3571,
+      "word_errors": 613,
+      "words": 565
+    },
+    {
+      "page": "13141-2",
+      "seg_tp": 3,
+      "seg_fp": 2,
+      "seg_fn": 0,
+      "char_errors": 46,
+      "chars": 72,
+      "word_errors": 7,
+      "words": 11
+    },
+    {
+      "page": "12476-2",
+      "seg_tp": 37,
+      "seg_fp": 0,
+      "seg_fn": 1,
+      "char_errors": 211,
+      "chars": 2670,
+      "word_errors": 78,
+      "words": 389
+    },
+    {
+      "page": "12111-2",
+      "seg_tp": 22,
+      "seg_fp": 1,
+      "seg_fn": 3,
+      "excluded_reference_lines": 1,
+      "excluded_reference_places": 0,
+      "char_errors": 358,
+      "chars": 1822,
+      "word_errors": 75,
+      "words": 257
+    },
+    {
+      "page": "11511-2",
+      "seg_tp": 3,
+      "seg_fp": 8,
+      "seg_fn": 1,
+      "char_errors": 83,
+      "chars": 142,
+      "word_errors": 19,
+      "words": 17
+    }
+  ]
+}

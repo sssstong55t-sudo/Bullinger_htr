@@ -1,0 +1,48 @@
+{
+  "byte_identical_crops_verified": 32,
+  "excluded_paired_references": 2,
+  "seed44_cached": {
+    "paired_lines": {
+      "char_errors": 194,
+      "ref_chars": 1011,
+      "word_errors": 68,
+      "ref_words": 148,
+      "exact": 2,
+      "n": 18,
+      "cer": 0.19188921859545005,
+      "wer": 0.4594594594594595
+    },
+    "full_pages": {
+      "char_errors": 55,
+      "ref_chars": 219,
+      "word_errors": 19,
+      "ref_words": 28,
+      "exact": 0,
+      "n": 2,
+      "cer": 0.2511415525114155,
+      "wer": 0.6785714285714286
+    }
+  },
+  "public_trocr": {
+    "paired_lines": {
+      "char_errors": 145,
+      "ref_chars": 1011,
+      "word_errors": 54,
+      "ref_words": 148,
+      "exact": 3,
+      "n": 18,
+      "cer": 0.1434223541048467,
+      "wer": 0.36486486486486486
+    },
+    "full_pages": {
+      "char_errors": 71,
+      "ref_chars": 219,
+      "word_errors": 17,
+      "ref_words": 28,
+      "exact": 0,
+      "n": 2,
+      "cer": 0.3242009132420091,
+      "wer": 0.6071428571428571
+    }
+  }
+}

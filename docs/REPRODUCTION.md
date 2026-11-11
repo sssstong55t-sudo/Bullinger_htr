@@ -28,7 +28,30 @@ Run from the repository root after installing the root requirements. Set the inp
 
 The splitter exports polygon-masked crops by default. Check `outputs/page_lines/preview.png` for missing or merged lines before transcribing. Install the October 22 checkpoint into `models/` using the [README setup instructions](../README.md#setup-and-deployment). For the GLiNER comparison, run `scripts/download_model.py` once to cache the weights, encoder configuration, and tokenizer, then run `scripts/extract_places.py` with `--gliner`, using a fresh output filename.
 
-The [whole-page evaluation](../README.md#whole-page-evaluation-2026-11-11) used pages `11511-1/2`, `12111-1/2`, `12476-1/2`, `12982-1/2`, and `13141-1/2`. The commands above run inference on a page you supply. Computing the reported metrics also requires the corresponding TEI line regions, transcriptions, and place annotations.
+## Reproduce the 10-page evaluation
+
+The [whole-page evaluation](../README.md#whole-page-evaluation) used pages `11511-1/2`, `12111-1/2`, `12476-1/2`, `12982-1/2`, and `13141-1/2`. The [evaluation package](../evaluation/whole_page_20261111/) contains the frozen page and crop manifest, reference text and place spans, all 300 TrOCR predictions, both sets of place predictions, and per-page and aggregate scores. The five source TEI letters are in [official_letters](../outputs/bullinger_htr_delivery_EN/data/official_letters/).
+
+From the repository root, recompute CER, WER, place F1, and the 18-line seed44 comparison from the saved predictions. This step uses only the Python standard library and checks the results against the archived score reports.
+
+```sh
+python3 evaluation/whole_page_20261111/score.py
+```
+
+With the root dependencies installed, recompute the one-to-one contour matches at polygon IoU ≥ 0.50 from the frozen crop polygons and TEI reference regions. The historical rectangle comparison counts are recorded in `segmentation.json`.
+
+```sh
+.venv-nlp/bin/python evaluation/whole_page_20261111/verify_geometry.py
+```
+
+To regenerate the contours and line images, use the original scans from the manifest. The optional download retrieves missing scans from their source URLs. The script checks the scan hashes and compares the resulting polygons and crop hashes with the archived run.
+
+```sh
+.venv-nlp/bin/python evaluation/whole_page_20261111/verify_geometry.py \
+  --images-dir /path/to/whole_page_scans --download --crop-dir /path/to/new_crops
+```
+
+Remove `--download` if the ten scans are already saved as `LETTER-PAGE.jpg` in the image directory. The metric replay uses the archived predictions. A fresh neural inference run uses the model setup and inference commands above. The replay retains the original exclusions and the provisional TEI-to-HTR span projection.
 
 ## Fixed manifests and training-only statistics
 
