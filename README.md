@@ -108,16 +108,19 @@ Offsets are Python character offsets in the exact `text` string, with an exclusi
 
 #### Optional mBERT place recognition
 
-Use the October 22 fine-tuned multilingual BERT token classifier evaluated below. Supply its complete local Transformers checkpoint directory with `model.safetensors`, model configuration, and tokenizer files. Obtain the checkpoint separately before using this option. The evaluated weights have SHA-256 `055be2e5c923a4e6a843e120f73cffb66eaa3cdf65a686faf6d776dfeb99ae20`. The classifier was fine-tuned on official TEI body `placeName` spans.
+Download the [October 22 mBERT checkpoint ZIP](https://github.com/sssstong55t-sudo/Bullinger_htr/releases/download/v1.0.0-mbert-20261022/bullinger_mbert_20261022.zip) (about 680 MiB) from GitHub Releases. It includes the weights, model configuration, and tokenizer used in the whole-page evaluation below. Run these commands from the repository root after installing the dependencies:
 
 ```sh
+mkdir -p models
+curl --fail --location --output models/bullinger_mbert_20261022.zip https://github.com/sssstong55t-sudo/Bullinger_htr/releases/download/v1.0.0-mbert-20261022/bullinger_mbert_20261022.zip
+unzip models/bullinger_mbert_20261022.zip -d models
 .venv-nlp/bin/python scripts/extract_places.py \
-  --mbert /absolute/path/to/bullinger_mbert_20261022 \
+  --mbert \
   --input outputs/letter_public_htr.jsonl \
   --output outputs/letter_mbert_places.jsonl
 ```
 
-With the checkpoint in `models/bullinger_mbert_20261022/`, use `--mbert` without a path. This mode runs offline on CPU and applies the two historical alias lexicons and whole-word filtering. It writes spans in the same `places` array. The evaluation used the default mBERT settings.
+The archive SHA-256 is `92cd0da3f00234a9045831ed5ca70c6c7b43d8b310fc681b1df104ed12a88683`. The classifier was fine-tuned on official TEI body `placeName` spans. Once the ZIP is extracted, mBERT runs offline on CPU, applies both historical alias lexicons and whole-word filtering, and writes the same `places` array. To use a different checkpoint location, pass its directory after `--mbert`.
 
 ### Input/output record example
 
