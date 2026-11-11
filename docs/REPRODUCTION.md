@@ -15,6 +15,21 @@ Fresh output paths are required. The sample is an already exposed public dataset
 
 The reranker uses eight returned beams, their sequence scores, char3 and word1 language statistics, smoothing 0.1 and fixed weights 0.03/0.03, matching the historical scoring formula. Input language must be known de/la; no test-reference text enters candidate selection. For mixed-language or unknown lines, use raw decoding rather than inventing a language. The evaluator compares literal strings without lowercasing, punctuation removal or modern spelling normalization. Historical worker reference loading uses strip(); supply consistently prepared reference strings.
 
+## Whole-page inference with the optional models
+
+Run from the repository root after installing the root requirements. Set the input to a single manuscript page and choose fresh output paths.
+
+```sh
+.venv-nlp/bin/python scripts/download_public_trocr.py
+.venv-nlp/bin/python scripts/page_segmentation_loose.py --image /path/to/page.jpg --output-dir outputs/page_lines
+.venv-nlp/bin/python scripts/transcribe_images.py --public-trocr --images outputs/page_lines/line_*.png --output outputs/page_text.jsonl
+.venv-nlp/bin/python scripts/extract_places.py --mbert /path/to/bullinger_mbert_20261022 --input outputs/page_text.jsonl --output outputs/page_places_mbert.jsonl
+```
+
+The splitter exports polygon-masked crops by default. Check `outputs/page_lines/preview.png` for missing or merged lines before transcribing. The mBERT command requires the separately supplied October 22 checkpoint. For the GLiNER comparison, run `scripts/download_model.py` once to cache the weights, encoder configuration, and tokenizer, then run `scripts/extract_places.py` without `--mbert`, using a fresh output filename.
+
+The [whole-page evaluation](../README.md#whole-page-evaluation-2026-11-11) used pages `11511-1/2`, `12111-1/2`, `12476-1/2`, `12982-1/2`, and `13141-1/2`. The commands above run inference on a page you supply. Computing the reported metrics also requires the corresponding TEI line regions, transcriptions, and place annotations.
+
 ## Fixed manifests and training-only statistics
 
 - data/splits/n20000_natural_s42.json: original portable 20k training selection.
