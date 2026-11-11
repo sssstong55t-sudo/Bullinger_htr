@@ -36,6 +36,36 @@ def windows(text,size,overlap):
         if i+size>=len(words):break
     return out
 
+def add_alias_candidates(mention, candidates):
+    if 'official_source_variant' not in mention['sources']:
+        mention['sources'].append('official_source_variant')
+    by_id = mention.setdefault('official_place_candidates', {})
+    for candidate in candidates:
+        place_id = candidate['official_place_id']
+        by_id.setdefault(place_id, {
+            'official_place_id': place_id,
+            'canonical_name': candidate['canonical_name'],
+            'latitude': candidate['latitude'],
+            'longitude': candidate['longitude'],
+            'source': candidate['source'],
+        })
+
+
+def finalize_mentions(mentions):
+    places = sorted(mentions.values(), key=lambda item: (item['start'], item['end']))
+    for place in places:
+        by_id = place.get('official_place_candidates', {})
+        candidates = [by_id[key] for key in sorted(by_id)]
+        place['official_place_candidates'] = candidates
+        if not candidates:
+            place['place_link_status'] = 'unmatched'
+        elif len(candidates) == 1:
+            place['place_link_status'] = 'candidate_for_review'
+        else:
+            place['place_link_status'] = 'ambiguous'
+    return places
+
+
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--input',type=Path,required=True,help='JSONL records with literal text and line_id')
@@ -89,11 +119,19 @@ def main():
                 for matcher in matchers:
                     for alias in matcher.extract(text,row['line_id']):
                         for seg in alias['segments']:
-                            x,y=seg['start'],seg['end'];mention=mentions.setdefault((x,y),{'start':x,'end':y,'text':text[x:y],'sources':[]})
-                            if 'official_source_variant' not in mention['sources']:mention['sources'].append('official_source_variant')
+                            x, y = seg['start'], seg['end']
+                            mention = mentions.setdefault(
+                                (x, y), {'start': x, 'end': y, 'text': text[x:y], 'sources': []}
+                            )
+                            add_alias_candidates(mention, alias['candidates'])
             if not a.gliner:
                 mentions = {(x,y): mention for (x,y), mention in mentions.items() if whole_word(text,x,y)}
-            result={**row,'places':sorted(mentions.values(),key=lambda x:(x['start'],x['end'])),'place_config_sha256':hashlib.sha256(a.config.read_bytes()).hexdigest(),'geographic_identity_status':'Not resolved or verified'}
+            result = {
+                **row,
+                'places': finalize_mentions(mentions),
+                'place_config_sha256': hashlib.sha256(a.config.read_bytes()).hexdigest(),
+                'geographic_identity_status': 'Not resolved or verified',
+            }
             if not a.gliner:
                 result['place_extraction_mode']='mbert_with_aliases'
             out.write(json.dumps(result,ensure_ascii=False)+'\n');out.flush();print(f'{i}/{len(rows)}: {len(mentions)} place candidates',flush=True)

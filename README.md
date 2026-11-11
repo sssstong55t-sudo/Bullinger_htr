@@ -84,7 +84,7 @@ The default wrapper uses raw eight-beam decoding with a 128-token generation lim
 
 `extract_places.py` defaults to the October 22 mBERT checkpoint with both historical alias lexicons and whole-word filtering. The classifier was fine-tuned on official TEI body `placeName` spans. It runs offline on CPU, reads the literal transcribed text line by line, and writes place spans. To use a different local mBERT checkpoint, pass its directory after `--mbert`.
 
-Offsets are Python character offsets in the exact `text` string, with an exclusive end: `text[start:end]` equals the mention. No geographic coordinates or verified entity identities are generated. Overlapping candidates may remain; these are extraction candidates, not confirmed places.
+Offsets are Python character offsets in the exact `text` string, with an exclusive end, so `text[start:end]` equals the mention. Each mention includes `official_place_candidates` from the bundled historical alias lexicons. Candidates include the official Bullinger place ID, canonical name, source, and any latitude and longitude available in the source record. A missing name or coordinate is returned as JSON `null`. The coordinates refer to the source record and do not certify the identity of the historical mention.
 
 #### Optional GLiNER place recognition
 
@@ -105,13 +105,32 @@ The fixed official-text evaluation below runs GLiNER and uses this same download
 {"line_id":"example-line-1","image":"line1.png","text":"Example literal transcription","text_source":"htr_output"}
 ```
 
-Input requires `line_id` and string `text`. The handwriting command produces both. Additional provenance fields are retained. Empty text is retained with an empty place list. For illustration, a mention object looks like:
+Input requires `line_id` and string `text`. The handwriting command produces both. Additional provenance fields are retained. Empty text is retained with an empty place list. The [saved example](examples/expected_places.jsonl) includes this candidate for `Basileę`:
 
 ```json
-{"start":0,"end":6,"text":"Zurich","sources":["mbert"],"score":0.9}
+{
+  "start": 0,
+  "end": 7,
+  "text": "Basileę",
+  "sources": ["mbert", "official_source_variant"],
+  "place_link_status": "candidate_for_review",
+  "official_place_candidates": [
+    {
+      "official_place_id": "l28",
+      "canonical_name": "Basel",
+      "latitude": 47.55839,
+      "longitude": 7.57327,
+      "source": "https://github.com/stazh/bullinger-korpus-tei"
+    }
+  ]
+}
 ```
 
-This object is a schema example, not an actual scored prediction. Model scores are uncalibrated. Alias-only matches have no model score.
+- `candidate_for_review` means the lexicons returned one candidate.
+- `ambiguous` means the lexicons returned multiple distinct candidates. Each stays in the array.
+- `unmatched` means the mention has no candidate in the bundled lexicons. Its candidate array is empty.
+
+Model scores are uncalibrated. Alias-only mentions have no model score. The same candidate fields are returned by both place extractors.
 
 ## Entry points
 
@@ -174,7 +193,7 @@ The evaluation used 10 original manuscript page images from five letters, previo
 
 On a fixed subset of 18 byte-identical contour crops with usable references, seed44 DE20 scored 19.19% CER and 45.95% WER. Public TrOCR scored 14.34% CER and 36.49% WER. The seed44 comparison is limited to that subset.
 
-The references come from the official edited TEI. Transcription scoring excluded 11 regions without reliable corresponding text. Place scoring also excluded three lines with cross-line locations and used 56 eligible place annotations. Reference spans were automatically projected onto the HTR text, with no manual verification of the projected boundaries. The October 22 checkpoint is a single fine-tuned mBERT model. The November four-fold hybrid was outside this run. These figures describe this five-letter sample and its annotation agreement.
+The references come from the official edited TEI. Transcription scoring excluded 11 regions without reliable corresponding text. Place scoring also excluded three lines with cross-line locations and used 56 eligible place annotations. Reference spans were automatically projected onto the HTR text, with no manual verification of the projected boundaries. These figures measure annotation agreement for the released mBERT checkpoint with historical aliases on this five-letter sample.
 
 ## Reproduce HTR experiments in Colab
 
