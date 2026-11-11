@@ -181,7 +181,7 @@ This separate command evaluates **official reference text**, not images or your 
 
 These are separate experiments, **not image-to-place end-to-end metrics**. Official annotation completeness is unestablished; unmatched predictions are not automatically true false positives. This official sample is already exposed; further tuning on it is development work. See [fixed comparisons and limitations](outputs/bullinger_htr_delivery_EN/RESULTS.md).
 
-## Whole-page evaluation, 2026-11-11
+## Whole-page evaluation
 
 The evaluation used 10 original manuscript page images from five letters, previously used for the contour comparison. Each contour crop was transcribed with public Bullinger TrOCR at revision `be32c883a4deb812ab6f461ae79f583c3f9edc53`. The two place extractors processed the same 300 transcriptions.
 
@@ -191,7 +191,7 @@ The evaluation used 10 original manuscript page images from five letters, previo
 | Public TrOCR | Matched lines | 18.94% CER, 35.03% WER |
 | Public TrOCR | Whole pages, charging missing lines as deletions and extra lines as insertions | 36.28% CER, 53.33% WER |
 | GLiNER + historical aliases | Exact place span and LOC category | 70.21% precision, 58.93% recall, 64.08% F1 (33 TP, 14 FP, 23 FN) |
-| October 22 mBERT + historical aliases | Exact place span and LOC category | 72.73% precision, 85.71% recall, 78.69% F1 (48 TP, 18 FP, 8 FN) |
+| mBERT + historical aliases | Exact place span and LOC category | 72.73% precision, 85.71% recall, 78.69% F1 (48 TP, 18 FP, 8 FN) |
 
 On a fixed subset of 18 byte-identical contour crops with usable references, seed44 DE20 scored 19.19% CER and 45.95% WER. Public TrOCR scored 14.34% CER and 36.49% WER. The seed44 comparison is limited to that subset.
 
