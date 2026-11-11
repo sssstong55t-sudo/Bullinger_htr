@@ -37,7 +37,32 @@ The downloader fetches 20 Release parts, combines them, verifies the fixed archi
 
 ## Run the recognition pipeline
 
-All commands below run from the repository root. Create cropped line images first; page segmentation is outside this pipeline. Use new output filenames for each run to preserve existing predictions.
+All commands below run from the repository root. Use new output paths for each run to preserve existing predictions.
+
+### Step 0: Split a full page into line images (optional)
+
+Give `scripts/page_segmentation_loose.py` a scan of one manuscript page. The splitter runs locally with Pillow, NumPy and SciPy. TrOCR and GLiNER weights are only needed for the subsequent recognition steps.
+
+```sh
+.venv-nlp/bin/python scripts/page_segmentation_loose.py \
+  --image /absolute/path/letter.jpg \
+  --output-dir outputs/letter_lines
+```
+
+The default mode estimates page tilt and exports rectangular crops. Add `--contours` and choose a new output directory to trace each line's upper and lower edges and fill pixels outside its polygon with white. Both modes expect a new output directory.
+
+- `line_0001.png`, `line_0002.png`, … are numbered from top to bottom.
+- `manifest.json` records the line order, image filenames and `[left, top, right, bottom]` boxes in the EXIF-oriented page. Right and bottom are exclusive. Contour mode also records each `polygon`.
+- `preview.png` marks the detected lines on the page. Check it for split, merged or spurious lines, especially on pages with marginal notes, multiple columns or tightly spaced handwriting.
+
+To transcribe the exported lines in order on macOS or Linux:
+
+```sh
+.venv-nlp/bin/python scripts/transcribe_images.py \
+  --model-dir models/bullinger_checkpoint \
+  --images outputs/letter_lines/line_*.png \
+  --output outputs/letter_htr.jsonl
+```
 
 ### Step 1: Recognize manuscript lines
 
@@ -88,6 +113,7 @@ This object is a schema example, not an actual scored prediction. A GLiNER score
 |---|---|---|---|
 | `scripts/download_model.py` | Cache the fixed pretrained GLiNER snapshot | Internet access | `.cache/huggingface/` |
 | `scripts/download_htr_checkpoint.py` | Download, assemble and verify the trained TrOCR checkpoint | GitHub Release assets | `models/bullinger_checkpoint/` |
+| `scripts/page_segmentation_loose.py` | Split one manuscript page into ordered lines | Page image | Line PNGs, manifest and preview |
 | `scripts/transcribe_images.py` | Recognize manuscript line images | Line images and TrOCR checkpoint | HTR text JSONL |
 | `scripts/extract_places.py` | Extract literal place spans | Text JSONL | JSONL with a `places` array |
 | Package `scripts/run_official_ner.py` | Reproduce the fixed official-text evaluation | Included reference corpus | Metrics, predictions and protocol |
