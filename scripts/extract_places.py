@@ -41,11 +41,15 @@ def main():
     p.add_argument('--input',type=Path,required=True,help='JSONL records with literal text and line_id')
     p.add_argument('--output',type=Path,required=True,help='New JSONL output file')
     p.add_argument('--config',type=Path,default=ROOT/'configs/place_inference.json')
-    p.add_argument('--mbert', type=Path, nargs='?', const=ROOT/'models/bullinger_mbert_20261022',
-                   help='Use a local fine-tuned mBERT checkpoint with historical aliases')
+    default_checkpoint = ROOT/'models/bullinger_mbert_20261022'
+    backend = p.add_mutually_exclusive_group()
+    backend.add_argument('--mbert', type=Path, nargs='?', const=default_checkpoint,
+                         help='Use mBERT with historical aliases (default); optionally give a checkpoint path')
+    backend.add_argument('--gliner', action='store_true', help='Use GLiNER with historical aliases')
     a=p.parse_args()
-    if a.mbert is not None and not (a.mbert/'model.safetensors').is_file():
-        p.error(f'mBERT weights missing in {a.mbert}. Supply the complete local checkpoint.')
+    checkpoint = a.mbert or default_checkpoint
+    if not a.gliner and not (checkpoint/'model.safetensors').is_file():
+        p.error(f'mBERT weights missing in {checkpoint}. See the README checkpoint download instructions.')
     if a.output.exists():p.error('Output already exists; choose a new path')
     cfg=json.loads(a.config.read_text());size,overlap=cfg['window_words'],cfg['overlap_words']
     if not 0<=overlap<size:p.error('Invalid window overlap')
@@ -53,15 +57,15 @@ def main():
     if any(not isinstance(r.get('text'),str) or not r.get('line_id') for r in rows):p.error('Each record needs text and line_id')
     os.environ['HF_HOME']=str(ROOT/'.cache/huggingface');os.environ['HF_HUB_OFFLINE']='1';os.environ['TRANSFORMERS_OFFLINE']='1'
     snapshot=ROOT/'.cache/huggingface/hub'/('models--'+cfg['model_id'].replace('/','--'))/'snapshots'/cfg['revision']
-    if a.mbert is None and not snapshot.is_dir():p.error('Run scripts/download_model.py first')
+    if a.gliner and not snapshot.is_dir():p.error('Run scripts/download_model.py first')
     sys.path.insert(0,str(ROOT/'outputs/bullinger_htr_delivery_EN/scripts'))
     from historical_aliases import HistoricalAliases
     import torch
     torch.set_num_threads(4);torch.manual_seed(42)
     model=None
     neural_mentions=None
-    if a.mbert is not None:
-        neural_mentions=mbert_mentions(a.mbert, rows)
+    if not a.gliner:
+        neural_mentions=mbert_mentions(checkpoint, rows)
     else:
         from gliner import GLiNER
         model=GLiNER.from_pretrained(str(snapshot)).to('cpu').eval()
@@ -87,10 +91,10 @@ def main():
                         for seg in alias['segments']:
                             x,y=seg['start'],seg['end'];mention=mentions.setdefault((x,y),{'start':x,'end':y,'text':text[x:y],'sources':[]})
                             if 'official_source_variant' not in mention['sources']:mention['sources'].append('official_source_variant')
-            if a.mbert is not None:
+            if not a.gliner:
                 mentions = {(x,y): mention for (x,y), mention in mentions.items() if whole_word(text,x,y)}
             result={**row,'places':sorted(mentions.values(),key=lambda x:(x['start'],x['end'])),'place_config_sha256':hashlib.sha256(a.config.read_bytes()).hexdigest(),'geographic_identity_status':'Not resolved or verified'}
-            if a.mbert is not None:
+            if not a.gliner:
                 result['place_extraction_mode']='mbert_with_aliases'
             out.write(json.dumps(result,ensure_ascii=False)+'\n');out.flush();print(f'{i}/{len(rows)}: {len(mentions)} place candidates',flush=True)
 

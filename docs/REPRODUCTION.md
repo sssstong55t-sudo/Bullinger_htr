@@ -2,7 +2,7 @@
 
 ## Model inference and example
 
-Install root requirements, run scripts/download_model.py and scripts/download_public_trocr.py as documented in README.md. Then run from the repository root:
+Install the root requirements and the default public TrOCR and mBERT checkpoints as documented in the [README setup](../README.md#setup-and-deployment). Then run from the repository root:
 
 ```sh
 .venv-nlp/bin/python scripts/transcribe_images.py --images examples/611_01_r1l31.png --save-candidates --language la --output outputs/example_candidates.jsonl --device cpu
@@ -23,10 +23,10 @@ Run from the repository root after installing the root requirements. Set the inp
 .venv-nlp/bin/python scripts/download_public_trocr.py
 .venv-nlp/bin/python scripts/page_segmentation_loose.py --image /path/to/page.jpg --output-dir outputs/page_lines
 .venv-nlp/bin/python scripts/transcribe_images.py --images outputs/page_lines/line_*.png --output outputs/page_text.jsonl
-.venv-nlp/bin/python scripts/extract_places.py --mbert --input outputs/page_text.jsonl --output outputs/page_places_mbert.jsonl
+.venv-nlp/bin/python scripts/extract_places.py --input outputs/page_text.jsonl --output outputs/page_places_mbert.jsonl
 ```
 
-The splitter exports polygon-masked crops by default. Check `outputs/page_lines/preview.png` for missing or merged lines before transcribing. Install the October 22 checkpoint into `models/` using the [mBERT download instructions](../README.md#optional-mbert-place-recognition). For the GLiNER comparison, run `scripts/download_model.py` once to cache the weights, encoder configuration, and tokenizer, then run `scripts/extract_places.py` without `--mbert`, using a fresh output filename.
+The splitter exports polygon-masked crops by default. Check `outputs/page_lines/preview.png` for missing or merged lines before transcribing. Install the October 22 checkpoint into `models/` using the [README setup instructions](../README.md#setup-and-deployment). For the GLiNER comparison, run `scripts/download_model.py` once to cache the weights, encoder configuration, and tokenizer, then run `scripts/extract_places.py` with `--gliner`, using a fresh output filename.
 
 The [whole-page evaluation](../README.md#whole-page-evaluation-2026-11-11) used pages `11511-1/2`, `12111-1/2`, `12476-1/2`, `12982-1/2`, and `13141-1/2`. The commands above run inference on a page you supply. Computing the reported metrics also requires the corresponding TEI line regions, transcriptions, and place annotations.
 

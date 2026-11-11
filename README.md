@@ -1,6 +1,6 @@
 # Bullinger HTR and Place Recognition
 
-Split manuscript pages into line images, transcribe them with TrOCR, and extract place mentions with GLiNER or a fine-tuned multilingual BERT checkpoint and official-source name variants.
+Split manuscript pages into line images, transcribe them with TrOCR, and extract place mentions with fine-tuned multilingual BERT and official-source name variants, with GLiNER available as an option.
 
 ## Sources and attribution
 
@@ -21,11 +21,13 @@ git clone https://github.com/sssstong55t-sudo/Bullinger_htr.git
 cd Bullinger_htr
 python3 -m venv .venv-nlp
 .venv-nlp/bin/python -m pip install -r requirements.txt
-.venv-nlp/bin/python scripts/download_model.py
 .venv-nlp/bin/python scripts/download_public_trocr.py
+mkdir -p models
+curl --fail --location --output models/bullinger_mbert_20261022.zip https://github.com/sssstong55t-sudo/Bullinger_htr/releases/download/v1.0.0-mbert-20261022/bullinger_mbert_20261022.zip
+unzip models/bullinger_mbert_20261022.zip -d models
 ```
 
-`download_model.py` downloads the pinned GLiNER weights and the pinned mDeBERTa tokenizer and encoder configuration. Allow approximately 1 GB of cache space. The setup requires network access. Subsequent place inference runs offline on CPU.
+The [October 22 mBERT checkpoint ZIP](https://github.com/sssstong55t-sudo/Bullinger_htr/releases/download/v1.0.0-mbert-20261022/bullinger_mbert_20261022.zip) (about 680 MiB) includes the model and tokenizer used in the whole-page evaluation. Archive SHA-256 is `92cd0da3f00234a9045831ed5ca70c6c7b43d8b310fc681b1df104ed12a88683`.
 
 `download_public_trocr.py` installs the default [public Bullinger TrOCR checkpoint](https://huggingface.co/pstroe/bullinger-general-model/tree/be32c883a4deb812ab6f461ae79f583c3f9edc53) and its tokenizer. Allow about 2.2 GB for the download. The installer verifies the weights against the evaluation's SHA-256. Transcription runs offline after installation.
 
@@ -35,7 +37,7 @@ All commands below run from the repository root. Use new output paths for each r
 
 ### Step 0: Split a full page into line images (optional)
 
-Give `scripts/page_segmentation_loose.py` a scan of one manuscript page. The splitter runs locally with Pillow, NumPy and SciPy. TrOCR and GLiNER weights are only needed for the subsequent recognition steps.
+Give `scripts/page_segmentation_loose.py` a scan of one manuscript page. The splitter runs locally with Pillow, NumPy and SciPy. TrOCR and place recognition weights are only needed for the subsequent recognition steps.
 
 ```sh
 .venv-nlp/bin/python scripts/page_segmentation_loose.py \
@@ -80,25 +82,22 @@ The default wrapper uses raw eight-beam decoding with a 128-token generation lim
   --output outputs/team_places.jsonl
 ```
 
-`extract_places.py` reads literal recognized text, runs GLiNER plus the two source-backed variant lexicons, and writes place spans. It emits only places; `person` and `organization` labels compete internally to reduce ambiguity. Text is not rewritten or modernized. Each line is processed independently; this wrapper does not reconstruct paragraph context across line boundaries. Historical variants and official-body results may not transfer to noisy HTR text.
+`extract_places.py` defaults to the October 22 mBERT checkpoint with both historical alias lexicons and whole-word filtering. The classifier was fine-tuned on official TEI body `placeName` spans. It runs offline on CPU, reads the literal transcribed text line by line, and writes place spans. To use a different local mBERT checkpoint, pass its directory after `--mbert`.
 
 Offsets are Python character offsets in the exact `text` string, with an exclusive end: `text[start:end]` equals the mention. No geographic coordinates or verified entity identities are generated. Overlapping candidates may remain; these are extraction candidates, not confirmed places.
 
-#### Optional mBERT place recognition
+#### Optional GLiNER place recognition
 
-Download the [October 22 mBERT checkpoint ZIP](https://github.com/sssstong55t-sudo/Bullinger_htr/releases/download/v1.0.0-mbert-20261022/bullinger_mbert_20261022.zip) (about 680 MiB) from GitHub Releases. It includes the weights, model configuration, and tokenizer used in the whole-page evaluation below. Run these commands from the repository root after installing the dependencies:
+Run `scripts/download_model.py` once to download the pinned GLiNER weights and mDeBERTa encoder configuration and tokenizer (about 1 GB). Then select GLiNER explicitly:
 
 ```sh
-mkdir -p models
-curl --fail --location --output models/bullinger_mbert_20261022.zip https://github.com/sssstong55t-sudo/Bullinger_htr/releases/download/v1.0.0-mbert-20261022/bullinger_mbert_20261022.zip
-unzip models/bullinger_mbert_20261022.zip -d models
-.venv-nlp/bin/python scripts/extract_places.py \
-  --mbert \
+.venv-nlp/bin/python scripts/download_model.py
+.venv-nlp/bin/python scripts/extract_places.py --gliner \
   --input outputs/letter_htr.jsonl \
-  --output outputs/letter_mbert_places.jsonl
+  --output outputs/letter_gliner_places.jsonl
 ```
 
-The archive SHA-256 is `92cd0da3f00234a9045831ed5ca70c6c7b43d8b310fc681b1df104ed12a88683`. The classifier was fine-tuned on official TEI body `placeName` spans. Once the ZIP is extracted, mBERT runs offline on CPU, applies both historical alias lexicons and whole-word filtering, and writes the same `places` array. To use a different checkpoint location, pass its directory after `--mbert`.
+The fixed official-text evaluation below runs GLiNER and uses this same download.
 
 ### Input/output record example
 
@@ -109,16 +108,16 @@ The archive SHA-256 is `92cd0da3f00234a9045831ed5ca70c6c7b43d8b310fc681b1df104ed
 Input requires `line_id` and string `text`. The handwriting command produces both. Additional provenance fields are retained. Empty text is retained with an empty place list. For illustration, a mention object looks like:
 
 ```json
-{"start":0,"end":6,"text":"Zurich","sources":["gliner"],"score":0.9}
+{"start":0,"end":6,"text":"Zurich","sources":["mbert"],"score":0.9}
 ```
 
-This object is a schema example, not an actual scored prediction. A GLiNER score is not a calibrated probability of correctness. Alias-only matches have no GLiNER score.
+This object is a schema example, not an actual scored prediction. Model scores are uncalibrated. Alias-only matches have no model score.
 
 ## Entry points
 
 | Command | Purpose | Input | Output |
 |---|---|---|---|
-| `scripts/download_model.py` | Cache GLiNER and its encoder tokenizer and configuration | Internet access | `.cache/huggingface/` |
+| `scripts/download_model.py` | Cache optional GLiNER and its encoder tokenizer and configuration | Internet access | `.cache/huggingface/` |
 | `scripts/download_public_trocr.py` | Cache the fixed public Bullinger TrOCR and tokenizer | Hugging Face | `models/bullinger_public_trocr/` |
 | `scripts/page_segmentation_loose.py` | Split one manuscript page into ordered lines | Page image | Line PNGs, manifest and preview |
 | `scripts/transcribe_images.py` | Recognize manuscript line images | Line images and TrOCR checkpoint | HTR text JSONL |
@@ -133,7 +132,7 @@ For command-line options, run an entry point with `--help`. The download command
 |---|---|---|
 | `configs/htr_inference.json` | Beam count, generation length and cache settings | Default public inference enables the generation cache. An explicit `--config` uses the values in that file. |
 | Checkpoint configuration, tokenizer and processor files | Model architecture and preprocessing metadata | Installed with the public checkpoint |
-| `configs/place_inference.json` | Pinned GLiNER revision, labels, threshold, windowing and lexicon paths | Text-to-place command |
+| `configs/place_inference.json` | Shared lexicon paths and optional GLiNER settings | Text-to-place command |
 | `outputs/bullinger_htr_delivery_EN/data/historical_aliases.json` | Official-source historical variants | Adds literal name variants missed by GLiNER |
 | `outputs/bullinger_htr_delivery_EN/data/source_aliases.json` | Additional disjoint source-derived variants | Second lexicon layer |
 | `outputs/team_htr.jsonl` | One recognized line per record | Bridge from handwriting recognition to place extraction |
