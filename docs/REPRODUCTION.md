@@ -84,4 +84,31 @@ GitHub Actions runs metric/reranker, contour/rectangle segmentation, and place-c
 
 On November 14, 2026, the upload notebook was exercised in a Colab T4 session with Python 3.13, PyTorch 2.6.0+cu124, Transformers 4.51.0, and Accelerate 1.15.0 in an isolated environment. A missing Accelerate dependency was found and added to notebook setup. Subprocess logs now appear in the notebook while installation and inference run. The uploaded public line `01_611_01_r1l31.png` produced `Basileę ultimo iulii 1549.` and the Basel candidate (`l28`, latitude 47.55839, longitude 7.57327). The JSON downloaded through Chrome was opened and checked. A local whole-page run had also verified all 31 crops, their transcriptions, four place mentions, portable image paths, and ZIP contents on page `12982-1`.
 
-The Colab trial used a line image, so it does not establish whole-page segmentation quality on Colab. The ZIP browser download was not independently verified. Browser output widgets can also be affected by expired Google login access or blocked third-party output scripts; these are separate from model inference. No new accuracy benchmark or universal browser/deployment compatibility is claimed.
+The Colab trial used a line image, so it does not establish whole-page segmentation quality on Colab. The original Colab ZIP download was not verified before that temporary session ended. The standalone Python output ZIP was subsequently downloaded and validated as described below. Browser output widgets can also be affected by expired Google login access or blocked third-party output scripts; these are separate from model inference. No new accuracy benchmark or universal browser/deployment compatibility is claimed.
+
+## Standalone Python and downloaded ZIP check
+
+Use `scripts/run_page_pipeline.py` after the [README setup](../README.md#setup-and-deployment).
+It replaces the notebook as the recommended team entry point and requires no
+Colab account. The notebook remains in the repository as an optional historical
+artifact; the README no longer links to a Colab entry point.
+
+On November 14, 2026, a fresh run of this script on full page `12982-1` used the
+public TrOCR weights on local MPS and mBERT/aliases on CPU. It produced 31 line
+crops and four place mentions (three with one candidate, one ambiguous).
+The generated 33,789,057-byte ZIP was downloaded through Chrome from a temporary
+loopback HTTP server into Downloads, then extracted to a separate directory.
+The download's SHA-256 matched the generated ZIP. All 39 files were checked:
+33 PNG images decoded, JSON/JSONL parsed, image paths and hashes matched,
+transcription and mention offsets agreed, and all 31 embedded report images
+loaded in Chrome. The extracted HTML report was opened and its candidate table
+inspected. The [verification record](PYTHON_PAGE_VERIFICATION.json) includes the
+archive hash and check scope.
+
+This verifies a downloadable, portable Python result package. It does not verify
+the former Colab download widget or the shared website's production download
+endpoint. No new CER/WER/F1 estimate is inferred from this connectivity check.
+Nine lightweight tests passed, including portable export/HTML escaping and
+rejection of mismatched transcription/place records. The shared-repository
+integration review and remaining deployment tasks are in
+[TEAM_INTEGRATION.md](TEAM_INTEGRATION.md).

@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-14",
+  "page_id": "12982-1",
+  "zip_sha256": "6b7ec90045ffa6f21759cf8f6f4c3b844f14495ff60ba123fb6a47a134d7a49d",
+  "zip_bytes": 33789057,
+  "archive_files": 39,
+  "images_verified": 33,
+  "embedded_report_images_verified": 31,
+  "summary": {
+    "line_count": 31,
+    "place_mention_count": 4,
+    "place_link_status_counts": {
+      "candidate_for_review": 3,
+      "ambiguous": 1,
+      "unmatched": 0
+    },
+    "mentions_with_candidate_coordinates": 4
+  },
+  "checks": [
+    "Chrome download from loopback HTTP server",
+    "download SHA-256 equals generated archive",
+    "ZIP CRC and safe paths",
+    "all PNG files decoded",
+    "all JSON and JSONL parsed",
+    "image references and SHA-256 verified",
+    "mention offsets agree with literal text",
+    "report text and embedded images verified",
+    "Extracted report opened in Chrome; all 31 embedded images loaded and candidate table inspected"
+  ],
+  "scope": "Local Python pipeline output; not a Colab download or a deployed website download",
+  "pipeline_base_commit": "e8b53d5a0372c84c484c5e67167135e668423d35",
+  "runner_sha256": "34be275dfcffe89d6112818e4f964bdc3745b0762b670890794becadcd98d4e2"
+}

@@ -31,13 +31,22 @@ The [October 22 mBERT checkpoint ZIP](https://github.com/sssstong55t-sudo/Bullin
 
 `download_public_trocr.py` installs the default [public Bullinger TrOCR checkpoint](https://huggingface.co/pstroe/bullinger-general-model/tree/be32c883a4deb812ab6f461ae79f583c3f9edc53) and its tokenizer. Allow about 2.2 GB for the download. The installer verifies the weights against the evaluation's SHA-256. Transcription runs offline after installation.
 
-## Try your own images in Colab
+## Run a whole page with one Python command
 
-Open the [whole-page upload notebook in Colab](https://colab.research.google.com/github/sssstong55t-sudo/Bullinger_htr/blob/main/notebooks/Bullinger_Whole_Page_Upload.ipynb), select a T4 GPU, and run the cells in order. Upload one image in step 2. The notebook shows the contour preview, line images with transcriptions, and modern place candidates with IDs and available coordinates. Step 6 exports JSON and a ZIP containing the images, predictions, and an offline HTML report. All notebook instructions, comments, messages, and report labels are in English.
+After setup, use the standalone script from the repository root:
 
-The notebook downloads the public TrOCR and released mBERT weights automatically. It needs no private Drive datasets. It fixes the inference code and model revisions to the verified pipeline; its setup includes `accelerate`, which is required by the pinned Transformers model loader. To try another image in the same session, start again at step 2.
+```sh
+.venv-nlp/bin/python scripts/run_page_pipeline.py \
+  --image /absolute/path/letter.jpg \
+  --output-dir outputs/letter_complete \
+  --page-id letter-001 --device auto
+```
 
-A functional Colab T4 run on the public example line completed upload, segmentation, transcription, mBERT extraction, candidate lookup, and a verified JSON download. The returned `Basileę` mention has the `Basel` candidate, official ID `l28`, and coordinates. This checks pipeline connectivity, not accuracy on unseen pages. The full-page run and ZIP-content checks were performed locally; the ZIP browser download has not yet been independently verified. See [verification scope](docs/REPRODUCTION.md#checks-and-environment).
+This runs contour segmentation, the public Bullinger TrOCR checkpoint, mBERT with historical aliases, and modern-place candidate lookup. Use a new output directory each time. `--device auto` chooses CUDA when available, otherwise CPU; use `--device mps` explicitly on a supported Mac. It does not install packages or download models during recognition.
+
+Open `outputs/letter_complete/report.html` to see line images next to the transcription and candidate table. Give `page_response.json` to the web backend, or share `bullinger_page_results.zip`. The ZIP includes the normalized page image, segmentation preview, all line crops, JSON/JSONL predictions, plain transcription, and an HTML report that opens offline. Image paths are relative to the ZIP root after extraction. Candidate IDs, names, nullable coordinates, ambiguous alternatives, and unmatched mentions are preserved.
+
+A fresh 31-line whole-page run and an actual browser ZIP download passed the [artifact checks](docs/REPRODUCTION.md#standalone-python-and-downloaded-zip-check). The script and its messages are in English. See [team integration requirements](docs/TEAM_INTEGRATION.md) before connecting it to the shared website. This command produces results; the website still needs a background worker, result storage, and an API/frontend connection.
 
 ## Run the recognition pipeline
 
@@ -146,6 +155,7 @@ Model scores are uncalibrated. Alias-only mentions have no model score. The same
 |---|---|---|---|
 | `scripts/download_model.py` | Cache optional GLiNER and its encoder tokenizer and configuration | Internet access | `.cache/huggingface/` |
 | `scripts/download_public_trocr.py` | Cache the fixed public Bullinger TrOCR and tokenizer | Hugging Face | `models/bullinger_public_trocr/` |
+| `scripts/run_page_pipeline.py` | Run the complete default pipeline and package results | Page image and installed models | Portable JSON, images, offline report and ZIP |
 | `scripts/page_segmentation_loose.py` | Split one manuscript page into ordered lines | Page image | Line PNGs, manifest and preview |
 | `scripts/transcribe_images.py` | Recognize manuscript line images | Line images and TrOCR checkpoint | HTR text JSONL |
 | `scripts/extract_places.py` | Extract literal place spans | Text JSONL | JSONL with a `places` array |
