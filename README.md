@@ -31,6 +31,14 @@ The [October 22 mBERT checkpoint ZIP](https://github.com/sssstong55t-sudo/Bullin
 
 `download_public_trocr.py` installs the default [public Bullinger TrOCR checkpoint](https://huggingface.co/pstroe/bullinger-general-model/tree/be32c883a4deb812ab6f461ae79f583c3f9edc53) and its tokenizer. Allow about 2.2 GB for the download. The installer verifies the weights against the evaluation's SHA-256. Transcription runs offline after installation.
 
+## Try your own images in Colab
+
+Open the [whole-page upload notebook in Colab](https://colab.research.google.com/github/sssstong55t-sudo/Bullinger_htr/blob/main/notebooks/Bullinger_Whole_Page_Upload.ipynb), select a T4 GPU, and run the cells in order. Upload one image in step 2. The notebook shows the contour preview, line images with transcriptions, and modern place candidates with IDs and available coordinates. Step 6 exports JSON and a ZIP containing the images, predictions, and an offline HTML report. All notebook instructions, comments, messages, and report labels are in English.
+
+The notebook downloads the public TrOCR and released mBERT weights automatically. It needs no private Drive datasets. It fixes the inference code and model revisions to the verified pipeline; its setup includes `accelerate`, which is required by the pinned Transformers model loader. To try another image in the same session, start again at step 2.
+
+A functional Colab T4 run on the public example line completed upload, segmentation, transcription, mBERT extraction, candidate lookup, and a verified JSON download. The returned `Basileę` mention has the `Basel` candidate, official ID `l28`, and coordinates. This checks pipeline connectivity, not accuracy on unseen pages. The full-page run and ZIP-content checks were performed locally; the ZIP browser download has not yet been independently verified. See [verification scope](docs/REPRODUCTION.md#checks-and-environment).
+
 ## Run the recognition pipeline
 
 All commands below run from the repository root. Use new output paths for each run to preserve existing predictions.

@@ -80,4 +80,8 @@ Prediction JSONL requires line_id and text. Reference JSONL requires line_id, re
 python3 -m unittest discover -s tests -v
 ```
 
-GitHub Actions runs standard-library metric/reranker tests and Python syntax checks. docs/TESTED_ENVIRONMENT.json records the actual CPU environment used; it is not a complete dependency lockfile. A clean, isolated fresh-install end-to-end run has not been performed. Existing-environment image inference, eight-candidate generation, fixed reranking, evaluation and place extraction were exercised. No fresh accuracy benchmark is claimed.
+GitHub Actions runs metric/reranker, contour/rectangle segmentation, and place-candidate tests, plus Python syntax checks. `docs/TESTED_ENVIRONMENT.json` records the earlier CPU environment; it is not a complete dependency lockfile.
+
+On November 14, 2026, the upload notebook was exercised in a Colab T4 session with Python 3.13, PyTorch 2.6.0+cu124, Transformers 4.51.0, and Accelerate 1.15.0 in an isolated environment. A missing Accelerate dependency was found and added to notebook setup. Subprocess logs now appear in the notebook while installation and inference run. The uploaded public line `01_611_01_r1l31.png` produced `Basileę ultimo iulii 1549.` and the Basel candidate (`l28`, latitude 47.55839, longitude 7.57327). The JSON downloaded through Chrome was opened and checked. A local whole-page run had also verified all 31 crops, their transcriptions, four place mentions, portable image paths, and ZIP contents on page `12982-1`.
+
+The Colab trial used a line image, so it does not establish whole-page segmentation quality on Colab. The ZIP browser download was not independently verified. Browser output widgets can also be affected by expired Google login access or blocked third-party output scripts; these are separate from model inference. No new accuracy benchmark or universal browser/deployment compatibility is claimed.
