@@ -170,8 +170,8 @@ For command-line options, run an entry point with `--help`. The download command
 | `configs/htr_inference.json` | Beam count, generation length and cache settings | Default public inference enables the generation cache. An explicit `--config` uses the values in that file. |
 | Checkpoint configuration, tokenizer and processor files | Model architecture and preprocessing metadata | Installed with the public checkpoint |
 | `configs/place_inference.json` | Shared lexicon paths and optional GLiNER settings | Text-to-place command |
-| `outputs/bullinger_htr_delivery_EN/data/historical_aliases.json` | Official-source historical variants | Adds literal name variants missed by GLiNER |
-| `outputs/bullinger_htr_delivery_EN/data/source_aliases.json` | Additional disjoint source-derived variants | Second lexicon layer |
+| `outputs/bullinger_htr_delivery/data/historical_aliases.json` | Official-source historical variants | Adds literal name variants missed by GLiNER |
+| `outputs/bullinger_htr_delivery/data/source_aliases.json` | Additional disjoint source-derived variants | Second lexicon layer |
 | `outputs/team_htr.jsonl` | One recognized line per record | Bridge from handwriting recognition to place extraction |
 | `outputs/team_places.jsonl` | Text, provenance and detected place spans | Team integration output |
 | Package `results/summary.json` | Saved official annotation-agreement metrics | Reporting only, not an inference configuration |
@@ -184,7 +184,7 @@ JSONL stores one JSON object per line. The two configuration files control infer
 ## Reproduce the official-text evaluation
 
 ```sh
-.venv-nlp/bin/python outputs/bullinger_htr_delivery_EN/scripts/run_official_ner.py \
+.venv-nlp/bin/python outputs/bullinger_htr_delivery/scripts/run_official_ner.py \
   --output-dir outputs/official_ner_run01
 ```
 
@@ -195,11 +195,11 @@ This separate command evaluates **official reference text**, not images or your 
 | Historical frozen HTR test, 500 lines, LM reranked | 13.3917% | 38.6088% | — | — | — |
 | Official annotation agreement, 357 paragraphs, GLiNER + variants | — | — | 82.99% | 61.16% | 70.42% |
 
-These are separate experiments, **not image-to-place end-to-end metrics**. Official annotation completeness is unestablished; unmatched predictions are not automatically true false positives. This official sample is already exposed; further tuning on it is development work. See [fixed comparisons and limitations](outputs/bullinger_htr_delivery_EN/RESULTS.md).
+These are separate experiments, **not image-to-place end-to-end metrics**. Official annotation completeness is unestablished; unmatched predictions are not automatically true false positives. This official sample is already exposed; further tuning on it is development work. See [fixed comparisons and limitations](outputs/bullinger_htr_delivery/RESULTS.md).
 
 ## Whole-page evaluation
 
-The evaluation used 10 original manuscript page images from five letters, previously used for the contour comparison. Each contour crop was transcribed with public Bullinger TrOCR at revision `be32c883a4deb812ab6f461ae79f583c3f9edc53`. The two place extractors processed the same 300 transcriptions. The [evaluation package](evaluation/whole_page_20261111/) contains the frozen inputs, predictions, and per-page counts. See [reproduction commands](docs/REPRODUCTION.md#reproduce-the-10-page-evaluation) to recompute the scores.
+The evaluation used 10 original manuscript page images from five letters, previously used for the contour comparison. Each contour crop was transcribed with public Bullinger TrOCR at revision `be32c883a4deb812ab6f461ae79f583c3f9edc53`. The two place extractors processed the same 300 transcriptions. The [evaluation package](evaluation/whole_page/) contains the frozen inputs, predictions, and per-page counts. See [reproduction commands](docs/REPRODUCTION.md#reproduce-the-10-page-evaluation) to recompute the scores.
 
 | Stage | Comparison | Result |
 | --- | --- | --- |
@@ -215,7 +215,7 @@ The references come from the official edited TEI. Transcription scoring excluded
 
 ## Reproduce HTR experiments in Colab
 
-Open [Bullinger_Clean_Colab.ipynb](outputs/bullinger_htr_delivery_EN/Bullinger_Clean_Colab.ipynb) and read [TRAINING.md](outputs/bullinger_htr_delivery_EN/TRAINING.md) first. The notebook defaults to `TASK=None`; explicitly select one task. Existing Drive datasets, checkpoints and saved candidates are required. It is not a self-contained from-scratch run.
+Open [Bullinger_Clean_Colab.ipynb](outputs/bullinger_htr_delivery/Bullinger_Clean_Colab.ipynb) and read [TRAINING.md](outputs/bullinger_htr_delivery/TRAINING.md) first. The notebook defaults to `TASK=None`; explicitly select one task. Existing Drive datasets, checkpoints and saved candidates are required. It is not a self-contained from-scratch run.
 
 | Worker under package `training/` | Purpose |
 |---|---|

@@ -13,7 +13,7 @@ from scipy.optimize import linear_sum_assignment
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
-TEI = ROOT / 'outputs/bullinger_htr_delivery_EN/data/official_letters'
+TEI = ROOT / 'outputs/bullinger_htr_delivery/data/official_letters'
 
 
 def polygon_mask(polygon):

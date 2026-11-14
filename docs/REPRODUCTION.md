@@ -30,24 +30,24 @@ The splitter exports polygon-masked crops by default. Check `outputs/page_lines/
 
 ## Reproduce the 10-page evaluation
 
-The [whole-page evaluation](../README.md#whole-page-evaluation) used pages `11511-1/2`, `12111-1/2`, `12476-1/2`, `12982-1/2`, and `13141-1/2`. The [evaluation package](../evaluation/whole_page_20261111/) contains the frozen page and crop manifest, reference text and place spans, all 300 TrOCR predictions, both sets of place predictions, and per-page and aggregate scores. The five source TEI letters are in [official_letters](../outputs/bullinger_htr_delivery_EN/data/official_letters/).
+The [whole-page evaluation](../README.md#whole-page-evaluation) used pages `11511-1/2`, `12111-1/2`, `12476-1/2`, `12982-1/2`, and `13141-1/2`. The [evaluation package](../evaluation/whole_page/) contains the frozen page and crop manifest, reference text and place spans, all 300 TrOCR predictions, both sets of place predictions, and per-page and aggregate scores. The five source TEI letters are in [official_letters](../outputs/bullinger_htr_delivery/data/official_letters/).
 
 From the repository root, recompute CER, WER, place F1, and the 18-line seed44 comparison from the saved predictions. This step uses only the Python standard library and checks the results against the archived score reports.
 
 ```sh
-python3 evaluation/whole_page_20261111/score.py
+python3 evaluation/whole_page/score.py
 ```
 
 With the root dependencies installed, recompute the one-to-one contour matches at polygon IoU ≥ 0.50 from the frozen crop polygons and TEI reference regions. The historical rectangle comparison counts are recorded in `segmentation.json`.
 
 ```sh
-.venv-nlp/bin/python evaluation/whole_page_20261111/verify_geometry.py
+.venv-nlp/bin/python evaluation/whole_page/verify_geometry.py
 ```
 
 To regenerate the contours and line images, use the original scans from the manifest. The optional download retrieves missing scans from their source URLs. The script checks the scan hashes and compares the resulting polygons and crop hashes with the archived run.
 
 ```sh
-.venv-nlp/bin/python evaluation/whole_page_20261111/verify_geometry.py \
+.venv-nlp/bin/python evaluation/whole_page/verify_geometry.py \
   --images-dir /path/to/whole_page_scans --download --crop-dir /path/to/new_crops
 ```
 

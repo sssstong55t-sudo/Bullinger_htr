@@ -88,7 +88,7 @@ def main():
     os.environ['HF_HOME']=str(ROOT/'.cache/huggingface');os.environ['HF_HUB_OFFLINE']='1';os.environ['TRANSFORMERS_OFFLINE']='1'
     snapshot=ROOT/'.cache/huggingface/hub'/('models--'+cfg['model_id'].replace('/','--'))/'snapshots'/cfg['revision']
     if a.gliner and not snapshot.is_dir():p.error('Run scripts/download_model.py first')
-    sys.path.insert(0,str(ROOT/'outputs/bullinger_htr_delivery_EN/scripts'))
+    sys.path.insert(0,str(ROOT/'outputs/bullinger_htr_delivery/scripts'))
     from historical_aliases import HistoricalAliases
     import torch
     torch.set_num_threads(4);torch.manual_seed(42)

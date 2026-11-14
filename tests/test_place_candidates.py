@@ -4,7 +4,7 @@ import sys
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-DELIVERY = ROOT / 'outputs/bullinger_htr_delivery_EN'
+DELIVERY = ROOT / 'outputs/bullinger_htr_delivery'
 sys.path[:0] = [str(ROOT / 'scripts'), str(DELIVERY / 'scripts')]
 
 from extract_places import add_alias_candidates, finalize_mentions

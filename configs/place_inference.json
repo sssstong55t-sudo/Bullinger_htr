@@ -10,8 +10,8 @@
   "window_words": 160,
   "overlap_words": 40,
   "lexicons": [
-    "outputs/bullinger_htr_delivery_EN/data/historical_aliases.json",
-    "outputs/bullinger_htr_delivery_EN/data/source_aliases.json"
+    "outputs/bullinger_htr_delivery/data/historical_aliases.json",
+    "outputs/bullinger_htr_delivery/data/source_aliases.json"
   ],
   "notes": "Only location spans are emitted. Person and organization labels participate internally. Source identities are proposals, not verified coordinates."
 }

@@ -28,7 +28,7 @@ The main branch was predefined: competing labels `location/person/organization`,
 From the repository root, using the existing offline model cache:
 
 ```sh
-.venv-nlp/bin/python outputs/bullinger_htr_delivery_EN/scripts/run_official_ner.py --output-dir outputs/official_ner_new_run
+.venv-nlp/bin/python outputs/bullinger_htr_delivery/scripts/run_official_ner.py --output-dir outputs/official_ner_new_run
 ```
 
 Use a fresh output directory. The runner preserves the supplied results and refuses to overwrite an existing run. It uses the project's `.cache/huggingface` and pins GLiNER to revision `443d26d654e0324125a96bebd8e796c14ff2efe6`. It requires the existing project Python environment; model weights are not duplicated into this package. Copying the package alone to another computer requires installing dependencies and acquiring that pinned model.
